@@ -1,2 +1,2 @@
-# istuttoria
+# istruttoria
 bpmn istruttoria
