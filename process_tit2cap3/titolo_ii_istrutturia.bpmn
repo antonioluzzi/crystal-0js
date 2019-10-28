@@ -973,7 +973,7 @@
     <bpmn:intermediateCatchEvent id="IntermediateCatchEvent_0ghyjnu" name="Esito Negativo">
       <bpmn:incoming>SequenceFlow_08j8sjg</bpmn:incoming>
       <bpmn:outgoing>SequenceFlow_1xqkf26</bpmn:outgoing>
-      <bpmn:messageEventDefinition messageRef="Message_0nr2hh5" />
+      <bpmn:messageEventDefinition messageRef="Message_1d0el3f" />
     </bpmn:intermediateCatchEvent>
     <bpmn:scriptTask id="ScriptTask_09bgivb" name="set stato restituita" scriptFormat="groovy">
       <bpmn:incoming>SequenceFlow_1xqkf26</bpmn:incoming>
@@ -5398,7 +5398,7 @@ println 'regione =  ' +regione;
 println 'regioneGroup =  ' +regioneGroup;	
 println 'payload =  ' +payload;
 execution.getProcessEngineServices().getRuntimeService()
-			.createMessageCorrelation("Message_EsitoNegativoRegioneAmmissibilita").processInstanceBusinessKey(businessKey)
+			.createMessageCorrelation("EsitoNegativoAmmissibilitaRegioneEnd").processInstanceBusinessKey(businessKey)
 .setVariable("autorizzatoreConfidi", autorizzatoreConfidi)
 .setVariable("autorizzatoreSF", autorizzatoreSF)
 .setVariable("autorizzatoreSFGroup", autorizzatoreSFGroup)
@@ -5785,6 +5785,8 @@ execution.getProcessEngineServices().getRuntimeService()
       </bpmn:extensionElements>
       <bpmn:incoming>SequenceFlow_135cukb</bpmn:incoming>
       <bpmn:incoming>SequenceFlow_1axylxp</bpmn:incoming>
+      <bpmn:incoming>SequenceFlow_166w29l</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_0hk08ys</bpmn:outgoing>
     </bpmn:userTask>
     <bpmn:parallelGateway id="ExclusiveGateway_1mh24h3">
       <bpmn:incoming>SequenceFlow_04xqamp</bpmn:incoming>
@@ -5845,6 +5847,8 @@ execution.getProcessEngineServices().getRuntimeService()
       </bpmn:extensionElements>
       <bpmn:incoming>SequenceFlow_081z2dr</bpmn:incoming>
       <bpmn:incoming>SequenceFlow_1bcnv37</bpmn:incoming>
+      <bpmn:incoming>SequenceFlow_07co33v</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_0cdsh7z</bpmn:outgoing>
     </bpmn:userTask>
     <bpmn:serviceTask id="ServiceTask_04f17sr" name="Notifica invio controdeduzione Valutatore" camunda:modelerTemplate="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask" camunda:class="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask">
       <bpmn:extensionElements>
@@ -6269,6 +6273,18 @@ execution.getProcessEngineServices().getRuntimeService()
     <bpmn:sequenceFlow id="SequenceFlow_1fu2bad" sourceRef="ScriptTask_0mbxhaf" targetRef="ParallelGateway_0vnhlyy" />
     <bpmn:sequenceFlow id="SequenceFlow_1axylxp" sourceRef="BoundaryEvent_0u4e2xb" targetRef="sez_accoglibilita_impresa_invio_spontaneo" />
     <bpmn:sequenceFlow id="SequenceFlow_1bcnv37" sourceRef="BoundaryEvent_1spbrli" targetRef="UserTask_08ej6bh" />
+    <bpmn:sequenceFlow id="SequenceFlow_0hk08ys" sourceRef="sez_accoglibilita_impresa_invio_spontaneo" targetRef="Task_0mjoqnk" />
+    <bpmn:sequenceFlow id="SequenceFlow_166w29l" sourceRef="Task_0mjoqnk" targetRef="sez_accoglibilita_impresa_invio_spontaneo" />
+    <bpmn:serviceTask id="Task_0mjoqnk" name="Logger" camunda:class="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.LoggerDelegate">
+      <bpmn:incoming>SequenceFlow_0hk08ys</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_166w29l</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:serviceTask id="Task_1ktqboz" name="logger" camunda:class="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.LoggerDelegate">
+      <bpmn:incoming>SequenceFlow_0cdsh7z</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_07co33v</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:sequenceFlow id="SequenceFlow_0cdsh7z" sourceRef="UserTask_08ej6bh" targetRef="Task_1ktqboz" />
+    <bpmn:sequenceFlow id="SequenceFlow_07co33v" sourceRef="Task_1ktqboz" targetRef="UserTask_08ej6bh" />
   </bpmn:process>
   <bpmn:message id="Message_1ebfox9" name="Message_PreavvisoRigettoNonAccoglibileRegione" />
   <bpmn:message id="Message_08mgkjk" name="Message_PreavvisoComunicazioneNonAccoglibilita" />
@@ -6308,6 +6324,7 @@ execution.getProcessEngineServices().getRuntimeService()
   <bpmn:message id="Message_00s28ls" name="Message_IntegrazioneNonPervenuta" />
   <bpmn:message id="Message_0mtmtkm" name="BloccaInvioSpontaneoDaPm" />
   <bpmn:message id="Message_11pc3e7" name="Message_BloccaComunicazioniSpontaneeDaPm" />
+  <bpmn:message id="Message_1d0el3f" name="EsitoNegativoAmmissibilitaRegioneEnd" />
   <bpmndi:BPMNDiagram id="BPMNDiagram_1">
     <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="Collaboration_0xxp62k">
       <bpmndi:BPMNShape id="Participant_12kqy58_di" bpmnElement="istruttoria" isHorizontal="true">
@@ -10593,6 +10610,33 @@ execution.getProcessEngineServices().getRuntimeService()
       <bpmndi:BPMNEdge id="SequenceFlow_0z3sifw_di" bpmnElement="SequenceFlow_0z3sifw">
         <di:waypoint x="13750" y="1940" />
         <di:waypoint x="13870" y="1940" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="SequenceFlow_0hk08ys_di" bpmnElement="SequenceFlow_0hk08ys">
+        <di:waypoint x="4838" y="4131" />
+        <di:waypoint x="4950" y="4131" />
+        <di:waypoint x="4950" y="4058" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="SequenceFlow_166w29l_di" bpmnElement="SequenceFlow_166w29l">
+        <di:waypoint x="4900" y="4018" />
+        <di:waypoint x="4820" y="4018" />
+        <di:waypoint x="4820" y="4090" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="ServiceTask_0ttc7vd_di" bpmnElement="Task_0mjoqnk">
+        <dc:Bounds x="4900" y="3978" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="ServiceTask_0mqzloi_di" bpmnElement="Task_1ktqboz">
+        <dc:Bounds x="11520" y="4300" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="SequenceFlow_0cdsh7z_di" bpmnElement="SequenceFlow_0cdsh7z">
+        <di:waypoint x="11460" y="4425" />
+        <di:waypoint x="11570" y="4425" />
+        <di:waypoint x="11570" y="4380" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="SequenceFlow_07co33v_di" bpmnElement="SequenceFlow_07co33v">
+        <di:waypoint x="11520" y="4340" />
+        <di:waypoint x="11490" y="4340" />
+        <di:waypoint x="11490" y="4395" />
+        <di:waypoint x="11460" y="4395" />
       </bpmndi:BPMNEdge>
     </bpmndi:BPMNPlane>
   </bpmndi:BPMNDiagram>
