@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:camunda="http://camunda.org/schema/1.0/bpmn" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:bioc="http://bpmn.io/schema/bpmn/biocolor/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="Definitions_1p77yv6" targetNamespace="http://bpmn.io/schema/bpmn" exporter="Camunda Modeler" exporterVersion="3.4.1">
+<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:camunda="http://camunda.org/schema/1.0/bpmn" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:bioc="http://bpmn.io/schema/bpmn/biocolor/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="Definitions_1p77yv6" targetNamespace="http://bpmn.io/schema/bpmn" exporter="Camunda Modeler" exporterVersion="3.3.2">
   <bpmn:collaboration id="Collaboration_0xxp62k">
     <bpmn:participant id="istruttoria" name="Puglia Sviluppo" processRef="istruttoria_id" />
     <bpmn:participant id="Participant_07j0ug6" name="Regione Puglia" processRef="istruttoria_regione_id" />
@@ -5316,7 +5316,7 @@ execution.getProcessEngineServices().getRuntimeService()
       <bpmn:outgoing>SequenceFlow_1ss5m6x</bpmn:outgoing>
       <bpmn:messageEventDefinition id="MessageEventDefinition_1idht8a" messageRef="Message_01du6uh" />
     </bpmn:startEvent>
-    <bpmn:userTask id="UserTask_1a3fun4" name="Riceve Istanza di Ammissibilità">
+    <bpmn:userTask id="UserTask_1a3fun4" name="Riceve Istanza di Ammissibilità" camunda:assignee="${regione}" camunda:candidateGroups="${regioneGroup}">
       <bpmn:extensionElements>
         <camunda:formData>
           <camunda:formField id="codicePratica" label="Numero Pratica" type="string" defaultValue="${codicePratica}">
@@ -5439,7 +5439,7 @@ execution.getProcessEngineServices().getRuntimeService()
       <bpmn:outgoing>SequenceFlow_01ox6on</bpmn:outgoing>
       <bpmn:messageEventDefinition id="MessageEventDefinition_1pii1et" messageRef="Message_1j48gpx" />
     </bpmn:startEvent>
-    <bpmn:userTask id="UserTask_0rf5tkq" name="Riceve Proposta Inammissibilità">
+    <bpmn:userTask id="UserTask_0rf5tkq" name="Riceve Proposta Inammissibilità" camunda:assignee="${regione}" camunda:candidateGroups="${regioneGroup}">
       <bpmn:extensionElements>
         <camunda:formData>
           <camunda:formField id="codicePratica" label="Numero Pratica" type="string" defaultValue="${codicePratica}">
