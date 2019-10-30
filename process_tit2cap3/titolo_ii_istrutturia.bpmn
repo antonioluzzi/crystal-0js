@@ -1771,7 +1771,8 @@ execution.setProcessBusinessKey(idWF);</bpmn:script>
     <bpmn:scriptTask id="Task_0vypzuu" name="set stato controdeduzione inviate" scriptFormat="groovy">
       <bpmn:incoming>SequenceFlow_0owsgmi</bpmn:incoming>
       <bpmn:outgoing>SequenceFlow_1q9zqo4</bpmn:outgoing>
-      <bpmn:script>execution.setVariable('stato_istruttoria', 'CONTRODEDUZIONI_INACCOGLIBILITA');</bpmn:script>
+      <bpmn:script>execution.setVariable('stato_istruttoria', 'CONTRODEDUZIONI_INACCOGLIBILITA');
+execution.setVariable('secondFlow', 'true');</bpmn:script>
     </bpmn:scriptTask>
     <bpmn:intermediateCatchEvent id="IntermediateThrowEvent_1nzlzh1" name="Catch(Riceve Controdeduzione)">
       <bpmn:outgoing>SequenceFlow_0owsgmi</bpmn:outgoing>
@@ -2016,7 +2017,8 @@ execution.getProcessEngineServices().getRuntimeService()
     <bpmn:scriptTask id="Task_15s8wm7" name="set stato proposta non accoglibilità" scriptFormat="groovy">
       <bpmn:incoming>SequenceFlow_1erghcn</bpmn:incoming>
       <bpmn:outgoing>SequenceFlow_0ozt73a</bpmn:outgoing>
-      <bpmn:script>execution.setVariable('stato_istruttoria', 'PROPOSTA_INACCOGLIBILITA');</bpmn:script>
+      <bpmn:script>execution.setVariable('stato_istruttoria', 'PROPOSTA_INACCOGLIBILITA');
+execution.setVariable('secondFlow', 'false');</bpmn:script>
     </bpmn:scriptTask>
     <bpmn:serviceTask id="Task_1hmtj1c" name="Invia richiesta di Non accoglibilità" camunda:class="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.LoggerDelegate">
       <bpmn:incoming>SequenceFlow_0jkvh7e</bpmn:incoming>
@@ -2872,7 +2874,8 @@ execution.getProcessEngineServices().getRuntimeService()
     <bpmn:scriptTask id="ScriptTask_1eronry" name="set stato controdeduzione inviate" scriptFormat="groovy">
       <bpmn:incoming>SequenceFlow_1dldzrd</bpmn:incoming>
       <bpmn:outgoing>SequenceFlow_1kis99b</bpmn:outgoing>
-      <bpmn:script>execution.setVariable('stato_istruttoria', 'CONTRODEDUZIONI_INAMMISSIBILITA');</bpmn:script>
+      <bpmn:script>execution.setVariable('stato_istruttoria', 'CONTRODEDUZIONI_INAMMISSIBILITA');
+execution.setVariable('secondFlow2', 'true');</bpmn:script>
     </bpmn:scriptTask>
     <bpmn:intermediateCatchEvent id="IntermediateCatchEvent_1f2chhz" name="acquisizione controdeduzione">
       <bpmn:incoming>SequenceFlow_13aadnz</bpmn:incoming>
@@ -3017,7 +3020,8 @@ execution.getProcessEngineServices().getRuntimeService()
     <bpmn:scriptTask id="ServiceTask_1hmg4ow" name="set stato proposta inammissibilità" scriptFormat="groovy">
       <bpmn:incoming>SequenceFlow_140otw5</bpmn:incoming>
       <bpmn:outgoing>SequenceFlow_0nm5vfn</bpmn:outgoing>
-      <bpmn:script>execution.setVariable('stato_istruttoria', 'PROPOSTA_INAMMISSIBILITA');</bpmn:script>
+      <bpmn:script>execution.setVariable('stato_istruttoria', 'PROPOSTA_INAMMISSIBILITA');
+execution.setVariable('secondFlow2', 'false');</bpmn:script>
     </bpmn:scriptTask>
     <bpmn:serviceTask id="ServiceTask_1tu3r50" name="Invia richiesta di Non accoglibilità" camunda:class="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.LoggerDelegate">
       <bpmn:incoming>SequenceFlow_1btzcbo</bpmn:incoming>
@@ -4747,7 +4751,8 @@ execution.getProcessEngineServices().getRuntimeService()
     <bpmn:scriptTask id="ScriptTask_0aux4us" name="invia messaggio blocca invio spontaneo" scriptFormat="groovy">
       <bpmn:incoming>SequenceFlow_12x56yo</bpmn:incoming>
       <bpmn:outgoing>SequenceFlow_1kpvppp</bpmn:outgoing>
-      <bpmn:script>String businessKey = (String) execution.getProcessBusinessKey();			
+      <bpmn:script>if(!execution.hasVariable("secondFlow") || (String) execution.getVariable("secondFlow").equals("false")) {
+		String businessKey = (String) execution.getProcessBusinessKey();			
 String autorizzatoreConfidi = (String) execution.getVariable("autorizzatoreConfidi");
 String autorizzatoreSF = (String) execution.getVariable("autorizzatoreSF");
 String autorizzatoreSFGroup = (String) execution.getVariable("autorizzatoreSFGroup");
@@ -4811,7 +4816,8 @@ execution.getProcessEngineServices().getRuntimeService()
 .setVariable("valutatoreGroup",valutatoreGroup)
 .setVariable("regione",regione)
 .setVariable("regioneGroup",regioneGroup)
-			.correlate();</bpmn:script>
+			.correlate();					    	
+}</bpmn:script>
     </bpmn:scriptTask>
     <bpmn:userTask id="sez_accoglibilita_responsabile_convalida_esito_positivo" name="Convalida Esito Positivo" camunda:assignee="${responsabile}" camunda:candidateGroups="${responsabileGroup}">
       <bpmn:extensionElements>
@@ -4851,7 +4857,8 @@ execution.getProcessEngineServices().getRuntimeService()
     <bpmn:scriptTask id="ScriptTask_0eqir1w" name="invia messaggio blocca invio spontaneo" scriptFormat="groovy">
       <bpmn:incoming>SequenceFlow_1xngbtn</bpmn:incoming>
       <bpmn:outgoing>SequenceFlow_13ia2bi</bpmn:outgoing>
-      <bpmn:script>String businessKey = (String) execution.getProcessBusinessKey();			
+      <bpmn:script>if(!execution.hasVariable("secondFlow2") || (String) execution.getVariable("secondFlow2").equals("false")) {
+String businessKey = (String) execution.getProcessBusinessKey();			
 String autorizzatoreConfidi = (String) execution.getVariable("autorizzatoreConfidi");
 String autorizzatoreSF = (String) execution.getVariable("autorizzatoreSF");
 String autorizzatoreSFGroup = (String) execution.getVariable("autorizzatoreSFGroup");
@@ -4915,7 +4922,8 @@ execution.getProcessEngineServices().getRuntimeService()
 .setVariable("valutatoreGroup",valutatoreGroup)
 .setVariable("regione",regione)
 .setVariable("regioneGroup",regioneGroup)
-			.correlate();</bpmn:script>
+			.correlate();			    	
+}</bpmn:script>
     </bpmn:scriptTask>
     <bpmn:scriptTask id="ScriptTask_1vn02o8" name="invia messaggio controdeduzione" scriptFormat="groovy">
       <bpmn:incoming>SequenceFlow_1drnfr7</bpmn:incoming>
