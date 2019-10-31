@@ -177,13 +177,8 @@
         <bpmn:flowNodeRef>ServiceTask_024wfrn</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>ParallelGateway_11vcdkr</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>IntermediateThrowEvent_0yj39hy</bpmn:flowNodeRef>
-        <bpmn:flowNodeRef>ServiceTask_0l7jwdd</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>ParallelGateway_1a4r175</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>ParallelGateway_1enemf2</bpmn:flowNodeRef>
-        <bpmn:flowNodeRef>ServiceTask_1ve1trg</bpmn:flowNodeRef>
-        <bpmn:flowNodeRef>ServiceTask_0r1q02j</bpmn:flowNodeRef>
-        <bpmn:flowNodeRef>ServiceTask_0g8ciin</bpmn:flowNodeRef>
-        <bpmn:flowNodeRef>ServiceTask_04u4z3e</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>ExclusiveGateway_0rprl14</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>ParallelGateway_05lx7m2</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>ScriptTask_0j3ag86</bpmn:flowNodeRef>
@@ -235,6 +230,14 @@
         <bpmn:flowNodeRef>ScriptTask_0aux4us</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>ScriptTask_1vn02o8</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>ServiceTask_01v2sri</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ServiceTask_05ov092</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ServiceTask_04u4z3e</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ServiceTask_0g8ciin</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ServiceTask_0r1q02j</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ServiceTask_1ve1trg</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ServiceTask_0l7jwdd</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ServiceTask_02bbue2</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ServiceTask_1kftoql</bpmn:flowNodeRef>
       </bpmn:lane>
       <bpmn:lane id="Lane_0ws7dbo" name="Program Manager">
         <bpmn:flowNodeRef>ScriptTask_0rejwj2</bpmn:flowNodeRef>
@@ -248,7 +251,6 @@
         <bpmn:flowNodeRef>IntermediateThrowEvent_09sfyi8</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>ScriptTask_1q49mn4</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>ParallelGateway_18rbvm8</bpmn:flowNodeRef>
-        <bpmn:flowNodeRef>ServiceTask_0h6newb</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>ServiceTask_0y9xta4</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>ServiceTask_005rc2e</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>ServiceTask_0fcacm4</bpmn:flowNodeRef>
@@ -344,7 +346,6 @@
         <bpmn:flowNodeRef>Task_09ndd6s</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>Task_0qa06xw</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>ServiceTask_19xl4ul</bpmn:flowNodeRef>
-        <bpmn:flowNodeRef>IntermediateThrowEvent_1cglo3f</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>ExclusiveGateway_0qfiyks</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>Task_0zbf6c7</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>ExclusiveGateway_170oamb</bpmn:flowNodeRef>
@@ -427,6 +428,16 @@
         <bpmn:flowNodeRef>ScriptTask_1scicnz</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>ServiceTask_1y4vzs3</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>Task_1qslotm</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>IntermediateThrowEvent_1cglo3f</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ServiceTask_0ha9128</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ServiceTask_1xci3x9</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ServiceTask_04v9u0h</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ServiceTask_0k6mtl1</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ServiceTask_0h6newb</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ServiceTask_0j3eg8m</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ServiceTask_063dxss</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ServiceTask_062to7r</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ServiceTask_17im0bd</bpmn:flowNodeRef>
       </bpmn:lane>
     </bpmn:laneSet>
     <bpmn:sequenceFlow id="SequenceFlow_13ia2bi" sourceRef="ScriptTask_0eqir1w" targetRef="UserTask_1huvg78" />
@@ -1454,6 +1465,7 @@ execution.setVariable('startOverFlow', 'RIAPERTA');</bpmn:script>
           <camunda:formField id="regioneGroup" label="Candidate Group regione" type="string" />
           <camunda:formField id="autorizzatoreSF" label="Autorizzatore SF" type="string" />
           <camunda:formField id="autorizzatoreConfidi" label="Autorizzatore Confidi" type="string" />
+          <camunda:formField id="visualizzatoreImpresa" label="Referente Impresa" type="string" />
         </camunda:formData>
       </bpmn:extensionElements>
       <bpmn:outgoing>SequenceFlow_1itmn45</bpmn:outgoing>
@@ -2267,6 +2279,7 @@ execution.setVariable('secondFlow', 'false');</bpmn:script>
       <bpmn:outgoing>SequenceFlow_1427qeh</bpmn:outgoing>
       <bpmn:outgoing>SequenceFlow_05mg051</bpmn:outgoing>
       <bpmn:outgoing>SequenceFlow_1yrs7ce</bpmn:outgoing>
+      <bpmn:outgoing>SequenceFlow_16gzt9z</bpmn:outgoing>
     </bpmn:parallelGateway>
     <bpmn:serviceTask id="Task_0zbf6c7" name="Notifica Soggetto Finanziatore e Confidi" camunda:modelerTemplate="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask" camunda:class="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask">
       <bpmn:extensionElements>
@@ -2286,6 +2299,7 @@ execution.setVariable('secondFlow', 'false');</bpmn:script>
       <bpmn:incoming>SequenceFlow_1vl2lk1</bpmn:incoming>
       <bpmn:incoming>SequenceFlow_1odv3r6</bpmn:incoming>
       <bpmn:incoming>SequenceFlow_0xfmr6n</bpmn:incoming>
+      <bpmn:incoming>SequenceFlow_1sha6f4</bpmn:incoming>
       <bpmn:outgoing>SequenceFlow_1x3mgxe</bpmn:outgoing>
     </bpmn:parallelGateway>
     <bpmn:parallelGateway id="ParallelGateway_0q9i6t0">
@@ -2381,10 +2395,6 @@ execution.setVariable('secondFlow', 'false');</bpmn:script>
       <bpmn:incoming>SequenceFlow_17ktcrn</bpmn:incoming>
       <bpmn:linkEventDefinition id="LinkEventDefinition_1s423zd" name="LinkVerificaAccoglibilita" />
     </bpmn:intermediateThrowEvent>
-    <bpmn:intermediateThrowEvent id="IntermediateThrowEvent_1cglo3f" name="Catch(Verifica Accoglibilità)">
-      <bpmn:incoming>SequenceFlow_0plmjxb</bpmn:incoming>
-      <bpmn:linkEventDefinition name="LinkVerificaAccoglibilita" />
-    </bpmn:intermediateThrowEvent>
     <bpmn:serviceTask id="ServiceTask_19xl4ul" name="Notifica inaccoglibilità Impresa" camunda:modelerTemplate="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask" camunda:class="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask">
       <bpmn:extensionElements>
         <camunda:inputOutput>
@@ -2452,11 +2462,13 @@ execution.setVariable('secondFlow', 'false');</bpmn:script>
       <bpmn:outgoing>SequenceFlow_1hxx2mu</bpmn:outgoing>
       <bpmn:outgoing>SequenceFlow_0a0v7zc</bpmn:outgoing>
       <bpmn:outgoing>SequenceFlow_0r4vmjw</bpmn:outgoing>
+      <bpmn:outgoing>SequenceFlow_02c3anh</bpmn:outgoing>
     </bpmn:parallelGateway>
     <bpmn:parallelGateway id="ExclusiveGateway_0kimicz">
       <bpmn:incoming>SequenceFlow_0yvrdgp</bpmn:incoming>
       <bpmn:incoming>SequenceFlow_0ifod4a</bpmn:incoming>
       <bpmn:incoming>SequenceFlow_0rtgxze</bpmn:incoming>
+      <bpmn:incoming>SequenceFlow_0yykfol</bpmn:incoming>
       <bpmn:outgoing>SequenceFlow_1mzwejx</bpmn:outgoing>
     </bpmn:parallelGateway>
     <bpmn:parallelGateway id="ParallelGateway_0ps1lib">
@@ -2466,6 +2478,7 @@ execution.setVariable('secondFlow', 'false');</bpmn:script>
       <bpmn:incoming>SequenceFlow_0gvtutk</bpmn:incoming>
       <bpmn:incoming>SequenceFlow_065q977</bpmn:incoming>
       <bpmn:incoming>SequenceFlow_00xafjq</bpmn:incoming>
+      <bpmn:incoming>SequenceFlow_1b182d3</bpmn:incoming>
       <bpmn:outgoing>SequenceFlow_0i3lqrh</bpmn:outgoing>
     </bpmn:parallelGateway>
     <bpmn:serviceTask id="ServiceTask_00ih143" name="Notifica scadenza Impresa" camunda:modelerTemplate="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask" camunda:class="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask">
@@ -2498,6 +2511,7 @@ execution.setVariable('secondFlow', 'false');</bpmn:script>
       <bpmn:outgoing>SequenceFlow_12ghtrw</bpmn:outgoing>
       <bpmn:outgoing>SequenceFlow_0tds1wq</bpmn:outgoing>
       <bpmn:outgoing>SequenceFlow_1j7ayjz</bpmn:outgoing>
+      <bpmn:outgoing>SequenceFlow_0tm0c42</bpmn:outgoing>
     </bpmn:parallelGateway>
     <bpmn:intermediateCatchEvent id="IntermediateCatchEvent_02r0fs4" name="5 gg">
       <bpmn:incoming>SequenceFlow_1mzwejx</bpmn:incoming>
@@ -2799,6 +2813,7 @@ execution.setVariable('secondFlow', 'false');</bpmn:script>
       <bpmn:incoming>SequenceFlow_05dswm2</bpmn:incoming>
       <bpmn:incoming>SequenceFlow_14vdr6v</bpmn:incoming>
       <bpmn:incoming>SequenceFlow_09vjjsg</bpmn:incoming>
+      <bpmn:incoming>SequenceFlow_1bnpp1o</bpmn:incoming>
       <bpmn:outgoing>SequenceFlow_05omyso</bpmn:outgoing>
     </bpmn:parallelGateway>
     <bpmn:serviceTask id="ServiceTask_1yvy2me" name="Notifica scadenza Finanziatore e Confidi" camunda:modelerTemplate="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask" camunda:class="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask">
@@ -2820,11 +2835,13 @@ execution.setVariable('secondFlow', 'false');</bpmn:script>
       <bpmn:outgoing>SequenceFlow_1bav1vt</bpmn:outgoing>
       <bpmn:outgoing>SequenceFlow_1yp8u5u</bpmn:outgoing>
       <bpmn:outgoing>SequenceFlow_194yj1q</bpmn:outgoing>
+      <bpmn:outgoing>SequenceFlow_1wtacnf</bpmn:outgoing>
     </bpmn:parallelGateway>
     <bpmn:parallelGateway id="ParallelGateway_0eknjyv">
       <bpmn:incoming>SequenceFlow_0pcwnv4</bpmn:incoming>
       <bpmn:incoming>SequenceFlow_1clkfsg</bpmn:incoming>
       <bpmn:incoming>SequenceFlow_0h7ieie</bpmn:incoming>
+      <bpmn:incoming>SequenceFlow_15ma13y</bpmn:incoming>
       <bpmn:outgoing>SequenceFlow_1penavj</bpmn:outgoing>
     </bpmn:parallelGateway>
     <bpmn:serviceTask id="ServiceTask_15o03z5" name="Notifica sollecito Impresa" camunda:modelerTemplate="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask" camunda:class="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask">
@@ -2957,6 +2974,7 @@ execution.setVariable('secondFlow2', 'true');</bpmn:script>
       <bpmn:outgoing>SequenceFlow_1feh5ea</bpmn:outgoing>
       <bpmn:outgoing>SequenceFlow_1r2k6pf</bpmn:outgoing>
       <bpmn:outgoing>SequenceFlow_0wjnh85</bpmn:outgoing>
+      <bpmn:outgoing>SequenceFlow_188u4gm</bpmn:outgoing>
     </bpmn:parallelGateway>
     <bpmn:exclusiveGateway id="ExclusiveGateway_1mpcsat" name="Valutazione" default="SequenceFlow_02tm6hp">
       <bpmn:incoming>SequenceFlow_0k9rwd9</bpmn:incoming>
@@ -3461,6 +3479,7 @@ execution.getProcessEngineServices().getRuntimeService()
       <bpmn:outgoing>SequenceFlow_1u2h7g7</bpmn:outgoing>
       <bpmn:outgoing>SequenceFlow_16coo34</bpmn:outgoing>
       <bpmn:outgoing>SequenceFlow_09k397l</bpmn:outgoing>
+      <bpmn:outgoing>SequenceFlow_0ybastr</bpmn:outgoing>
     </bpmn:parallelGateway>
     <bpmn:serviceTask id="ServiceTask_0kti9xn" name="Notifica Soggetto Finanziatore e Confidi" camunda:modelerTemplate="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask" camunda:class="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask">
       <bpmn:extensionElements>
@@ -3480,6 +3499,7 @@ execution.getProcessEngineServices().getRuntimeService()
       <bpmn:incoming>SequenceFlow_0npuk7t</bpmn:incoming>
       <bpmn:incoming>SequenceFlow_1gyy9il</bpmn:incoming>
       <bpmn:incoming>SequenceFlow_1pt8081</bpmn:incoming>
+      <bpmn:incoming>SequenceFlow_1dvbn99</bpmn:incoming>
       <bpmn:outgoing>SequenceFlow_1mv0os2</bpmn:outgoing>
     </bpmn:parallelGateway>
     <bpmn:serviceTask id="ServiceTask_04xurd7" name="Notifica inaccoglibilità Impresa" camunda:modelerTemplate="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask" camunda:class="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask">
@@ -3563,6 +3583,7 @@ execution.getProcessEngineServices().getRuntimeService()
       <bpmn:outgoing>SequenceFlow_03te3xh</bpmn:outgoing>
       <bpmn:outgoing>SequenceFlow_0f3xzcf</bpmn:outgoing>
       <bpmn:outgoing>SequenceFlow_0mlwcpv</bpmn:outgoing>
+      <bpmn:outgoing>SequenceFlow_11qytt0</bpmn:outgoing>
     </bpmn:parallelGateway>
     <bpmn:intermediateThrowEvent id="IntermediateThrowEvent_0zq0f6l" name="Go To Verifica Ammissibilità">
       <bpmn:incoming>SequenceFlow_17rt0vz</bpmn:incoming>
@@ -3843,11 +3864,13 @@ execution.getProcessEngineServices().getRuntimeService()
       <bpmn:outgoing>SequenceFlow_1glpg36</bpmn:outgoing>
       <bpmn:outgoing>SequenceFlow_14i7ev1</bpmn:outgoing>
       <bpmn:outgoing>SequenceFlow_0jsvqa8</bpmn:outgoing>
+      <bpmn:outgoing>SequenceFlow_158nzew</bpmn:outgoing>
     </bpmn:parallelGateway>
     <bpmn:parallelGateway id="ParallelGateway_089f800">
       <bpmn:incoming>SequenceFlow_1ta939v</bpmn:incoming>
       <bpmn:incoming>SequenceFlow_1ddjslz</bpmn:incoming>
       <bpmn:incoming>SequenceFlow_03s82gl</bpmn:incoming>
+      <bpmn:incoming>SequenceFlow_1u2lry6</bpmn:incoming>
       <bpmn:outgoing>SequenceFlow_0es69ph</bpmn:outgoing>
     </bpmn:parallelGateway>
     <bpmn:intermediateCatchEvent id="IntermediateCatchEvent_1vveevm" name="5 gg">
@@ -3909,6 +3932,7 @@ execution.getProcessEngineServices().getRuntimeService()
       <bpmn:outgoing>SequenceFlow_12c00xb</bpmn:outgoing>
       <bpmn:outgoing>SequenceFlow_0nm4cz6</bpmn:outgoing>
       <bpmn:outgoing>SequenceFlow_1tv16sl</bpmn:outgoing>
+      <bpmn:outgoing>SequenceFlow_1xf42bn</bpmn:outgoing>
     </bpmn:parallelGateway>
     <bpmn:serviceTask id="ServiceTask_021k54l" name="Notifica scadenza responsabile" camunda:modelerTemplate="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask" camunda:class="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask">
       <bpmn:extensionElements>
@@ -3954,17 +3978,6 @@ execution.getProcessEngineServices().getRuntimeService()
       <bpmn:incoming>SequenceFlow_1tv16sl</bpmn:incoming>
       <bpmn:outgoing>SequenceFlow_01zi2js</bpmn:outgoing>
     </bpmn:serviceTask>
-    <bpmn:serviceTask id="ServiceTask_0h6newb" name="Notifica scadenza Impresa" camunda:modelerTemplate="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask" camunda:class="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask">
-      <bpmn:extensionElements>
-        <camunda:inputOutput>
-          <camunda:inputParameter name="from">${pm}</camunda:inputParameter>
-          <camunda:inputParameter name="to">${impresa}</camunda:inputParameter>
-          <camunda:inputParameter name="message">COD_SCADENZA_INTEGRAZIONE_PEC</camunda:inputParameter>
-        </camunda:inputOutput>
-      </bpmn:extensionElements>
-      <bpmn:incoming>SequenceFlow_1mlhvcl</bpmn:incoming>
-      <bpmn:outgoing>SequenceFlow_0ho1smj</bpmn:outgoing>
-    </bpmn:serviceTask>
     <bpmn:parallelGateway id="ParallelGateway_18rbvm8">
       <bpmn:incoming>SequenceFlow_0vqhy92</bpmn:incoming>
       <bpmn:incoming>SequenceFlow_0ho1smj</bpmn:incoming>
@@ -3972,6 +3985,7 @@ execution.getProcessEngineServices().getRuntimeService()
       <bpmn:incoming>SequenceFlow_0tapnv0</bpmn:incoming>
       <bpmn:incoming>SequenceFlow_0lcglgz</bpmn:incoming>
       <bpmn:incoming>SequenceFlow_01zi2js</bpmn:incoming>
+      <bpmn:incoming>SequenceFlow_1e9m22v</bpmn:incoming>
       <bpmn:outgoing>SequenceFlow_11vtcgf</bpmn:outgoing>
     </bpmn:parallelGateway>
     <bpmn:scriptTask id="ScriptTask_1q49mn4" name="invia integrazione" scriptFormat="groovy">
@@ -4047,50 +4061,6 @@ execution.getProcessEngineServices().getRuntimeService()
       <bpmn:incoming>SequenceFlow_1b43bn5</bpmn:incoming>
       <bpmn:linkEventDefinition name="preavvisoRigettoInammissibilitaLink" />
     </bpmn:intermediateThrowEvent>
-    <bpmn:serviceTask id="ServiceTask_04u4z3e" name="Notifica PM" camunda:modelerTemplate="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask" camunda:class="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask">
-      <bpmn:extensionElements>
-        <camunda:inputOutput>
-          <camunda:inputParameter name="from">${valutatore}</camunda:inputParameter>
-          <camunda:inputParameter name="to">${pm}</camunda:inputParameter>
-          <camunda:inputParameter name="message">COD_AMMISSIBILITA_OK</camunda:inputParameter>
-        </camunda:inputOutput>
-      </bpmn:extensionElements>
-      <bpmn:incoming>SequenceFlow_04la32e</bpmn:incoming>
-      <bpmn:outgoing>SequenceFlow_00qfvun</bpmn:outgoing>
-    </bpmn:serviceTask>
-    <bpmn:serviceTask id="ServiceTask_0g8ciin" name="Notifica Soggetto Finanziatore" camunda:modelerTemplate="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask" camunda:class="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask">
-      <bpmn:extensionElements>
-        <camunda:inputOutput>
-          <camunda:inputParameter name="to">${autorizzatoreSF}</camunda:inputParameter>
-          <camunda:inputParameter name="message">COD_AMMISSIBILITA_OK</camunda:inputParameter>
-          <camunda:inputParameter name="from">${valutatore}</camunda:inputParameter>
-        </camunda:inputOutput>
-      </bpmn:extensionElements>
-      <bpmn:incoming>SequenceFlow_0dd0ad1</bpmn:incoming>
-      <bpmn:outgoing>SequenceFlow_0ecn20s</bpmn:outgoing>
-    </bpmn:serviceTask>
-    <bpmn:serviceTask id="ServiceTask_0r1q02j" name="Notifica Soggetto Finanziatore Confidi" camunda:modelerTemplate="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask" camunda:class="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask">
-      <bpmn:extensionElements>
-        <camunda:inputOutput>
-          <camunda:inputParameter name="to">${autorizzatoreConfidi}</camunda:inputParameter>
-          <camunda:inputParameter name="from">${valutatore}</camunda:inputParameter>
-          <camunda:inputParameter name="message">COD_AMMISSIBILITA_OK</camunda:inputParameter>
-        </camunda:inputOutput>
-      </bpmn:extensionElements>
-      <bpmn:incoming>SequenceFlow_0zb8dry</bpmn:incoming>
-      <bpmn:outgoing>SequenceFlow_1c3z9hu</bpmn:outgoing>
-    </bpmn:serviceTask>
-    <bpmn:serviceTask id="ServiceTask_1ve1trg" name="Notifica Impresa" camunda:modelerTemplate="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask" camunda:class="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask">
-      <bpmn:extensionElements>
-        <camunda:inputOutput>
-          <camunda:inputParameter name="to">${impresa}</camunda:inputParameter>
-          <camunda:inputParameter name="from">${valutatore}</camunda:inputParameter>
-          <camunda:inputParameter name="message">COD_AMMISSIBILITA_OK</camunda:inputParameter>
-        </camunda:inputOutput>
-      </bpmn:extensionElements>
-      <bpmn:incoming>SequenceFlow_0klxjp4</bpmn:incoming>
-      <bpmn:outgoing>SequenceFlow_0xb3ufa</bpmn:outgoing>
-    </bpmn:serviceTask>
     <bpmn:parallelGateway id="ParallelGateway_1enemf2">
       <bpmn:incoming>SequenceFlow_134dr34</bpmn:incoming>
       <bpmn:outgoing>SequenceFlow_0klxjp4</bpmn:outgoing>
@@ -4098,6 +4068,7 @@ execution.getProcessEngineServices().getRuntimeService()
       <bpmn:outgoing>SequenceFlow_04la32e</bpmn:outgoing>
       <bpmn:outgoing>SequenceFlow_0dd0ad1</bpmn:outgoing>
       <bpmn:outgoing>SequenceFlow_1v8ma3q</bpmn:outgoing>
+      <bpmn:outgoing>SequenceFlow_0l7kdym</bpmn:outgoing>
     </bpmn:parallelGateway>
     <bpmn:parallelGateway id="ParallelGateway_1a4r175">
       <bpmn:incoming>SequenceFlow_0ecn20s</bpmn:incoming>
@@ -4105,19 +4076,9 @@ execution.getProcessEngineServices().getRuntimeService()
       <bpmn:incoming>SequenceFlow_00qfvun</bpmn:incoming>
       <bpmn:incoming>SequenceFlow_0xb3ufa</bpmn:incoming>
       <bpmn:incoming>SequenceFlow_19ff6md</bpmn:incoming>
+      <bpmn:incoming>SequenceFlow_1omc9jt</bpmn:incoming>
       <bpmn:outgoing>SequenceFlow_1hz5dud</bpmn:outgoing>
     </bpmn:parallelGateway>
-    <bpmn:serviceTask id="ServiceTask_0l7jwdd" name="Notifica responsabile" camunda:modelerTemplate="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask" camunda:class="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask">
-      <bpmn:extensionElements>
-        <camunda:inputOutput>
-          <camunda:inputParameter name="to">${responsabile}</camunda:inputParameter>
-          <camunda:inputParameter name="from">${valutatore}</camunda:inputParameter>
-          <camunda:inputParameter name="message">COD_AMMISSIBILITA_OK</camunda:inputParameter>
-        </camunda:inputOutput>
-      </bpmn:extensionElements>
-      <bpmn:incoming>SequenceFlow_1v8ma3q</bpmn:incoming>
-      <bpmn:outgoing>SequenceFlow_19ff6md</bpmn:outgoing>
-    </bpmn:serviceTask>
     <bpmn:scriptTask id="Task_0zw5c47" name="notifica regione" scriptFormat="groovy">
       <bpmn:incoming>SequenceFlow_0psdqhq</bpmn:incoming>
       <bpmn:outgoing>SequenceFlow_0tovlpr</bpmn:outgoing>
@@ -4409,6 +4370,7 @@ execution.getProcessEngineServices().getRuntimeService()
       <bpmn:incoming>SequenceFlow_1bjpc1s</bpmn:incoming>
       <bpmn:incoming>SequenceFlow_0b8y4xj</bpmn:incoming>
       <bpmn:incoming>SequenceFlow_0huag4k</bpmn:incoming>
+      <bpmn:incoming>SequenceFlow_0fdd3py</bpmn:incoming>
       <bpmn:outgoing>SequenceFlow_04jqutq</bpmn:outgoing>
     </bpmn:parallelGateway>
     <bpmn:serviceTask id="ServiceTask_1sa64q4" name="Notifica PM" camunda:modelerTemplate="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask" camunda:class="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask">
@@ -4449,11 +4411,13 @@ execution.getProcessEngineServices().getRuntimeService()
       <bpmn:outgoing>SequenceFlow_1afnmbx</bpmn:outgoing>
       <bpmn:outgoing>SequenceFlow_16nnwv8</bpmn:outgoing>
       <bpmn:outgoing>SequenceFlow_00aw7ux</bpmn:outgoing>
+      <bpmn:outgoing>SequenceFlow_1te9nfj</bpmn:outgoing>
     </bpmn:parallelGateway>
     <bpmn:parallelGateway id="ParallelGateway_045bihm">
       <bpmn:incoming>SequenceFlow_0rhqc4m</bpmn:incoming>
       <bpmn:incoming>SequenceFlow_01j9pq2</bpmn:incoming>
       <bpmn:incoming>SequenceFlow_19dp9y5</bpmn:incoming>
+      <bpmn:incoming>SequenceFlow_11v7iql</bpmn:incoming>
       <bpmn:outgoing>SequenceFlow_1d2gusk</bpmn:outgoing>
     </bpmn:parallelGateway>
     <bpmn:serviceTask id="ServiceTask_1qnlcmt" name="Notifica Impresa" camunda:modelerTemplate="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask" camunda:class="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask">
@@ -5089,6 +5053,219 @@ execution.getProcessEngineServices().getRuntimeService()
       <bpmn:incoming>SequenceFlow_1ghfrln</bpmn:incoming>
       <bpmn:outgoing>SequenceFlow_0vpgz0a</bpmn:outgoing>
     </bpmn:serviceTask>
+    <bpmn:intermediateThrowEvent id="IntermediateThrowEvent_1cglo3f" name="Catch(Verifica Accoglibilità)">
+      <bpmn:incoming>SequenceFlow_0plmjxb</bpmn:incoming>
+      <bpmn:linkEventDefinition name="LinkVerificaAccoglibilita" />
+    </bpmn:intermediateThrowEvent>
+    <bpmn:serviceTask id="ServiceTask_0ha9128" name="Notifica inaccoglibilità responsabile Impresa" camunda:modelerTemplate="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask" camunda:class="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask">
+      <bpmn:extensionElements>
+        <camunda:inputOutput>
+          <camunda:inputParameter name="from">${pm}</camunda:inputParameter>
+          <camunda:inputParameter name="message">COD_INACCOGLIBILITA_POSITIVO</camunda:inputParameter>
+          <camunda:inputParameter name="to">${visualizzatoreImpresa}</camunda:inputParameter>
+        </camunda:inputOutput>
+      </bpmn:extensionElements>
+      <bpmn:incoming>SequenceFlow_16gzt9z</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_1sha6f4</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:sequenceFlow id="SequenceFlow_16gzt9z" sourceRef="ExclusiveGateway_170oamb" targetRef="ServiceTask_0ha9128" />
+    <bpmn:sequenceFlow id="SequenceFlow_02c3anh" sourceRef="ExclusiveGateway_12xkc49" targetRef="ServiceTask_04v9u0h" />
+    <bpmn:sequenceFlow id="SequenceFlow_0yykfol" sourceRef="ServiceTask_04v9u0h" targetRef="ExclusiveGateway_0kimicz" />
+    <bpmn:sequenceFlow id="SequenceFlow_1sha6f4" sourceRef="ServiceTask_0ha9128" targetRef="ExclusiveGateway_0qfiyks" />
+    <bpmn:sequenceFlow id="SequenceFlow_0tm0c42" sourceRef="ParallelGateway_14uyn17" targetRef="ServiceTask_1xci3x9" />
+    <bpmn:sequenceFlow id="SequenceFlow_1b182d3" sourceRef="ServiceTask_1xci3x9" targetRef="ParallelGateway_0ps1lib" />
+    <bpmn:serviceTask id="ServiceTask_1xci3x9" name="Notifica scadenza Visualizzatore Impresa" camunda:modelerTemplate="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask" camunda:class="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask">
+      <bpmn:extensionElements>
+        <camunda:inputOutput>
+          <camunda:inputParameter name="from">${pm}</camunda:inputParameter>
+          <camunda:inputParameter name="to">${visualizzatoreImpresa }</camunda:inputParameter>
+          <camunda:inputParameter name="message">COD_SCADENZA_ACCOGLIBILITA_PEC</camunda:inputParameter>
+        </camunda:inputOutput>
+      </bpmn:extensionElements>
+      <bpmn:incoming>SequenceFlow_0tm0c42</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_1b182d3</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:serviceTask id="ServiceTask_04v9u0h" name="Notifica sollecito visualizzatore impresa" camunda:modelerTemplate="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask" camunda:class="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask">
+      <bpmn:extensionElements>
+        <camunda:inputOutput>
+          <camunda:inputParameter name="from">${pm}</camunda:inputParameter>
+          <camunda:inputParameter name="to">${visualizzatoreImpresa}</camunda:inputParameter>
+          <camunda:inputParameter name="message">COD_SOLLECITO_PEC</camunda:inputParameter>
+        </camunda:inputOutput>
+      </bpmn:extensionElements>
+      <bpmn:incoming>SequenceFlow_02c3anh</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_0yykfol</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:sequenceFlow id="SequenceFlow_1te9nfj" sourceRef="ParallelGateway_1ap6qyk" targetRef="ServiceTask_05ov092" />
+    <bpmn:sequenceFlow id="SequenceFlow_0fdd3py" sourceRef="ServiceTask_05ov092" targetRef="ParallelGateway_0u2e9fr" />
+    <bpmn:serviceTask id="ServiceTask_05ov092" name="Notifica Visualizzatore Impresa" camunda:modelerTemplate="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask" camunda:class="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask">
+      <bpmn:extensionElements>
+        <camunda:inputOutput>
+          <camunda:inputParameter name="from">${valutatore}</camunda:inputParameter>
+          <camunda:inputParameter name="message">COD_RICHIESTA_INACC_VAL</camunda:inputParameter>
+          <camunda:inputParameter name="to">${visualizzatoreImpresa}</camunda:inputParameter>
+        </camunda:inputOutput>
+      </bpmn:extensionElements>
+      <bpmn:incoming>SequenceFlow_1te9nfj</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_0fdd3py</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:serviceTask id="ServiceTask_0k6mtl1" name="Notifica sollecito Visualizzatore Impresa" camunda:modelerTemplate="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask" camunda:class="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask">
+      <bpmn:extensionElements>
+        <camunda:inputOutput>
+          <camunda:inputParameter name="from">${pm}</camunda:inputParameter>
+          <camunda:inputParameter name="to">${visualizzatoreImpresa}</camunda:inputParameter>
+          <camunda:inputParameter name="message">COD_SOLLECITO_PEC_INTEGRAZIONE</camunda:inputParameter>
+        </camunda:inputOutput>
+      </bpmn:extensionElements>
+      <bpmn:incoming>SequenceFlow_158nzew</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_1u2lry6</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:sequenceFlow id="SequenceFlow_158nzew" sourceRef="ParallelGateway_1y8j25e" targetRef="ServiceTask_0k6mtl1" />
+    <bpmn:sequenceFlow id="SequenceFlow_1u2lry6" sourceRef="ServiceTask_0k6mtl1" targetRef="ParallelGateway_089f800" />
+    <bpmn:serviceTask id="ServiceTask_0h6newb" name="Notifica scadenza Impresa" camunda:modelerTemplate="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask" camunda:class="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask">
+      <bpmn:extensionElements>
+        <camunda:inputOutput>
+          <camunda:inputParameter name="from">${pm}</camunda:inputParameter>
+          <camunda:inputParameter name="to">${impresa}</camunda:inputParameter>
+          <camunda:inputParameter name="message">COD_SCADENZA_INTEGRAZIONE_PEC</camunda:inputParameter>
+        </camunda:inputOutput>
+      </bpmn:extensionElements>
+      <bpmn:incoming>SequenceFlow_1mlhvcl</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_0ho1smj</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:serviceTask id="ServiceTask_0j3eg8m" name="Notifica sollecito Visualizzatore Impresa" camunda:modelerTemplate="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask" camunda:class="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask">
+      <bpmn:extensionElements>
+        <camunda:inputOutput>
+          <camunda:inputParameter name="from">${pm}</camunda:inputParameter>
+          <camunda:inputParameter name="to">${visualizzatoreImpresa}</camunda:inputParameter>
+          <camunda:inputParameter name="message">COD_SOLLECITO_PEC_INTEGRAZIONE</camunda:inputParameter>
+        </camunda:inputOutput>
+      </bpmn:extensionElements>
+      <bpmn:incoming>SequenceFlow_1xf42bn</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_1e9m22v</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:sequenceFlow id="SequenceFlow_1xf42bn" sourceRef="ParallelGateway_1p83jsh" targetRef="ServiceTask_0j3eg8m" />
+    <bpmn:sequenceFlow id="SequenceFlow_1e9m22v" sourceRef="ServiceTask_0j3eg8m" targetRef="ParallelGateway_18rbvm8" />
+    <bpmn:serviceTask id="ServiceTask_04u4z3e" name="Notifica PM" camunda:modelerTemplate="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask" camunda:class="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask">
+      <bpmn:extensionElements>
+        <camunda:inputOutput>
+          <camunda:inputParameter name="from">${valutatore}</camunda:inputParameter>
+          <camunda:inputParameter name="to">${pm}</camunda:inputParameter>
+          <camunda:inputParameter name="message">COD_AMMISSIBILITA_OK</camunda:inputParameter>
+        </camunda:inputOutput>
+      </bpmn:extensionElements>
+      <bpmn:incoming>SequenceFlow_04la32e</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_00qfvun</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:serviceTask id="ServiceTask_0g8ciin" name="Notifica Soggetto Finanziatore" camunda:modelerTemplate="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask" camunda:class="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask">
+      <bpmn:extensionElements>
+        <camunda:inputOutput>
+          <camunda:inputParameter name="to">${autorizzatoreSF}</camunda:inputParameter>
+          <camunda:inputParameter name="message">COD_AMMISSIBILITA_OK</camunda:inputParameter>
+          <camunda:inputParameter name="from">${valutatore}</camunda:inputParameter>
+        </camunda:inputOutput>
+      </bpmn:extensionElements>
+      <bpmn:incoming>SequenceFlow_0dd0ad1</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_0ecn20s</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:serviceTask id="ServiceTask_0r1q02j" name="Notifica Soggetto Finanziatore Confidi" camunda:modelerTemplate="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask" camunda:class="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask">
+      <bpmn:extensionElements>
+        <camunda:inputOutput>
+          <camunda:inputParameter name="to">${autorizzatoreConfidi}</camunda:inputParameter>
+          <camunda:inputParameter name="from">${valutatore}</camunda:inputParameter>
+          <camunda:inputParameter name="message">COD_AMMISSIBILITA_OK</camunda:inputParameter>
+        </camunda:inputOutput>
+      </bpmn:extensionElements>
+      <bpmn:incoming>SequenceFlow_0zb8dry</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_1c3z9hu</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:serviceTask id="ServiceTask_1ve1trg" name="Notifica Impresa" camunda:modelerTemplate="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask" camunda:class="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask">
+      <bpmn:extensionElements>
+        <camunda:inputOutput>
+          <camunda:inputParameter name="to">${impresa}</camunda:inputParameter>
+          <camunda:inputParameter name="from">${valutatore}</camunda:inputParameter>
+          <camunda:inputParameter name="message">COD_AMMISSIBILITA_OK</camunda:inputParameter>
+        </camunda:inputOutput>
+      </bpmn:extensionElements>
+      <bpmn:incoming>SequenceFlow_0klxjp4</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_0xb3ufa</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:serviceTask id="ServiceTask_0l7jwdd" name="Notifica responsabile" camunda:modelerTemplate="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask" camunda:class="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask">
+      <bpmn:extensionElements>
+        <camunda:inputOutput>
+          <camunda:inputParameter name="to">${responsabile}</camunda:inputParameter>
+          <camunda:inputParameter name="from">${valutatore}</camunda:inputParameter>
+          <camunda:inputParameter name="message">COD_AMMISSIBILITA_OK</camunda:inputParameter>
+        </camunda:inputOutput>
+      </bpmn:extensionElements>
+      <bpmn:incoming>SequenceFlow_1v8ma3q</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_19ff6md</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:sequenceFlow id="SequenceFlow_0l7kdym" sourceRef="ParallelGateway_1enemf2" targetRef="ServiceTask_02bbue2" />
+    <bpmn:sequenceFlow id="SequenceFlow_1omc9jt" sourceRef="ServiceTask_02bbue2" targetRef="ParallelGateway_1a4r175" />
+    <bpmn:serviceTask id="ServiceTask_02bbue2" name="Notifica Visualizzatore Impresa" camunda:modelerTemplate="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask" camunda:class="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask">
+      <bpmn:extensionElements>
+        <camunda:inputOutput>
+          <camunda:inputParameter name="to">${visualizzatoreImpresa}</camunda:inputParameter>
+          <camunda:inputParameter name="from">${valutatore}</camunda:inputParameter>
+          <camunda:inputParameter name="message">COD_AMMISSIBILITA_OK</camunda:inputParameter>
+        </camunda:inputOutput>
+      </bpmn:extensionElements>
+      <bpmn:incoming>SequenceFlow_0l7kdym</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_1omc9jt</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:serviceTask id="ServiceTask_063dxss" name="Notifica inaccoglibilità Visualizzatore Impresa" camunda:modelerTemplate="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask" camunda:class="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask">
+      <bpmn:extensionElements>
+        <camunda:inputOutput>
+          <camunda:inputParameter name="from">${pm}</camunda:inputParameter>
+          <camunda:inputParameter name="to">${visualizzatoreImpresa}</camunda:inputParameter>
+          <camunda:inputParameter name="message">COD_CONFERMA_INAMM_PM_POSITIVO</camunda:inputParameter>
+        </camunda:inputOutput>
+      </bpmn:extensionElements>
+      <bpmn:incoming>SequenceFlow_0ybastr</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_1dvbn99</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:sequenceFlow id="SequenceFlow_0ybastr" sourceRef="ParallelGateway_03t94fx" targetRef="ServiceTask_063dxss" />
+    <bpmn:sequenceFlow id="SequenceFlow_1dvbn99" sourceRef="ServiceTask_063dxss" targetRef="ParallelGateway_0dyvhme" />
+    <bpmn:serviceTask id="ServiceTask_062to7r" name="Notifica sollecito Visualizzatore Impresa" camunda:modelerTemplate="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask" camunda:class="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask">
+      <bpmn:extensionElements>
+        <camunda:inputOutput>
+          <camunda:inputParameter name="from">${pm}</camunda:inputParameter>
+          <camunda:inputParameter name="to">${visualizzatoreImpresa}</camunda:inputParameter>
+          <camunda:inputParameter name="message">COD_SOLLECITO_PEC_INAMM</camunda:inputParameter>
+        </camunda:inputOutput>
+      </bpmn:extensionElements>
+      <bpmn:incoming>SequenceFlow_11qytt0</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_15ma13y</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:sequenceFlow id="SequenceFlow_11qytt0" sourceRef="ParallelGateway_0bzloh7" targetRef="ServiceTask_062to7r" />
+    <bpmn:sequenceFlow id="SequenceFlow_15ma13y" sourceRef="ServiceTask_062to7r" targetRef="ParallelGateway_0eknjyv" />
+    <bpmn:serviceTask id="ServiceTask_17im0bd" name="Notifica sollecito Visualizzatore Impresa" camunda:modelerTemplate="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask" camunda:class="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask">
+      <bpmn:extensionElements>
+        <camunda:inputOutput>
+          <camunda:inputParameter name="from">${pm}</camunda:inputParameter>
+          <camunda:inputParameter name="to">${visualizzatoreImpresa}</camunda:inputParameter>
+          <camunda:inputParameter name="message">COD_SOLLECITO_PEC_INAMM</camunda:inputParameter>
+        </camunda:inputOutput>
+      </bpmn:extensionElements>
+      <bpmn:incoming>SequenceFlow_1wtacnf</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_1bnpp1o</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:sequenceFlow id="SequenceFlow_1wtacnf" sourceRef="ParallelGateway_1e3ik5v" targetRef="ServiceTask_17im0bd" />
+    <bpmn:sequenceFlow id="SequenceFlow_1bnpp1o" sourceRef="ServiceTask_17im0bd" targetRef="ParallelGateway_1puboat" />
+    <bpmn:serviceTask id="ServiceTask_1kftoql" name="Notifica Visualizzatore Impresa" camunda:modelerTemplate="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask" camunda:class="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask">
+      <bpmn:extensionElements>
+        <camunda:inputOutput>
+          <camunda:inputParameter name="from">${valutatore}</camunda:inputParameter>
+          <camunda:inputParameter name="to">${visualizzatoreImpresa}</camunda:inputParameter>
+          <camunda:inputParameter name="message">COD_RICHIESTA_INAMM_VAL</camunda:inputParameter>
+        </camunda:inputOutput>
+      </bpmn:extensionElements>
+      <bpmn:incoming>SequenceFlow_188u4gm</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_11v7iql</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:sequenceFlow id="SequenceFlow_188u4gm" sourceRef="ParallelGateway_11cy0rx" targetRef="ServiceTask_1kftoql" />
+    <bpmn:sequenceFlow id="SequenceFlow_11v7iql" sourceRef="ServiceTask_1kftoql" targetRef="ParallelGateway_045bihm" />
   </bpmn:process>
   <bpmn:process id="istruttoria_regione_id" name="Istruttoria Regione" isExecutable="true" camunda:candidateStarterGroups="Responsabile Regione" camunda:candidateStarterUsers="${regione}" camunda:versionTag="1.0">
     <bpmn:laneSet id="LaneSet_14egva7">
@@ -7416,9 +7593,9 @@ execution.getProcessEngineServices().getRuntimeService()
         </bpmndi:BPMNLabel>
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNShape id="IntermediateThrowEvent_0s6c7qo_di" bpmnElement="IntermediateThrowEvent_1cglo3f" bioc:stroke="rgb(30, 136, 229)" bioc:fill="rgb(187, 222, 251)">
-        <dc:Bounds x="2809" y="2312" width="36" height="36" />
+        <dc:Bounds x="2809" y="2402" width="36" height="36" />
         <bpmndi:BPMNLabel>
-          <dc:Bounds x="2793" y="2355" width="69" height="27" />
+          <dc:Bounds x="2792" y="2364.5" width="69" height="27" />
         </bpmndi:BPMNLabel>
       </bpmndi:BPMNShape>
       <bpmndi:BPMNEdge id="SequenceFlow_1tp4gwj_di" bpmnElement="SequenceFlow_1tp4gwj">
@@ -7871,8 +8048,8 @@ execution.getProcessEngineServices().getRuntimeService()
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="SequenceFlow_0plmjxb_di" bpmnElement="SequenceFlow_0plmjxb">
         <di:waypoint x="2364" y="2260" />
-        <di:waypoint x="2364" y="2330" />
-        <di:waypoint x="2809" y="2330" />
+        <di:waypoint x="2364" y="2420" />
+        <di:waypoint x="2809" y="2420" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNShape id="ServiceTask_1hjdnx0_di" bpmnElement="ServiceTask_1hjdnx0">
         <dc:Bounds x="4141" y="876" width="100" height="80" />
@@ -8505,67 +8682,69 @@ execution.getProcessEngineServices().getRuntimeService()
         <dc:Bounds x="8874" y="1566" width="50" height="50" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="ServiceTask_04u4z3e_di" bpmnElement="ServiceTask_04u4z3e">
-        <dc:Bounds x="9013" y="1183" width="100" height="80" />
+        <dc:Bounds x="9013" y="1140" width="100" height="80" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="ServiceTask_0g8ciin_di" bpmnElement="ServiceTask_0g8ciin">
-        <dc:Bounds x="9013" y="1273" width="100" height="80" />
+        <dc:Bounds x="9013" y="1240" width="100" height="80" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="ServiceTask_0l7jwdd_di" bpmnElement="ServiceTask_0l7jwdd">
-        <dc:Bounds x="9013" y="1551" width="100" height="80" />
+        <dc:Bounds x="9013" y="1510" width="100" height="80" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="ServiceTask_0r1q02j_di" bpmnElement="ServiceTask_0r1q02j">
-        <dc:Bounds x="9013" y="1361" width="100" height="80" />
+        <dc:Bounds x="9013" y="1330" width="100" height="80" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="ServiceTask_1ve1trg_di" bpmnElement="ServiceTask_1ve1trg">
-        <dc:Bounds x="9013" y="1456" width="100" height="80" />
+        <dc:Bounds x="9013" y="1420" width="100" height="80" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNEdge id="SequenceFlow_0ecn20s_di" bpmnElement="SequenceFlow_0ecn20s">
-        <di:waypoint x="9113" y="1313" />
-        <di:waypoint x="9214" y="1313" />
+        <di:waypoint x="9113" y="1280" />
+        <di:waypoint x="9214" y="1280" />
         <di:waypoint x="9214" y="1566" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="SequenceFlow_1c3z9hu_di" bpmnElement="SequenceFlow_1c3z9hu">
-        <di:waypoint x="9113" y="1401" />
-        <di:waypoint x="9214" y="1401" />
+        <di:waypoint x="9113" y="1370" />
+        <di:waypoint x="9214" y="1370" />
         <di:waypoint x="9214" y="1566" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="SequenceFlow_00qfvun_di" bpmnElement="SequenceFlow_00qfvun">
-        <di:waypoint x="9113" y="1223" />
-        <di:waypoint x="9214" y="1223" />
+        <di:waypoint x="9113" y="1180" />
+        <di:waypoint x="9214" y="1180" />
         <di:waypoint x="9214" y="1566" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="SequenceFlow_0xb3ufa_di" bpmnElement="SequenceFlow_0xb3ufa">
-        <di:waypoint x="9113" y="1496" />
-        <di:waypoint x="9214" y="1496" />
+        <di:waypoint x="9113" y="1460" />
+        <di:waypoint x="9214" y="1460" />
         <di:waypoint x="9214" y="1566" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="SequenceFlow_19ff6md_di" bpmnElement="SequenceFlow_19ff6md">
-        <di:waypoint x="9113" y="1591" />
-        <di:waypoint x="9189" y="1591" />
+        <di:waypoint x="9113" y="1550" />
+        <di:waypoint x="9214" y="1550" />
+        <di:waypoint x="9214" y="1566" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="SequenceFlow_0klxjp4_di" bpmnElement="SequenceFlow_0klxjp4">
         <di:waypoint x="8899" y="1566" />
-        <di:waypoint x="8899" y="1496" />
-        <di:waypoint x="9013" y="1496" />
+        <di:waypoint x="8899" y="1460" />
+        <di:waypoint x="9013" y="1460" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="SequenceFlow_0zb8dry_di" bpmnElement="SequenceFlow_0zb8dry">
         <di:waypoint x="8899" y="1566" />
-        <di:waypoint x="8899" y="1401" />
-        <di:waypoint x="9013" y="1401" />
+        <di:waypoint x="8899" y="1370" />
+        <di:waypoint x="9013" y="1370" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="SequenceFlow_04la32e_di" bpmnElement="SequenceFlow_04la32e">
         <di:waypoint x="8899" y="1566" />
-        <di:waypoint x="8899" y="1223" />
-        <di:waypoint x="9013" y="1223" />
+        <di:waypoint x="8899" y="1180" />
+        <di:waypoint x="9013" y="1180" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="SequenceFlow_0dd0ad1_di" bpmnElement="SequenceFlow_0dd0ad1">
         <di:waypoint x="8899" y="1566" />
-        <di:waypoint x="8899" y="1313" />
-        <di:waypoint x="9013" y="1313" />
+        <di:waypoint x="8899" y="1280" />
+        <di:waypoint x="9013" y="1280" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="SequenceFlow_1v8ma3q_di" bpmnElement="SequenceFlow_1v8ma3q">
-        <di:waypoint x="8924" y="1591" />
-        <di:waypoint x="9013" y="1591" />
+        <di:waypoint x="8899" y="1566" />
+        <di:waypoint x="8899" y="1550" />
+        <di:waypoint x="9013" y="1550" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNShape id="ScriptTask_0j3ag86_di" bpmnElement="ScriptTask_0j3ag86">
         <dc:Bounds x="8114" y="1126" width="100" height="80" />
@@ -10074,7 +10253,7 @@ execution.getProcessEngineServices().getRuntimeService()
         <dc:Bounds x="9080" y="2034" width="50" height="50" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="ServiceTask_0h6newb_di" bpmnElement="ServiceTask_0h6newb">
-        <dc:Bounds x="8921" y="2237" width="100" height="80" />
+        <dc:Bounds x="8921" y="2209" width="100" height="80" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="ServiceTask_057eshw_di" bpmnElement="ServiceTask_057eshw">
         <dc:Bounds x="8921" y="1742" width="100" height="80" />
@@ -10152,8 +10331,8 @@ execution.getProcessEngineServices().getRuntimeService()
         <di:waypoint x="9105" y="2034" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="SequenceFlow_0ho1smj_di" bpmnElement="SequenceFlow_0ho1smj">
-        <di:waypoint x="9021" y="2277" />
-        <di:waypoint x="9105" y="2277" />
+        <di:waypoint x="9021" y="2249" />
+        <di:waypoint x="9105" y="2249" />
         <di:waypoint x="9105" y="2084" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="SequenceFlow_1d4udp5_di" bpmnElement="SequenceFlow_1d4udp5">
@@ -10177,8 +10356,8 @@ execution.getProcessEngineServices().getRuntimeService()
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="SequenceFlow_1mlhvcl_di" bpmnElement="SequenceFlow_1mlhvcl">
         <di:waypoint x="8842" y="2084" />
-        <di:waypoint x="8842" y="2277" />
-        <di:waypoint x="8921" y="2277" />
+        <di:waypoint x="8842" y="2249" />
+        <di:waypoint x="8921" y="2249" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="SequenceFlow_0f67o6f_di" bpmnElement="SequenceFlow_0f67o6f">
         <di:waypoint x="8842" y="2031" />
@@ -10645,6 +10824,149 @@ execution.getProcessEngineServices().getRuntimeService()
         <di:waypoint x="11490" y="4340" />
         <di:waypoint x="11490" y="4395" />
         <di:waypoint x="11460" y="4395" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="ServiceTask_0ha9128_di" bpmnElement="ServiceTask_0ha9128">
+        <dc:Bounds x="2633" y="2270" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="SequenceFlow_16gzt9z_di" bpmnElement="SequenceFlow_16gzt9z">
+        <di:waypoint x="2550" y="1973" />
+        <di:waypoint x="2550" y="2320" />
+        <di:waypoint x="2633" y="2320" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="ServiceTask_04v9u0h_di" bpmnElement="ServiceTask_04v9u0h">
+        <dc:Bounds x="3474" y="1999" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="SequenceFlow_02c3anh_di" bpmnElement="SequenceFlow_02c3anh">
+        <di:waypoint x="3419" y="1973" />
+        <di:waypoint x="3419" y="2039" />
+        <di:waypoint x="3474" y="2039" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="SequenceFlow_0yykfol_di" bpmnElement="SequenceFlow_0yykfol">
+        <di:waypoint x="3574" y="2039" />
+        <di:waypoint x="3623" y="2039" />
+        <di:waypoint x="3623" y="1973" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="SequenceFlow_1sha6f4_di" bpmnElement="SequenceFlow_1sha6f4">
+        <di:waypoint x="2733" y="2310" />
+        <di:waypoint x="2807" y="2310" />
+        <di:waypoint x="2807" y="1973" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="ServiceTask_1xci3x9_di" bpmnElement="ServiceTask_1xci3x9">
+        <dc:Bounds x="3865" y="2280" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="SequenceFlow_0tm0c42_di" bpmnElement="SequenceFlow_0tm0c42">
+        <di:waypoint x="3799" y="1973" />
+        <di:waypoint x="3799" y="2321" />
+        <di:waypoint x="3865" y="2321" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="SequenceFlow_1b182d3_di" bpmnElement="SequenceFlow_1b182d3">
+        <di:waypoint x="3965" y="2320" />
+        <di:waypoint x="4020" y="2320" />
+        <di:waypoint x="4020" y="1973" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="ServiceTask_05ov092_di" bpmnElement="ServiceTask_05ov092">
+        <dc:Bounds x="3890" y="1330" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="SequenceFlow_1te9nfj_di" bpmnElement="SequenceFlow_1te9nfj">
+        <di:waypoint x="3820" y="1586" />
+        <di:waypoint x="3820" y="1370" />
+        <di:waypoint x="3890" y="1370" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="SequenceFlow_0fdd3py_di" bpmnElement="SequenceFlow_0fdd3py">
+        <di:waypoint x="3990" y="1370" />
+        <di:waypoint x="4050" y="1370" />
+        <di:waypoint x="4050" y="1535" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="ServiceTask_0k6mtl1_di" bpmnElement="ServiceTask_0k6mtl1">
+        <dc:Bounds x="8436" y="2209" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="SequenceFlow_158nzew_di" bpmnElement="SequenceFlow_158nzew">
+        <di:waypoint x="8378" y="2084" />
+        <di:waypoint x="8378" y="2249" />
+        <di:waypoint x="8436" y="2249" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="SequenceFlow_1u2lry6_di" bpmnElement="SequenceFlow_1u2lry6">
+        <di:waypoint x="8536" y="2249" />
+        <di:waypoint x="8597" y="2249" />
+        <di:waypoint x="8597" y="2084" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="ServiceTask_0j3eg8m_di" bpmnElement="ServiceTask_0j3eg8m">
+        <dc:Bounds x="8921" y="2299" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="SequenceFlow_1xf42bn_di" bpmnElement="SequenceFlow_1xf42bn">
+        <di:waypoint x="8842" y="2084" />
+        <di:waypoint x="8842" y="2350" />
+        <di:waypoint x="8921" y="2350" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="SequenceFlow_1e9m22v_di" bpmnElement="SequenceFlow_1e9m22v">
+        <di:waypoint x="9021" y="2339" />
+        <di:waypoint x="9105" y="2339" />
+        <di:waypoint x="9105" y="2084" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="ServiceTask_02bbue2_di" bpmnElement="ServiceTask_02bbue2">
+        <dc:Bounds x="9013" y="1610" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="SequenceFlow_0l7kdym_di" bpmnElement="SequenceFlow_0l7kdym">
+        <di:waypoint x="8899" y="1616" />
+        <di:waypoint x="8899" y="1660" />
+        <di:waypoint x="9013" y="1660" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="SequenceFlow_1omc9jt_di" bpmnElement="SequenceFlow_1omc9jt">
+        <di:waypoint x="9113" y="1660" />
+        <di:waypoint x="9214" y="1660" />
+        <di:waypoint x="9214" y="1616" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="ServiceTask_063dxss_di" bpmnElement="ServiceTask_063dxss">
+        <dc:Bounds x="10610" y="2310" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="SequenceFlow_0ybastr_di" bpmnElement="SequenceFlow_0ybastr">
+        <di:waypoint x="10527" y="2023" />
+        <di:waypoint x="10527" y="2350" />
+        <di:waypoint x="10610" y="2350" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="SequenceFlow_1dvbn99_di" bpmnElement="SequenceFlow_1dvbn99">
+        <di:waypoint x="10710" y="2350" />
+        <di:waypoint x="10784" y="2350" />
+        <di:waypoint x="10784" y="2023" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="ServiceTask_062to7r_di" bpmnElement="ServiceTask_062to7r">
+        <dc:Bounds x="11485" y="2240" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="SequenceFlow_11qytt0_di" bpmnElement="SequenceFlow_11qytt0">
+        <di:waypoint x="11430" y="2092" />
+        <di:waypoint x="11430" y="2280" />
+        <di:waypoint x="11485" y="2280" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="SequenceFlow_15ma13y_di" bpmnElement="SequenceFlow_15ma13y">
+        <di:waypoint x="11585" y="2280" />
+        <di:waypoint x="11634" y="2280" />
+        <di:waypoint x="11634" y="2092" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="ServiceTask_17im0bd_di" bpmnElement="ServiceTask_17im0bd">
+        <dc:Bounds x="11899" y="1838" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="SequenceFlow_1wtacnf_di" bpmnElement="SequenceFlow_1wtacnf">
+        <di:waypoint x="11826" y="2042" />
+        <di:waypoint x="11826" y="1870" />
+        <di:waypoint x="11899" y="1870" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="SequenceFlow_1bnpp1o_di" bpmnElement="SequenceFlow_1bnpp1o">
+        <di:waypoint x="11999" y="1878" />
+        <di:waypoint x="12075" y="1878" />
+        <di:waypoint x="12075" y="2042" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="ServiceTask_1kftoql_di" bpmnElement="ServiceTask_1kftoql">
+        <dc:Bounds x="11992" y="1250" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="SequenceFlow_188u4gm_di" bpmnElement="SequenceFlow_188u4gm">
+        <di:waypoint x="11897" y="1586" />
+        <di:waypoint x="11897" y="1290" />
+        <di:waypoint x="11992" y="1290" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="SequenceFlow_11v7iql_di" bpmnElement="SequenceFlow_11v7iql">
+        <di:waypoint x="12092" y="1290" />
+        <di:waypoint x="12194" y="1290" />
+        <di:waypoint x="12194" y="1485" />
       </bpmndi:BPMNEdge>
     </bpmndi:BPMNPlane>
   </bpmndi:BPMNDiagram>
