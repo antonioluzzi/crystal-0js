@@ -148,16 +148,13 @@
         <bpmn:flowNodeRef>ScriptTask_0eqir1w</bpmn:flowNodeRef>
       </bpmn:lane>
       <bpmn:lane id="Lane_1vipss5" name="Valutatore">
-        <bpmn:flowNodeRef>ServiceTask_0ykaplt</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>UserTask_1ivbzc3</bpmn:flowNodeRef>
-        <bpmn:flowNodeRef>sez_accoglibilita_valutatore_genera_richiesta_di_non_accoglibilita</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>ServiceTask_1qnlcmt</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>ParallelGateway_045bihm</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>ParallelGateway_1ap6qyk</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>ServiceTask_1av5cjg</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>ServiceTask_0uiwcvc</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>ServiceTask_1sa64q4</bpmn:flowNodeRef>
-        <bpmn:flowNodeRef>ParallelGateway_0u2e9fr</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>preavvisoRigettoInammissibilitaLink</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>UserTask_1e86x21</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>ScriptTask_00xdyhn</bpmn:flowNodeRef>
@@ -183,7 +180,6 @@
         <bpmn:flowNodeRef>ParallelGateway_05lx7m2</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>ScriptTask_0j3ag86</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>ExclusiveGateway_15wuodq</bpmn:flowNodeRef>
-        <bpmn:flowNodeRef>IntermediateThrowEvent_11ljddg</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>ExclusiveGateway_0jvzaef</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>IntermediateThrowEvent_0sijgmp</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>Task_0wht5gf</bpmn:flowNodeRef>
@@ -198,7 +194,6 @@
         <bpmn:flowNodeRef>ExclusiveGateway_1mpcsat</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>ParallelGateway_11cy0rx</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>ServiceTask_0lf2nmm</bpmn:flowNodeRef>
-        <bpmn:flowNodeRef>UserTask_1e2bt59</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>ParallelGateway_0x1tm0q</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>ServiceTask_0d14t3u</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>ServiceTask_1sud220</bpmn:flowNodeRef>
@@ -211,7 +206,6 @@
         <bpmn:flowNodeRef>ParallelGateway_01stlsf</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>ServiceTask_0l58n3q</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>Task_15s8wm7</bpmn:flowNodeRef>
-        <bpmn:flowNodeRef>sez_accoglibilita_valutatore_controdeduzione</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>Task_1y6pxld</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>ExclusiveGateway_15xsb5g</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>IntermediateThrowEvent_1nzlzh1</bpmn:flowNodeRef>
@@ -225,7 +219,6 @@
         <bpmn:flowNodeRef>IntermediateThrowEvent_1c6949b</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>ExclusiveGateway_041gdje</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>BoundaryEvent_01titbf</bpmn:flowNodeRef>
-        <bpmn:flowNodeRef>BoundaryEvent_19rvfdn</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>ScriptTask_0uu0hlk</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>ScriptTask_0aux4us</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>ScriptTask_1vn02o8</bpmn:flowNodeRef>
@@ -238,12 +231,19 @@
         <bpmn:flowNodeRef>ServiceTask_0l7jwdd</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>ServiceTask_02bbue2</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>ServiceTask_1kftoql</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>sez_accoglibilita_valutatore_controdeduzione</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ServiceTask_1nppm58</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ParallelGateway_0u2e9fr</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>sez_accoglibilita_valutatore_genera_richiesta_di_non_accoglibilita</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>BoundaryEvent_19rvfdn</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ServiceTask_0z9af9d</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ServiceTask_0ykaplt</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>UserTask_1e2bt59</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ServiceTask_0z9zsy6</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>IntermediateThrowEvent_11ljddg</bpmn:flowNodeRef>
       </bpmn:lane>
       <bpmn:lane id="Lane_0ws7dbo" name="Program Manager">
         <bpmn:flowNodeRef>ScriptTask_0rejwj2</bpmn:flowNodeRef>
-        <bpmn:flowNodeRef>IntermediateThrowEvent_0cypt5k</bpmn:flowNodeRef>
-        <bpmn:flowNodeRef>Task_1klh81g</bpmn:flowNodeRef>
-        <bpmn:flowNodeRef>IntermediateThrowEvent_1rg6480</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>ScriptTask_11f540a</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>IntermediateCatchEvent_1qsjlat</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>ServiceTask_1yiqfiy</bpmn:flowNodeRef>
@@ -283,11 +283,6 @@
         <bpmn:flowNodeRef>ParallelGateway_0bzloh7</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>IntermediateCatchEvent_1pu9i74</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>ScriptTask_0w0t0uy</bpmn:flowNodeRef>
-        <bpmn:flowNodeRef>ServiceTask_0m7o8x8</bpmn:flowNodeRef>
-        <bpmn:flowNodeRef>ServiceTask_0mmnij6</bpmn:flowNodeRef>
-        <bpmn:flowNodeRef>ServiceTask_1m83udq</bpmn:flowNodeRef>
-        <bpmn:flowNodeRef>ServiceTask_1ekbtzi</bpmn:flowNodeRef>
-        <bpmn:flowNodeRef>ServiceTask_04xurd7</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>ParallelGateway_0dyvhme</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>ServiceTask_0kti9xn</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>ParallelGateway_03t94fx</bpmn:flowNodeRef>
@@ -326,7 +321,6 @@
         <bpmn:flowNodeRef>ServiceTask_0sdf7nb</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>ParallelGateway_1isrlyk</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>ExclusiveGateway_1norze6</bpmn:flowNodeRef>
-        <bpmn:flowNodeRef>UserTask_04c0dpd</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>ServiceTask_0smba7j</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>ServiceTask_1t5qedj</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>ServiceTask_0l70qcq</bpmn:flowNodeRef>
@@ -415,19 +409,14 @@
         <bpmn:flowNodeRef>IntermediateThrowEvent_1gf02eg</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>ServiceTask_0453esv</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>EndEvent_1rv1fon</bpmn:flowNodeRef>
-        <bpmn:flowNodeRef>Task_19c5gfz</bpmn:flowNodeRef>
-        <bpmn:flowNodeRef>ServiceTask_04gz3xk</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>ParallelGateway_0ca03l4</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>ParallelGateway_1jsrk52</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>ScriptTask_09bgivb</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>IntermediateCatchEvent_0ghyjnu</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>ExclusiveGateway_0fczzok</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>ServiceTask_0fd6oui</bpmn:flowNodeRef>
-        <bpmn:flowNodeRef>ServiceTask_1qafp6l</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>ScriptTask_1y6jlrg</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>ScriptTask_1scicnz</bpmn:flowNodeRef>
-        <bpmn:flowNodeRef>ServiceTask_1y4vzs3</bpmn:flowNodeRef>
-        <bpmn:flowNodeRef>Task_1qslotm</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>IntermediateThrowEvent_1cglo3f</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>ServiceTask_0ha9128</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>ServiceTask_1xci3x9</bpmn:flowNodeRef>
@@ -438,6 +427,23 @@
         <bpmn:flowNodeRef>ServiceTask_063dxss</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>ServiceTask_062to7r</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>ServiceTask_17im0bd</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ServiceTask_1xcj9ka</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ServiceTask_1ekbtzi</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ServiceTask_0vgiu7w</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ServiceTask_04xurd7</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ServiceTask_0m7o8x8</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ServiceTask_0mmnij6</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Task_1klh81g</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>IntermediateThrowEvent_0cypt5k</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ServiceTask_0v7k138</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Task_19c5gfz</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ServiceTask_142oa2j</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>UserTask_04c0dpd</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ServiceTask_1qafp6l</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ServiceTask_0wc76kf</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>IntermediateThrowEvent_1rg6480</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Task_1qslotm</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ServiceTask_0jlzkf3</bpmn:flowNodeRef>
       </bpmn:lane>
     </bpmn:laneSet>
     <bpmn:sequenceFlow id="SequenceFlow_13ia2bi" sourceRef="ScriptTask_0eqir1w" targetRef="UserTask_1huvg78" />
@@ -462,14 +468,12 @@
     <bpmn:sequenceFlow id="SequenceFlow_1gyy9il" sourceRef="ServiceTask_0m7o8x8" targetRef="ParallelGateway_0dyvhme" />
     <bpmn:sequenceFlow id="SequenceFlow_0npuk7t" sourceRef="ServiceTask_0mmnij6" targetRef="ParallelGateway_0dyvhme" />
     <bpmn:sequenceFlow id="SequenceFlow_1xkgmnp" sourceRef="ServiceTask_1ekbtzi" targetRef="ParallelGateway_0dyvhme" />
-    <bpmn:sequenceFlow id="SequenceFlow_0o8niv5" sourceRef="ServiceTask_1m83udq" targetRef="ParallelGateway_0dyvhme" />
     <bpmn:sequenceFlow id="SequenceFlow_0alo9ks" sourceRef="ServiceTask_0kti9xn" targetRef="ParallelGateway_0dyvhme" />
     <bpmn:sequenceFlow id="SequenceFlow_09k397l" sourceRef="ParallelGateway_03t94fx" targetRef="ServiceTask_04xurd7" />
     <bpmn:sequenceFlow id="SequenceFlow_16coo34" sourceRef="ParallelGateway_03t94fx" targetRef="ServiceTask_0m7o8x8" />
     <bpmn:sequenceFlow id="SequenceFlow_1u2h7g7" sourceRef="ParallelGateway_03t94fx" targetRef="ServiceTask_0mmnij6" />
     <bpmn:sequenceFlow id="SequenceFlow_16m8ln3" sourceRef="ParallelGateway_03t94fx" targetRef="ServiceTask_1ekbtzi" />
     <bpmn:sequenceFlow id="SequenceFlow_16hk5gs" sourceRef="ParallelGateway_03t94fx" targetRef="ServiceTask_0kti9xn" />
-    <bpmn:sequenceFlow id="SequenceFlow_1ovk96z" sourceRef="ParallelGateway_03t94fx" targetRef="ServiceTask_1m83udq" />
     <bpmn:sequenceFlow id="SequenceFlow_1bj1nvg" sourceRef="ScriptTask_0w0t0uy" targetRef="ParallelGateway_03t94fx" />
     <bpmn:sequenceFlow id="SequenceFlow_19sy03v" sourceRef="ParallelGateway_1q8tm21" targetRef="IntermediateThrowEvent_1q6kx1q" />
     <bpmn:sequenceFlow id="SequenceFlow_0vec0fa" sourceRef="ParallelGateway_1pooep7" targetRef="IntermediateThrowEvent_0nqfjpo" />
@@ -499,7 +503,7 @@
     <bpmn:sequenceFlow id="SequenceFlow_0g7d1un" sourceRef="ParallelGateway_0okdgnk" targetRef="ServiceTask_18w9p8p" />
     <bpmn:sequenceFlow id="SequenceFlow_0ouhuu8" sourceRef="ServiceTask_07wtxdu" targetRef="ParallelGateway_0df7f3f" />
     <bpmn:sequenceFlow id="SequenceFlow_1qn4edu" sourceRef="ParallelGateway_0okdgnk" targetRef="ServiceTask_07wtxdu" />
-    <bpmn:sequenceFlow id="SequenceFlow_0lqh0xd" sourceRef="ParallelGateway_0x184r4" targetRef="Task_1qslotm" />
+    <bpmn:sequenceFlow id="SequenceFlow_0lqh0xd" sourceRef="ParallelGateway_0x184r4" targetRef="ServiceTask_0jlzkf3" />
     <bpmn:sequenceFlow id="SequenceFlow_19zw6i1" name="negativo" sourceRef="ExclusiveGateway_1lypshb" targetRef="ParallelGateway_0okdgnk">
       <bpmn:conditionExpression xsi:type="bpmn:tFormalExpression">${confermaEsitoInamm==false}</bpmn:conditionExpression>
     </bpmn:sequenceFlow>
@@ -537,7 +541,7 @@
     <bpmn:sequenceFlow id="SequenceFlow_1ivlhyq" sourceRef="ServiceTask_1tu3r50" targetRef="ParallelGateway_1lsezih" />
     <bpmn:sequenceFlow id="SequenceFlow_140otw5" sourceRef="ParallelGateway_1irne4h" targetRef="ServiceTask_1hmg4ow" />
     <bpmn:sequenceFlow id="SequenceFlow_15awwpg" sourceRef="BoundaryEvent_01titbf" targetRef="ServiceTask_1qafp6l" />
-    <bpmn:sequenceFlow id="SequenceFlow_0cqdqfi" sourceRef="ServiceTask_1qafp6l" targetRef="IntermediateThrowEvent_1rg6480" />
+    <bpmn:sequenceFlow id="SequenceFlow_0cqdqfi" sourceRef="ServiceTask_1qafp6l" targetRef="ServiceTask_0wc76kf" />
     <bpmn:sequenceFlow id="SequenceFlow_1cd2r2i" sourceRef="ScriptTask_0rejwj2" targetRef="ScriptTask_1scicnz" />
     <bpmn:sequenceFlow id="SequenceFlow_01j9pq2" sourceRef="ServiceTask_1jbmsq4" targetRef="ParallelGateway_045bihm" />
     <bpmn:sequenceFlow id="SequenceFlow_1r2k6pf" sourceRef="ParallelGateway_11cy0rx" targetRef="ServiceTask_1bioqhb" />
@@ -553,7 +557,7 @@
     <bpmn:sequenceFlow id="SequenceFlow_09k5upk" sourceRef="ServiceTask_149be69" targetRef="ParallelGateway_1irne4h" />
     <bpmn:sequenceFlow id="SequenceFlow_0lumumn" sourceRef="ServiceTask_1azll4w" targetRef="ParallelGateway_1irne4h" />
     <bpmn:sequenceFlow id="SequenceFlow_1g2yo2k" sourceRef="ParallelGateway_19bblnb" targetRef="ServiceTask_1azll4w" />
-    <bpmn:sequenceFlow id="SequenceFlow_0kmwrmj" sourceRef="ScriptTask_03y2vev" targetRef="UserTask_1e2bt59" />
+    <bpmn:sequenceFlow id="SequenceFlow_0kmwrmj" sourceRef="ScriptTask_03y2vev" targetRef="ServiceTask_0z9zsy6" />
     <bpmn:sequenceFlow id="SequenceFlow_1kis99b" sourceRef="ScriptTask_1eronry" targetRef="UserTask_1e2bt59" />
     <bpmn:sequenceFlow id="SequenceFlow_1ca2ewc" sourceRef="ExclusiveGateway_193llke" targetRef="IntermediateCatchEvent_1pu9i74" />
     <bpmn:sequenceFlow id="SequenceFlow_194yj1q" sourceRef="ParallelGateway_1e3ik5v" targetRef="ServiceTask_13oepzi" />
@@ -578,7 +582,7 @@
     <bpmn:sequenceFlow id="SequenceFlow_0f3xzcf" sourceRef="ParallelGateway_0bzloh7" targetRef="ServiceTask_15o03z5" />
     <bpmn:sequenceFlow id="SequenceFlow_03te3xh" sourceRef="ParallelGateway_0bzloh7" targetRef="ServiceTask_0t4cvr5" />
     <bpmn:sequenceFlow id="SequenceFlow_1j29yyb" sourceRef="IntermediateCatchEvent_1pu9i74" targetRef="ParallelGateway_0bzloh7" />
-    <bpmn:sequenceFlow id="SequenceFlow_1mv0os2" sourceRef="ParallelGateway_0dyvhme" targetRef="Task_054vd1s" />
+    <bpmn:sequenceFlow id="SequenceFlow_1mv0os2" sourceRef="ParallelGateway_0dyvhme" targetRef="ServiceTask_0vgiu7w" />
     <bpmn:sequenceFlow id="SequenceFlow_1pz6nvz" sourceRef="ScriptTask_1akkpy4" targetRef="ParallelGateway_0bbkklr" />
     <bpmn:sequenceFlow id="SequenceFlow_13jg34f" sourceRef="ServiceTask_1gg0apy" targetRef="ParallelGateway_1q8tm21" />
     <bpmn:sequenceFlow id="SequenceFlow_1gvdd6u" sourceRef="ServiceTask_0sdf7nb" targetRef="ParallelGateway_1q8tm21" />
@@ -655,8 +659,7 @@
     <bpmn:sequenceFlow id="SequenceFlow_1ypaa0h" sourceRef="ServiceTask_10o2nnc" targetRef="ParallelGateway_18m59q7" />
     <bpmn:sequenceFlow id="SequenceFlow_1r4465f" sourceRef="ParallelGateway_031vjm5" targetRef="ServiceTask_10o2nnc" />
     <bpmn:sequenceFlow id="SequenceFlow_1xrjsf0" sourceRef="ParallelGateway_031vjm5" targetRef="ServiceTask_0n0qjlc" />
-    <bpmn:sequenceFlow id="SequenceFlow_1imsgfe" sourceRef="ParallelGateway_18m59q7" targetRef="Task_19c5gfz" />
-    <bpmn:sequenceFlow id="SequenceFlow_0phc5h5" sourceRef="Task_19c5gfz" targetRef="ServiceTask_1y4vzs3" />
+    <bpmn:sequenceFlow id="SequenceFlow_0phc5h5" sourceRef="Task_19c5gfz" targetRef="ExclusiveGateway_03oxyr1" />
     <bpmn:sequenceFlow id="SequenceFlow_1qttd33" sourceRef="IntermediateCatchEvent_1bprvgw" targetRef="Task_17yngde" />
     <bpmn:sequenceFlow id="SequenceFlow_1bgduyd" sourceRef="Task_17yngde" targetRef="ExclusiveGateway_14hwrdl" />
     <bpmn:sequenceFlow id="SequenceFlow_1uky38t" sourceRef="ExclusiveGateway_03oxyr1" targetRef="IntermediateCatchEvent_1bprvgw" />
@@ -712,7 +715,7 @@
     <bpmn:sequenceFlow id="SequenceFlow_134zkep" sourceRef="ParallelGateway_0znb9lr" targetRef="ServiceTask_1st93o2" />
     <bpmn:sequenceFlow id="SequenceFlow_1lha47u" sourceRef="ServiceTask_1st93o2" targetRef="ParallelGateway_01tfunz" />
     <bpmn:sequenceFlow id="SequenceFlow_0fzfthv" sourceRef="ParallelGateway_0znb9lr" targetRef="ServiceTask_14i7v64" />
-    <bpmn:sequenceFlow id="SequenceFlow_1x3mgxe" sourceRef="ExclusiveGateway_0qfiyks" targetRef="Task_02unbz4" />
+    <bpmn:sequenceFlow id="SequenceFlow_1x3mgxe" sourceRef="ExclusiveGateway_0qfiyks" targetRef="ServiceTask_1xcj9ka" />
     <bpmn:sequenceFlow id="SequenceFlow_0r2daz1" sourceRef="ExclusiveGateway_170oamb" targetRef="Task_0qa06xw" />
     <bpmn:sequenceFlow id="SequenceFlow_0jh6hxb" sourceRef="ExclusiveGateway_170oamb" targetRef="Task_0zbf6c7" />
     <bpmn:sequenceFlow id="SequenceFlow_197uop7" sourceRef="ExclusiveGateway_170oamb" targetRef="Task_09ndd6s" />
@@ -755,7 +758,7 @@
     <bpmn:sequenceFlow id="SequenceFlow_0nok35x" sourceRef="ExclusiveGateway_138tqy3" targetRef="ServiceTask_1pdcwuy" />
     <bpmn:sequenceFlow id="SequenceFlow_1n61v1r" sourceRef="ScriptTask_1pjhf74" targetRef="ExclusiveGateway_138tqy3" />
     <bpmn:sequenceFlow id="SequenceFlow_02nzruk" sourceRef="Task_0fzy523" targetRef="ParallelGateway_1y1scsz" />
-    <bpmn:sequenceFlow id="SequenceFlow_0s5aoyv" sourceRef="BoundaryEvent_19rvfdn" targetRef="Task_1klh81g" />
+    <bpmn:sequenceFlow id="SequenceFlow_0s5aoyv" sourceRef="BoundaryEvent_19rvfdn" targetRef="ServiceTask_0v7k138" />
     <bpmn:sequenceFlow id="SequenceFlow_0g6cbos" name="negativo" sourceRef="ExclusiveGateway_041gdje" targetRef="Task_0fzy523" />
     <bpmn:sequenceFlow id="SequenceFlow_0lhp60k" sourceRef="Task_13g9g4n" targetRef="ExclusiveGateway_1nje0nm" />
     <bpmn:sequenceFlow id="SequenceFlow_0g4oixr" name="no" sourceRef="ExclusiveGateway_1nje0nm" targetRef="ExclusiveGateway_08i8m7z">
@@ -766,7 +769,7 @@
       <bpmn:conditionExpression xsi:type="bpmn:tFormalExpression">${isAccoglibile==true}</bpmn:conditionExpression>
     </bpmn:sequenceFlow>
     <bpmn:sequenceFlow id="SequenceFlow_09thumn" sourceRef="Task_1n53ny3" targetRef="sez_accoglibilita_pm_preavviso_rigetto" />
-    <bpmn:sequenceFlow id="SequenceFlow_0fepwg0" sourceRef="IntermediateCatchEvent_15rey7c" targetRef="sez_accoglibilita_valutatore_controdeduzione" />
+    <bpmn:sequenceFlow id="SequenceFlow_0fepwg0" sourceRef="IntermediateCatchEvent_15rey7c" targetRef="ServiceTask_1nppm58" />
     <bpmn:sequenceFlow id="SequenceFlow_1svazpx" sourceRef="IntermediateCatchEvent_1n9romm" targetRef="ExclusiveGateway_12xkc49" />
     <bpmn:sequenceFlow id="SequenceFlow_1p5b3ln" name="positivo" sourceRef="ExclusiveGateway_15xsb5g" targetRef="ParallelGateway_1kolpkd">
       <bpmn:conditionExpression xsi:type="bpmn:tFormalExpression">${valutazioneControdeduzione==true}</bpmn:conditionExpression>
@@ -922,7 +925,7 @@
     <bpmn:sequenceFlow id="SequenceFlow_0wjnh85" sourceRef="ParallelGateway_11cy0rx" targetRef="ServiceTask_1qnlcmt" />
     <bpmn:sequenceFlow id="SequenceFlow_19dp9y5" sourceRef="ServiceTask_1qnlcmt" targetRef="ParallelGateway_045bihm" />
     <bpmn:sequenceFlow id="SequenceFlow_1drnfr7" sourceRef="UserTask_1ivbzc3" targetRef="ScriptTask_1vn02o8" />
-    <bpmn:sequenceFlow id="SequenceFlow_13hpgzp" sourceRef="ScriptTask_00xdyhn" targetRef="ServiceTask_0ykaplt" />
+    <bpmn:sequenceFlow id="SequenceFlow_13hpgzp" sourceRef="ScriptTask_00xdyhn" targetRef="ServiceTask_0z9af9d" />
     <bpmn:sequenceFlow id="SequenceFlow_04nlu7l" sourceRef="ServiceTask_0ykaplt" targetRef="ExclusiveGateway_0ritsuo" />
     <bpmn:sequenceFlow id="SequenceFlow_0pj402k" sourceRef="ParallelGateway_04tk5jt" targetRef="ServiceTask_0f6i804" />
     <bpmn:sequenceFlow id="SequenceFlow_1dggnrj" sourceRef="ParallelGateway_0605ote" targetRef="ServiceTask_0lubyl3" />
@@ -947,23 +950,13 @@
     <bpmn:sequenceFlow id="SequenceFlow_10hyv7z" sourceRef="ServiceTask_1g1glei" targetRef="UserTask_0s65z0k" />
     <bpmn:sequenceFlow id="SequenceFlow_16zrvcf" sourceRef="ScriptTask_0681hoj" targetRef="IntermediateThrowEvent_1gf02eg" />
     <bpmn:sequenceFlow id="SequenceFlow_0tdh390" sourceRef="ServiceTask_0453esv" targetRef="EndEvent_1rv1fon" />
-    <bpmn:sequenceFlow id="SequenceFlow_0qyn7ql" sourceRef="ServiceTask_1y4vzs3" targetRef="ExclusiveGateway_03oxyr1" />
-    <bpmn:sequenceFlow id="SequenceFlow_0qjn7fv" sourceRef="ServiceTask_04gz3xk" targetRef="ExclusiveGateway_0jsqx59" />
     <bpmn:sequenceFlow id="SequenceFlow_0mg90oe" sourceRef="ScriptTask_09bgivb" targetRef="ParallelGateway_0ca03l4" />
     <bpmn:sequenceFlow id="SequenceFlow_1xqkf26" sourceRef="IntermediateCatchEvent_0ghyjnu" targetRef="ScriptTask_09bgivb" />
     <bpmn:sequenceFlow id="SequenceFlow_023qoqo" sourceRef="ServiceTask_0fd6oui" targetRef="ExclusiveGateway_0fczzok" />
-    <bpmn:boundaryEvent id="BoundaryEvent_19rvfdn" name="Ricevo Controdeduzione" attachedToRef="sez_accoglibilita_valutatore_genera_richiesta_di_non_accoglibilita">
-      <bpmn:outgoing>SequenceFlow_0s5aoyv</bpmn:outgoing>
-      <bpmn:messageEventDefinition id="MessageEventDefinition_10udbn5" messageRef="Message_0p8q6q6" />
-    </bpmn:boundaryEvent>
     <bpmn:boundaryEvent id="BoundaryEvent_01titbf" attachedToRef="UserTask_1ivbzc3">
       <bpmn:outgoing>SequenceFlow_15awwpg</bpmn:outgoing>
       <bpmn:messageEventDefinition id="MessageEventDefinition_0bcsnyf" messageRef="Message_0zdimnl" />
     </bpmn:boundaryEvent>
-    <bpmn:serviceTask id="ServiceTask_1qafp6l" name="update skeda ammissibilita con owner null" camunda:class="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.LoggerDelegate">
-      <bpmn:incoming>SequenceFlow_15awwpg</bpmn:incoming>
-      <bpmn:outgoing>SequenceFlow_0cqdqfi</bpmn:outgoing>
-    </bpmn:serviceTask>
     <bpmn:serviceTask id="ServiceTask_0fd6oui" name="Notifica Regione" camunda:class="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationCompletaRegioneTask">
       <bpmn:extensionElements>
         <camunda:inputOutput>
@@ -1001,89 +994,6 @@
       <bpmn:outgoing>SequenceFlow_187ja09</bpmn:outgoing>
       <bpmn:outgoing>SequenceFlow_002k98l</bpmn:outgoing>
     </bpmn:parallelGateway>
-    <bpmn:serviceTask id="ServiceTask_04gz3xk" name="Notifica Regione" camunda:class="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationCompletaRegioneTask">
-      <bpmn:extensionElements>
-        <camunda:inputOutput>
-          <camunda:inputParameter name="from">${pm}</camunda:inputParameter>
-          <camunda:inputParameter name="message">Richiesta di non accoglibilita</camunda:inputParameter>
-          <camunda:inputParameter name="to">${regione}</camunda:inputParameter>
-          <camunda:inputParameter name="codicePratica">${codicePratica}</camunda:inputParameter>
-        </camunda:inputOutput>
-      </bpmn:extensionElements>
-      <bpmn:incoming>SequenceFlow_0z3sifw</bpmn:incoming>
-      <bpmn:outgoing>SequenceFlow_0qjn7fv</bpmn:outgoing>
-    </bpmn:serviceTask>
-    <bpmn:scriptTask id="Task_19c5gfz" name="notifica regione" scriptFormat="groovy">
-      <bpmn:incoming>SequenceFlow_1imsgfe</bpmn:incoming>
-      <bpmn:outgoing>SequenceFlow_0phc5h5</bpmn:outgoing>
-      <bpmn:script>String businessKey = (String) execution.getProcessBusinessKey();			
-String autorizzatoreConfidi = (String) execution.getVariable("autorizzatoreConfidi");
-String autorizzatoreSF = (String) execution.getVariable("autorizzatoreSF");
-String autorizzatoreSFGroup = (String) execution.getVariable("autorizzatoreSFGroup");
-String codiceIstruttoria = (String) execution.getVariable("codiceIstruttoria");
-String codicePratica = (String) execution.getVariable("codicePratica");
-String impresa = (String) execution.getVariable("impresa");
-String impresaGroup = (String) execution.getVariable("impresaGroup");
-String numeroProtocollo = (String) execution.getVariable("numeroProtocollo");
-String operatore_sf = (String) execution.getVariable("operatore_sf");
-String operatoresfGroup = (String) execution.getVariable("operatoresfGroup");
-String pm = (String) execution.getVariable("pm");
-String pmGroup = (String) execution.getVariable("pmGroup");
-String processDefinitionKey = (String) execution.getVariable("processDefinitionKey");
-String responsabileGroup = (String) execution.getVariable("responsabileGroup");
-String responsabile = (String) execution.getVariable("responsabile");
-String stato_istruttoria = (String) execution.getVariable("stato_istruttoria");
-String valutatore = (String) execution.getVariable("valutatore");
-String valutatoreGroup  = (String) execution.getVariable("valutatoreGroup");
-String regione = (String) execution.getVariable("regione");
-String regioneGroup = (String) execution.getVariable("regioneGroup");	
-String payload = (String) execution.getVariable("payload");
-println 'businessKey =  '+ businessKey ;			
-println 'autorizzatoreConfidi =  '+ autorizzatoreConfidi ;
-println 'autorizzatoreSF =  '+ autorizzatoreSF;
-println 'autorizzatoreSFGroup =  ' +autorizzatoreSFGroup;
-println 'codiceIstruttoria =  ' +codiceIstruttoria;
-println 'codicePratica =  ' +codicePratica;
-println 'impresa =  ' +impresa;
-println 'impresaGroup =  ' +impresaGroup;
-println 'numeroProtocollo =  ' +numeroProtocollo;
-println 'operatore_sf =  ' +operatore_sf;
-println 'operatoresfGroup =  ' +operatoresfGroup;
-println 'pm =  ' +pm;
-println 'pmGroup =  ' +pmGroup;
-println 'processDefinitionKey =  ' +processDefinitionKey;
-println 'responsabileGroup =  ' +responsabileGroup;
-println 'responsabile =  ' +responsabile;
-println 'stato_istruttoria =  ' +stato_istruttoria;
-println 'valutatore =  ' +valutatore;
-println 'valutatoreGroup  =  ' +valutatoreGroup;
-println 'regione =  ' +regione;
-println 'regioneGroup =  ' +regioneGroup;	
-println 'payload =  ' +payload;
-execution.getProcessEngineServices().getRuntimeService()
-			.createMessageCorrelation("Message_PreavvisoComunicazioneNonAccoglibilita").processInstanceBusinessKey(businessKey)
-.setVariable("autorizzatoreConfidi", autorizzatoreConfidi)
-.setVariable("autorizzatoreSF", autorizzatoreSF)
-.setVariable("autorizzatoreSFGroup", autorizzatoreSFGroup)
-.setVariable("codiceIstruttoria", codiceIstruttoria)
-.setVariable("codicePratica", codicePratica)
-.setVariable("impresa",impresa)
-.setVariable("impresaGroup",impresaGroup)
-.setVariable("numeroProtocollo",numeroProtocollo)
-.setVariable("operatore_sf",operatore_sf)
-.setVariable("operatoresfGroup", operatoresfGroup)
-.setVariable("pm", pm)
-.setVariable("pmGroup", pmGroup)
-.setVariable("responsabileGroup", responsabileGroup)
-.setVariable("responsabile",responsabile)
-.setVariable("stato_istruttoria",stato_istruttoria)
-.setVariable("valutatore",valutatore)
-.setVariable("valutatoreGroup",valutatoreGroup)
-.setVariable("regione",regione)
-.setVariable("regioneGroup",regioneGroup)
-.setVariable("payload",payload)
-			.correlate();</bpmn:script>
-    </bpmn:scriptTask>
     <bpmn:endEvent id="EndEvent_1rv1fon" name="Lancia Segnale Fine Istruttoria">
       <bpmn:incoming>SequenceFlow_0tdh390</bpmn:incoming>
       <bpmn:signalEventDefinition id="SignalEventDefinition_1pnfqko" signalRef="Signal_090zcqp" />
@@ -1908,7 +1818,7 @@ execution.setVariable("regioneGroup",regioneGroup);</camunda:script>
       <bpmn:outgoing>SequenceFlow_1lha47u</bpmn:outgoing>
     </bpmn:serviceTask>
     <bpmn:scriptTask id="Task_02unbz4" name="invia notifica impresa" scriptFormat="groovy">
-      <bpmn:incoming>SequenceFlow_1x3mgxe</bpmn:incoming>
+      <bpmn:incoming>SequenceFlow_077t7fh</bpmn:incoming>
       <bpmn:outgoing>SequenceFlow_0w4af6t</bpmn:outgoing>
       <bpmn:script>String businessKey = (String) execution.getProcessBusinessKey();			
 String autorizzatoreConfidi = (String) execution.getVariable("autorizzatoreConfidi");
@@ -1995,37 +1905,6 @@ execution.getProcessEngineServices().getRuntimeService()
       <bpmn:incoming>SequenceFlow_1ml2zza</bpmn:incoming>
       <bpmn:outgoing>SequenceFlow_0dwwfgr</bpmn:outgoing>
     </bpmn:serviceTask>
-    <bpmn:userTask id="sez_accoglibilita_valutatore_controdeduzione" name="Riceve Controdeduzione" camunda:assignee="${valutatore}" camunda:candidateGroups="${valutatoreGroup}">
-      <bpmn:extensionElements>
-        <camunda:formData>
-          <camunda:formField id="codicePratica" label="Num. Pratica" type="string" defaultValue="${codicePratica}">
-            <camunda:validation>
-              <camunda:constraint name="readonly" />
-            </camunda:validation>
-          </camunda:formField>
-          <camunda:formField id="controdeduzione" label="Contro Deduzione" type="string" defaultValue="${controdeduzione}">
-            <camunda:validation>
-              <camunda:constraint name="readonly" />
-            </camunda:validation>
-          </camunda:formField>
-          <camunda:formField id="valutazioneControdeduzione" label="Valutazione Controdeduzione" type="boolean" defaultValue="true" />
-          <camunda:formField id="codiceIstruttoria" label="Codice Istruttoria" type="string" defaultValue="${codiceIstruttoria}">
-            <camunda:validation>
-              <camunda:constraint name="readonly" />
-            </camunda:validation>
-          </camunda:formField>
-        </camunda:formData>
-        <camunda:properties>
-          <camunda:property name="form_type" value="notifica" />
-          <camunda:property name="codice_scheda" value="CONTRODEDUZIONI" />
-          <camunda:property name="azioni_owner" value="[{&#34;type&#34;:&#34;button&#34;,&#34;label&#34;:&#34;Accogli&#34;,&#34;wf_var_name&#34;:&#34;valutazioneControdeduzione&#34;,&#34;wf_var_value&#34;:true,&#34;url&#34;:&#34;controdeduzioni/valida&#34;,&#34;method&#34;:&#34;POST&#34;,&#34;position&#34;:0},{&#34;type&#34;:&#34;button&#34;,&#34;label&#34;:&#34;Respingi&#34;,&#34;wf_var_name&#34;:&#34;valutazioneControdeduzione&#34;,&#34;wf_var_value&#34;:false,&#34;url&#34;:&#34;controdeduzioni/respingi&#34;,&#34;method&#34;:&#34;POST&#34;,&#34;position&#34;:1}]" />
-          <camunda:property name="destinatario" value="${responsabile}" />
-        </camunda:properties>
-      </bpmn:extensionElements>
-      <bpmn:incoming>SequenceFlow_1q9zqo4</bpmn:incoming>
-      <bpmn:incoming>SequenceFlow_0fepwg0</bpmn:incoming>
-      <bpmn:outgoing>SequenceFlow_1ml2zza</bpmn:outgoing>
-    </bpmn:userTask>
     <bpmn:scriptTask id="Task_15s8wm7" name="set stato proposta non accoglibilità" scriptFormat="groovy">
       <bpmn:incoming>SequenceFlow_1erghcn</bpmn:incoming>
       <bpmn:outgoing>SequenceFlow_0ozt73a</bpmn:outgoing>
@@ -2191,7 +2070,7 @@ execution.setVariable('secondFlow', 'false');</bpmn:script>
       <bpmn:outgoing>SequenceFlow_0hs6c80</bpmn:outgoing>
     </bpmn:exclusiveGateway>
     <bpmn:eventBasedGateway id="ExclusiveGateway_03oxyr1">
-      <bpmn:incoming>SequenceFlow_0qyn7ql</bpmn:incoming>
+      <bpmn:incoming>SequenceFlow_0phc5h5</bpmn:incoming>
       <bpmn:outgoing>SequenceFlow_1uky38t</bpmn:outgoing>
       <bpmn:outgoing>SequenceFlow_1vppqea</bpmn:outgoing>
     </bpmn:eventBasedGateway>
@@ -2229,7 +2108,7 @@ execution.setVariable('secondFlow', 'false');</bpmn:script>
     <bpmn:parallelGateway id="ParallelGateway_18m59q7">
       <bpmn:incoming>SequenceFlow_1ypaa0h</bpmn:incoming>
       <bpmn:incoming>SequenceFlow_0fes7rk</bpmn:incoming>
-      <bpmn:outgoing>SequenceFlow_1imsgfe</bpmn:outgoing>
+      <bpmn:outgoing>SequenceFlow_1xjfqgb</bpmn:outgoing>
     </bpmn:parallelGateway>
     <bpmn:parallelGateway id="ParallelGateway_031vjm5">
       <bpmn:incoming>SequenceFlow_04aca82</bpmn:incoming>
@@ -2666,28 +2545,6 @@ execution.setVariable('secondFlow', 'false');</bpmn:script>
       <bpmn:incoming>SequenceFlow_02v0m2i</bpmn:incoming>
       <bpmn:outgoing>SequenceFlow_0gqrokl</bpmn:outgoing>
     </bpmn:serviceTask>
-    <bpmn:userTask id="UserTask_04c0dpd" name="     &#10;Conferma Esito&#10;" camunda:assignee="${pm}" camunda:candidateGroups="${pmGroup}">
-      <bpmn:extensionElements>
-        <camunda:formData>
-          <camunda:formField id="codicePratica" label="Numero Pratica" type="string" defaultValue="${codicePratica}">
-            <camunda:validation>
-              <camunda:constraint name="readonly" />
-            </camunda:validation>
-          </camunda:formField>
-          <camunda:formField id="note" label="Note" type="string" />
-          <camunda:formField id=" firmaRigettoInammissibilita" label=" Firma Preavviso di Rigetto inammissibilità" type="string" />
-          <camunda:formField id="confermaEsitoRigettoInamm" label="Conferma esito del preavviso rigetto per inammisibilità" type="boolean" />
-          <camunda:formField id="codiceIstruttoria" type="string" />
-        </camunda:formData>
-        <camunda:properties>
-          <camunda:property name="form_type" value="notifica" />
-          <camunda:property name="codice_scheda" value="PREAVVISO_RIGETTO_AMMISSIBILITA" />
-          <camunda:property name="azioni_owner" value="[{&#34;type&#34;:&#34;button&#34;,&#34;label&#34;:&#34;Conferma&#34;,&#34;wf_var_name&#34;:&#34;confermaEsitoRigettoInamm&#34;,&#34;wf_var_value&#34;:true,&#34;url&#34;:&#34;comunicazioni/conferma/ammissibilita/pm&#34;,&#34;method&#34;:&#34;POST&#34;,&#34;position&#34;:0},{&#34;type&#34;:&#34;button&#34;,&#34;label&#34;:&#34;Respingi&#34;,&#34;wf_var_name&#34;:&#34;confermaEsitoRigettoInamm&#34;,&#34;wf_var_value&#34;:false,&#34;url&#34;:&#34;comunicazioni/respingi/ammissibilita&#34;,&#34;method&#34;:&#34;POST&#34;,&#34;position&#34;:1}]" />
-        </camunda:properties>
-      </bpmn:extensionElements>
-      <bpmn:incoming>SequenceFlow_0gqrokl</bpmn:incoming>
-      <bpmn:outgoing>SequenceFlow_01q747i</bpmn:outgoing>
-    </bpmn:userTask>
     <bpmn:exclusiveGateway id="ExclusiveGateway_1norze6">
       <bpmn:incoming>SequenceFlow_01q747i</bpmn:incoming>
       <bpmn:outgoing>SequenceFlow_1rgsp9k</bpmn:outgoing>
@@ -2938,33 +2795,6 @@ execution.setVariable('secondFlow2', 'true');</bpmn:script>
       <bpmn:incoming>SequenceFlow_0mabu7w</bpmn:incoming>
       <bpmn:outgoing>SequenceFlow_1xngbtn</bpmn:outgoing>
     </bpmn:parallelGateway>
-    <bpmn:userTask id="UserTask_1e2bt59" name="Riceve Controdeduzione" camunda:assignee="${valutatore}" camunda:candidateGroups="${valutatoreGroup}">
-      <bpmn:extensionElements>
-        <camunda:formData>
-          <camunda:formField id="codicePratica" label="Numero Pratica" type="string" defaultValue="${codicePratica}">
-            <camunda:validation>
-              <camunda:constraint name="readonly" />
-            </camunda:validation>
-          </camunda:formField>
-          <camunda:formField id="controdeduzione" label="Controdeduzione" type="string" defaultValue="${controdeduzione}">
-            <camunda:validation>
-              <camunda:constraint name="readonly" />
-            </camunda:validation>
-          </camunda:formField>
-          <camunda:formField id="valutaControdeduzioneInamm" label="Accetta Controdeduzione?" type="boolean" />
-          <camunda:formField id="apriAccoglibilita" label="Vuoi riapreire l&#39;accoglibilità?" type="boolean" defaultValue="false" />
-        </camunda:formData>
-        <camunda:properties>
-          <camunda:property name="form_type" value="notifica" />
-          <camunda:property name="codice_scheda" value="CONTRODEDUZIONI" />
-          <camunda:property name="azioni_owner" value="[{&#34;type&#34;:&#34;button&#34;,&#34;label&#34;:&#34;Accogli&#34;,&#34;wf_var_name&#34;:&#34;valutaControdeduzioneInamm&#34;,&#34;wf_var_value&#34;:true,&#34;url&#34;:&#34;controdeduzioni/valida&#34;,&#34;method&#34;:&#34;POST&#34;,&#34;position&#34;:1},{&#34;type&#34;:&#34;button&#34;,&#34;label&#34;:&#34;Respingi&#34;,&#34;wf_var_name&#34;:&#34;valutaControdeduzioneInamm&#34;,&#34;wf_var_value&#34;:false,&#34;url&#34;:&#34;controdeduzioni/respingi&#34;,&#34;method&#34;:&#34;POST&#34;,&#34;position&#34;:2}]" />
-          <camunda:property name="destinatario" value="${responsabile}" />
-        </camunda:properties>
-      </bpmn:extensionElements>
-      <bpmn:incoming>SequenceFlow_1kis99b</bpmn:incoming>
-      <bpmn:incoming>SequenceFlow_0kmwrmj</bpmn:incoming>
-      <bpmn:outgoing>SequenceFlow_14us0c2</bpmn:outgoing>
-    </bpmn:userTask>
     <bpmn:serviceTask id="ServiceTask_0lf2nmm" name="logger" camunda:class="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.LoggerDelegate">
       <bpmn:incoming>SequenceFlow_1gvnkdv</bpmn:incoming>
       <bpmn:outgoing>SequenceFlow_0k9rwd9</bpmn:outgoing>
@@ -3335,7 +3165,7 @@ execution.setVariable('secondFlow2', 'false');</bpmn:script>
       <bpmn:outgoing>SequenceFlow_0tg7rxy</bpmn:outgoing>
     </bpmn:serviceTask>
     <bpmn:eventBasedGateway id="ExclusiveGateway_0jsqx59">
-      <bpmn:incoming>SequenceFlow_0qjn7fv</bpmn:incoming>
+      <bpmn:incoming>SequenceFlow_0z3sifw</bpmn:incoming>
       <bpmn:outgoing>SequenceFlow_0jvo48k</bpmn:outgoing>
       <bpmn:outgoing>SequenceFlow_0l9rfn4</bpmn:outgoing>
     </bpmn:eventBasedGateway>
@@ -3401,7 +3231,7 @@ execution.setVariable('secondFlow2', 'false');</bpmn:script>
       <bpmn:linkEventDefinition id="LinkEventDefinition_1j2bqbb" name="LinkVerificaAmmissibilita" />
     </bpmn:intermediateThrowEvent>
     <bpmn:scriptTask id="Task_054vd1s" name="notifica Impresa" scriptFormat="groovy">
-      <bpmn:incoming>SequenceFlow_1mv0os2</bpmn:incoming>
+      <bpmn:incoming>SequenceFlow_06q3vsy</bpmn:incoming>
       <bpmn:outgoing>SequenceFlow_1jew9o9</bpmn:outgoing>
       <bpmn:script>String businessKey = (String) execution.getProcessBusinessKey();			
 String autorizzatoreConfidi = (String) execution.getVariable("autorizzatoreConfidi");
@@ -3473,7 +3303,6 @@ execution.getProcessEngineServices().getRuntimeService()
     </bpmn:scriptTask>
     <bpmn:parallelGateway id="ParallelGateway_03t94fx">
       <bpmn:incoming>SequenceFlow_1bj1nvg</bpmn:incoming>
-      <bpmn:outgoing>SequenceFlow_1ovk96z</bpmn:outgoing>
       <bpmn:outgoing>SequenceFlow_16hk5gs</bpmn:outgoing>
       <bpmn:outgoing>SequenceFlow_16m8ln3</bpmn:outgoing>
       <bpmn:outgoing>SequenceFlow_1u2h7g7</bpmn:outgoing>
@@ -3494,7 +3323,6 @@ execution.getProcessEngineServices().getRuntimeService()
     </bpmn:serviceTask>
     <bpmn:parallelGateway id="ParallelGateway_0dyvhme">
       <bpmn:incoming>SequenceFlow_0alo9ks</bpmn:incoming>
-      <bpmn:incoming>SequenceFlow_0o8niv5</bpmn:incoming>
       <bpmn:incoming>SequenceFlow_1xkgmnp</bpmn:incoming>
       <bpmn:incoming>SequenceFlow_0npuk7t</bpmn:incoming>
       <bpmn:incoming>SequenceFlow_1gyy9il</bpmn:incoming>
@@ -3502,61 +3330,6 @@ execution.getProcessEngineServices().getRuntimeService()
       <bpmn:incoming>SequenceFlow_1dvbn99</bpmn:incoming>
       <bpmn:outgoing>SequenceFlow_1mv0os2</bpmn:outgoing>
     </bpmn:parallelGateway>
-    <bpmn:serviceTask id="ServiceTask_04xurd7" name="Notifica inaccoglibilità Impresa" camunda:modelerTemplate="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask" camunda:class="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask">
-      <bpmn:extensionElements>
-        <camunda:inputOutput>
-          <camunda:inputParameter name="from">${pm}</camunda:inputParameter>
-          <camunda:inputParameter name="to">${impresa}</camunda:inputParameter>
-          <camunda:inputParameter name="message">COD_CONFERMA_INAMM_PM_POSITIVO</camunda:inputParameter>
-        </camunda:inputOutput>
-      </bpmn:extensionElements>
-      <bpmn:incoming>SequenceFlow_09k397l</bpmn:incoming>
-      <bpmn:outgoing>SequenceFlow_1pt8081</bpmn:outgoing>
-    </bpmn:serviceTask>
-    <bpmn:serviceTask id="ServiceTask_1ekbtzi" name="Notifica sogg. finanziatore" camunda:modelerTemplate="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask" camunda:class="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask">
-      <bpmn:extensionElements>
-        <camunda:inputOutput>
-          <camunda:inputParameter name="from">${pm}</camunda:inputParameter>
-          <camunda:inputParameter name="to">${autorizzatoreSF}</camunda:inputParameter>
-          <camunda:inputParameter name="message">COD_CONFERMA_INAMM_PM_POSITIVO</camunda:inputParameter>
-        </camunda:inputOutput>
-      </bpmn:extensionElements>
-      <bpmn:incoming>SequenceFlow_16m8ln3</bpmn:incoming>
-      <bpmn:outgoing>SequenceFlow_1xkgmnp</bpmn:outgoing>
-    </bpmn:serviceTask>
-    <bpmn:serviceTask id="ServiceTask_1m83udq" name="Notifica regione" camunda:modelerTemplate="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask" camunda:class="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask">
-      <bpmn:extensionElements>
-        <camunda:inputOutput>
-          <camunda:inputParameter name="from">${pm}</camunda:inputParameter>
-          <camunda:inputParameter name="to">${regione}</camunda:inputParameter>
-          <camunda:inputParameter name="message">COD_CONFERMA_INAMM_PM_POSITIVO</camunda:inputParameter>
-        </camunda:inputOutput>
-      </bpmn:extensionElements>
-      <bpmn:incoming>SequenceFlow_1ovk96z</bpmn:incoming>
-      <bpmn:outgoing>SequenceFlow_0o8niv5</bpmn:outgoing>
-    </bpmn:serviceTask>
-    <bpmn:serviceTask id="ServiceTask_0mmnij6" name="Notifica inaccoglibilità responsabile" camunda:modelerTemplate="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask" camunda:class="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask">
-      <bpmn:extensionElements>
-        <camunda:inputOutput>
-          <camunda:inputParameter name="from">${pm}</camunda:inputParameter>
-          <camunda:inputParameter name="to">${responsabile}</camunda:inputParameter>
-          <camunda:inputParameter name="message">COD_CONFERMA_INAMM_PM_POSITIVO</camunda:inputParameter>
-        </camunda:inputOutput>
-      </bpmn:extensionElements>
-      <bpmn:incoming>SequenceFlow_1u2h7g7</bpmn:incoming>
-      <bpmn:outgoing>SequenceFlow_0npuk7t</bpmn:outgoing>
-    </bpmn:serviceTask>
-    <bpmn:serviceTask id="ServiceTask_0m7o8x8" name="Notifica inaccoglibilità Valutatore" camunda:modelerTemplate="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask" camunda:class="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask">
-      <bpmn:extensionElements>
-        <camunda:inputOutput>
-          <camunda:inputParameter name="from">${pm}</camunda:inputParameter>
-          <camunda:inputParameter name="to">${valutatore}</camunda:inputParameter>
-          <camunda:inputParameter name="message">COD_CONFERMA_INAMM_PM_POSITIVO</camunda:inputParameter>
-        </camunda:inputOutput>
-      </bpmn:extensionElements>
-      <bpmn:incoming>SequenceFlow_16coo34</bpmn:incoming>
-      <bpmn:outgoing>SequenceFlow_1gyy9il</bpmn:outgoing>
-    </bpmn:serviceTask>
     <bpmn:scriptTask id="ScriptTask_0w0t0uy" name="set stato controdeduzione inviate" scriptFormat="groovy">
       <bpmn:incoming>SequenceFlow_1rgsp9k</bpmn:incoming>
       <bpmn:outgoing>SequenceFlow_1bj1nvg</bpmn:outgoing>
@@ -3567,10 +3340,6 @@ execution.getProcessEngineServices().getRuntimeService()
       <bpmn:outgoing>SequenceFlow_0vmusar</bpmn:outgoing>
       <bpmn:outgoing>SequenceFlow_1gvnkdv</bpmn:outgoing>
     </bpmn:exclusiveGateway>
-    <bpmn:intermediateThrowEvent id="IntermediateThrowEvent_11ljddg" name="go to Verifica Accoglibilità">
-      <bpmn:incoming>SequenceFlow_0vmusar</bpmn:incoming>
-      <bpmn:linkEventDefinition id="LinkEventDefinition_1wkj4sg" name="LinkVerificaAccoglibilita" />
-    </bpmn:intermediateThrowEvent>
     <bpmn:intermediateCatchEvent id="IntermediateCatchEvent_1pu9i74" name="10 gg">
       <bpmn:incoming>SequenceFlow_1ca2ewc</bpmn:incoming>
       <bpmn:outgoing>SequenceFlow_1j29yyb</bpmn:outgoing>
@@ -4366,13 +4135,6 @@ execution.getProcessEngineServices().getRuntimeService()
 .setVariable("regioneGroup",regioneGroup)
 			.correlate();</bpmn:script>
     </bpmn:scriptTask>
-    <bpmn:parallelGateway id="ParallelGateway_0u2e9fr">
-      <bpmn:incoming>SequenceFlow_1bjpc1s</bpmn:incoming>
-      <bpmn:incoming>SequenceFlow_0b8y4xj</bpmn:incoming>
-      <bpmn:incoming>SequenceFlow_0huag4k</bpmn:incoming>
-      <bpmn:incoming>SequenceFlow_0fdd3py</bpmn:incoming>
-      <bpmn:outgoing>SequenceFlow_04jqutq</bpmn:outgoing>
-    </bpmn:parallelGateway>
     <bpmn:serviceTask id="ServiceTask_1sa64q4" name="Notifica PM" camunda:modelerTemplate="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask" camunda:class="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask">
       <bpmn:extensionElements>
         <camunda:inputOutput>
@@ -4431,45 +4193,6 @@ execution.getProcessEngineServices().getRuntimeService()
       <bpmn:incoming>SequenceFlow_0wjnh85</bpmn:incoming>
       <bpmn:outgoing>SequenceFlow_19dp9y5</bpmn:outgoing>
     </bpmn:serviceTask>
-    <bpmn:intermediateThrowEvent id="IntermediateThrowEvent_1rg6480" name="go to Controdeduzione 2">
-      <bpmn:incoming>SequenceFlow_0cqdqfi</bpmn:incoming>
-      <bpmn:linkEventDefinition id="LinkEventDefinition_1eqg1ga" name="LinkRiceveControdeduzione2" />
-    </bpmn:intermediateThrowEvent>
-    <bpmn:userTask id="sez_accoglibilita_valutatore_genera_richiesta_di_non_accoglibilita" name="Genera Richiesta di non Accoglibilità" camunda:assignee="${valutatore}" camunda:candidateGroups="${valutatoreGroup}">
-      <bpmn:extensionElements>
-        <camunda:formData>
-          <camunda:formField id="codicePratica" label="Numero Pratica" type="string" defaultValue="${codicePratica}">
-            <camunda:validation>
-              <camunda:constraint name="readonly" />
-            </camunda:validation>
-          </camunda:formField>
-          <camunda:formField id="note" label="Note Richiesta di non Accoglibilità" type="string" />
-          <camunda:formField id="codiceIstruttoria" label="Codice Istruttoria" type="string" defaultValue="${codiceIstruttoria}">
-            <camunda:validation>
-              <camunda:constraint name="readonly" />
-            </camunda:validation>
-          </camunda:formField>
-          <camunda:formField id="salva" type="boolean" />
-          <camunda:formField id="proponiInaccoglibilita" label="proponi Inaccoglibilita" type="boolean" />
-        </camunda:formData>
-        <camunda:properties>
-          <camunda:property name="form_type" value="dettaglio" />
-          <camunda:property name="codice_scheda" value="PROPOSTA_INACCOGLIBILITA" />
-          <camunda:property name="azioni_owner" value="[{&#34;type&#34;:&#34;button&#34;,&#34;label&#34;:&#34;Proponi inaccoglibilita&#34;,&#34;wf_var_name&#34;:&#34;proponiInaccoglibilita&#34;,&#34;wf_var_value&#34;:true,&#34;url&#34;:&#34;inaccoglibilita/genera&#34;,&#34;method&#34;:&#34;POST&#34;,&#34;position&#34;:0}]" />
-        </camunda:properties>
-      </bpmn:extensionElements>
-      <bpmn:incoming>SequenceFlow_0tdxje6</bpmn:incoming>
-      <bpmn:incoming>SequenceFlow_04jqutq</bpmn:incoming>
-      <bpmn:outgoing>SequenceFlow_10u17fw</bpmn:outgoing>
-    </bpmn:userTask>
-    <bpmn:serviceTask id="Task_1klh81g" name="update skeda accoglibilità con owner null" camunda:class="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.LoggerDelegate">
-      <bpmn:incoming>SequenceFlow_0s5aoyv</bpmn:incoming>
-      <bpmn:outgoing>SequenceFlow_1e9zzow</bpmn:outgoing>
-    </bpmn:serviceTask>
-    <bpmn:intermediateThrowEvent id="IntermediateThrowEvent_0cypt5k" name="go to Controdeduzione">
-      <bpmn:incoming>SequenceFlow_1e9zzow</bpmn:incoming>
-      <bpmn:linkEventDefinition name="LinkRiceveControdeduzione" />
-    </bpmn:intermediateThrowEvent>
     <bpmn:userTask id="UserTask_1ivbzc3" name="Genera Proposta Inammissibilità" camunda:assignee="${valutatore}" camunda:candidateGroups="${valutatoreGroup}">
       <bpmn:extensionElements>
         <camunda:formData>
@@ -4496,77 +4219,6 @@ execution.getProcessEngineServices().getRuntimeService()
       <bpmn:incoming>SequenceFlow_05omyso</bpmn:incoming>
       <bpmn:outgoing>SequenceFlow_1cd2r2i</bpmn:outgoing>
       <bpmn:script>execution.setVariable('stato_istruttoria', 'PROPOSTA_INAMMISSIBILITA');</bpmn:script>
-    </bpmn:scriptTask>
-    <bpmn:scriptTask id="ServiceTask_0ykaplt" name="Richiesta di Integrazione" scriptFormat="groovy">
-      <bpmn:incoming>SequenceFlow_13hpgzp</bpmn:incoming>
-      <bpmn:outgoing>SequenceFlow_04nlu7l</bpmn:outgoing>
-      <bpmn:script>String businessKey = (String) execution.getProcessBusinessKey();			
-String autorizzatoreConfidi = (String) execution.getVariable("autorizzatoreConfidi");
-String autorizzatoreSF = (String) execution.getVariable("autorizzatoreSF");
-String autorizzatoreSFGroup = (String) execution.getVariable("autorizzatoreSFGroup");
-String codiceIstruttoria = (String) execution.getVariable("codiceIstruttoria");
-String codicePratica = (String) execution.getVariable("codicePratica");
-String impresa = (String) execution.getVariable("impresa");
-String impresaGroup = (String) execution.getVariable("impresaGroup");
-String numeroProtocollo = (String) execution.getVariable("numeroProtocollo");
-String operatore_sf = (String) execution.getVariable("operatore_sf");
-String operatoresfGroup = (String) execution.getVariable("operatoresfGroup");
-String pm = (String) execution.getVariable("pm");
-String pmGroup = (String) execution.getVariable("pmGroup");
-String processDefinitionKey = (String) execution.getVariable("processDefinitionKey");
-String responsabileGroup = (String) execution.getVariable("responsabileGroup");
-String responsabile = (String) execution.getVariable("responsabile");
-String stato_istruttoria = (String) execution.getVariable("stato_istruttoria");
-String valutatore = (String) execution.getVariable("valutatore");
-String valutatoreGroup  = (String) execution.getVariable("valutatoreGroup");
-String payload = (String) execution.getVariable("payload");
-String regione = (String) execution.getVariable("regione");
-String regioneGroup = (String) execution.getVariable("regioneGroup");
-println 'businessKey =  '+ businessKey;			
-println 'autorizzatoreConfidi =  '+ autorizzatoreConfidi;
-println 'autorizzatoreSF =  '+ autorizzatoreSF;
-println 'autorizzatoreSFGroup =  ' +autorizzatoreSFGroup;
-println 'codiceIstruttoria =  ' +codiceIstruttoria;
-println 'codicePratica =  ' +codicePratica;
-println 'impresa =  ' +impresa;
-println 'impresaGroup =  ' +impresaGroup;
-println 'numeroProtocollo =  ' +numeroProtocollo;
-println 'operatore_sf =  ' +operatore_sf;
-println 'operatoresfGroup =  ' +operatoresfGroup;
-println 'pm =  ' +pm;
-println 'pmGroup =  ' +pmGroup;
-println 'processDefinitionKey =  ' +processDefinitionKey;
-println 'responsabileGroup =  ' +responsabileGroup;
-println 'responsabile =  ' +responsabile;
-println 'stato_istruttoria =  ' +stato_istruttoria;
-println 'valutatore =  ' +valutatore;
-println 'valutatoreGroup  =  ' +valutatoreGroup;
-println 'regione =  ' +regione;
-println 'regioneGroup =  ' +regioneGroup;	
-println 'payload =  ' +payload;
-execution.getProcessEngineServices().getRuntimeService()
-			.createMessageCorrelation("Message_RichiestaIntegrazione").processInstanceBusinessKey(businessKey)
-.setVariable("autorizzatoreConfidi", autorizzatoreConfidi)
-.setVariable("autorizzatoreSF", autorizzatoreSF)
-.setVariable("autorizzatoreSFGroup", autorizzatoreSFGroup)
-.setVariable("codiceIstruttoria", codiceIstruttoria)
-.setVariable("codicePratica", codicePratica)
-.setVariable("impresa",impresa)
-.setVariable("impresaGroup",impresaGroup)
-.setVariable("numeroProtocollo",numeroProtocollo)
-.setVariable("operatore_sf",operatore_sf)
-.setVariable("operatoresfGroup", operatoresfGroup)
-.setVariable("pm", pm)
-.setVariable("pmGroup", pmGroup)
-.setVariable("responsabileGroup", responsabileGroup)
-.setVariable("responsabile",responsabile)
-.setVariable("stato_istruttoria",stato_istruttoria)
-.setVariable("valutatore",valutatore)
-.setVariable("valutatoreGroup",valutatoreGroup)
-.setVariable("regione",regione)
-.setVariable("regioneGroup",regioneGroup)
-.setVariable("payload",payload)
-			.correlate();</bpmn:script>
     </bpmn:scriptTask>
     <bpmn:scriptTask id="ScriptTask_1y6jlrg" name="invia blocca controdeduzioni" scriptFormat="groovy">
       <bpmn:incoming>SequenceFlow_0i3lqrh</bpmn:incoming>
@@ -4958,90 +4610,7 @@ execution.getProcessEngineServices().getRuntimeService()
 .setVariable("regioneGroup",regioneGroup)
 			.correlate();</bpmn:script>
     </bpmn:scriptTask>
-    <bpmn:serviceTask id="ServiceTask_1y4vzs3" name="Notifica Regione" camunda:class="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationCompletaRegioneTask">
-      <bpmn:extensionElements>
-        <camunda:inputOutput>
-          <camunda:inputParameter name="from">${pm}</camunda:inputParameter>
-          <camunda:inputParameter name="message">Richiesta di non accoglibilita</camunda:inputParameter>
-          <camunda:inputParameter name="to">${regione}</camunda:inputParameter>
-          <camunda:inputParameter name="codicePratica">${codicePratica}</camunda:inputParameter>
-        </camunda:inputOutput>
-      </bpmn:extensionElements>
-      <bpmn:incoming>SequenceFlow_0phc5h5</bpmn:incoming>
-      <bpmn:outgoing>SequenceFlow_0qyn7ql</bpmn:outgoing>
-    </bpmn:serviceTask>
-    <bpmn:sequenceFlow id="SequenceFlow_0z3sifw" sourceRef="Task_1qslotm" targetRef="ServiceTask_04gz3xk" />
-    <bpmn:scriptTask id="Task_1qslotm" name="notifica regione" scriptFormat="groovy">
-      <bpmn:incoming>SequenceFlow_0lqh0xd</bpmn:incoming>
-      <bpmn:outgoing>SequenceFlow_0z3sifw</bpmn:outgoing>
-      <bpmn:script>String businessKey = (String) execution.getProcessBusinessKey();			
-String autorizzatoreConfidi = (String) execution.getVariable("autorizzatoreConfidi");
-String autorizzatoreSF = (String) execution.getVariable("autorizzatoreSF");
-String autorizzatoreSFGroup = (String) execution.getVariable("autorizzatoreSFGroup");
-String codiceIstruttoria = (String) execution.getVariable("codiceIstruttoria");
-String codicePratica = (String) execution.getVariable("codicePratica");
-String impresa = (String) execution.getVariable("impresa");
-String impresaGroup = (String) execution.getVariable("impresaGroup");
-String numeroProtocollo = (String) execution.getVariable("numeroProtocollo");
-String operatore_sf = (String) execution.getVariable("operatore_sf");
-String operatoresfGroup = (String) execution.getVariable("operatoresfGroup");
-String pm = (String) execution.getVariable("pm");
-String pmGroup = (String) execution.getVariable("pmGroup");
-String processDefinitionKey = (String) execution.getVariable("processDefinitionKey");
-String responsabileGroup = (String) execution.getVariable("responsabileGroup");
-String responsabile = (String) execution.getVariable("responsabile");
-String stato_istruttoria = (String) execution.getVariable("stato_istruttoria");
-String valutatore = (String) execution.getVariable("valutatore");
-String valutatoreGroup  = (String) execution.getVariable("valutatoreGroup");
-String regione = (String) execution.getVariable("regione");
-String regioneGroup = (String) execution.getVariable("regioneGroup");	
-String payload = (String) execution.getVariable("payload");
-println 'businessKey =  '+ businessKey ;			
-println 'autorizzatoreConfidi =  '+ autorizzatoreConfidi ;
-println 'autorizzatoreSF =  '+ autorizzatoreSF;
-println 'autorizzatoreSFGroup =  ' +autorizzatoreSFGroup;
-println 'codiceIstruttoria =  ' +codiceIstruttoria;
-println 'codicePratica =  ' +codicePratica;
-println 'impresa =  ' +impresa;
-println 'impresaGroup =  ' +impresaGroup;
-println 'numeroProtocollo =  ' +numeroProtocollo;
-println 'operatore_sf =  ' +operatore_sf;
-println 'operatoresfGroup =  ' +operatoresfGroup;
-println 'pm =  ' +pm;
-println 'pmGroup =  ' +pmGroup;
-println 'processDefinitionKey =  ' +processDefinitionKey;
-println 'responsabileGroup =  ' +responsabileGroup;
-println 'responsabile =  ' +responsabile;
-println 'stato_istruttoria =  ' +stato_istruttoria;
-println 'valutatore =  ' +valutatore;
-println 'valutatoreGroup  =  ' +valutatoreGroup;
-println 'regione =  ' +regione;
-println 'regioneGroup =  ' +regioneGroup;	
-println 'payload =  ' +payload;
-execution.getProcessEngineServices().getRuntimeService()
-			.createMessageCorrelation("Message_PropostaInammissibilita").processInstanceBusinessKey(businessKey)
-.setVariable("autorizzatoreConfidi", autorizzatoreConfidi)
-.setVariable("autorizzatoreSF", autorizzatoreSF)
-.setVariable("autorizzatoreSFGroup", autorizzatoreSFGroup)
-.setVariable("codiceIstruttoria", codiceIstruttoria)
-.setVariable("codicePratica", codicePratica)
-.setVariable("impresa",impresa)
-.setVariable("impresaGroup",impresaGroup)
-.setVariable("numeroProtocollo",numeroProtocollo)
-.setVariable("operatore_sf",operatore_sf)
-.setVariable("operatoresfGroup", operatoresfGroup)
-.setVariable("pm", pm)
-.setVariable("pmGroup", pmGroup)
-.setVariable("responsabileGroup", responsabileGroup)
-.setVariable("responsabile",responsabile)
-.setVariable("stato_istruttoria",stato_istruttoria)
-.setVariable("valutatore",valutatore)
-.setVariable("valutatoreGroup",valutatoreGroup)
-.setVariable("regione",regione)
-.setVariable("regioneGroup",regioneGroup)
-.setVariable("payload",payload)
-			.correlate();</bpmn:script>
-    </bpmn:scriptTask>
+    <bpmn:sequenceFlow id="SequenceFlow_0z3sifw" sourceRef="Task_1qslotm" targetRef="ExclusiveGateway_0jsqx59" />
     <bpmn:serviceTask id="ServiceTask_01v2sri" name="Notifica responsabile" camunda:modelerTemplate="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask" camunda:class="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask">
       <bpmn:extensionElements>
         <camunda:inputOutput>
@@ -5266,6 +4835,519 @@ execution.getProcessEngineServices().getRuntimeService()
     </bpmn:serviceTask>
     <bpmn:sequenceFlow id="SequenceFlow_188u4gm" sourceRef="ParallelGateway_11cy0rx" targetRef="ServiceTask_1kftoql" />
     <bpmn:sequenceFlow id="SequenceFlow_11v7iql" sourceRef="ServiceTask_1kftoql" targetRef="ParallelGateway_045bihm" />
+    <bpmn:sequenceFlow id="SequenceFlow_077t7fh" sourceRef="ServiceTask_1xcj9ka" targetRef="Task_02unbz4" />
+    <bpmn:serviceTask id="ServiceTask_1xcj9ka" name="Comunicazione a regione" camunda:class="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.ComunicazioneRegione">
+      <bpmn:extensionElements>
+        <camunda:inputOutput>
+          <camunda:inputParameter name="tipo_comunicazione">PREAVVISO_RIGETTO</camunda:inputParameter>
+          <camunda:inputParameter name="stato">INVIATA</camunda:inputParameter>
+          <camunda:inputParameter name="mittente">${pm}</camunda:inputParameter>
+          <camunda:inputParameter name="destinatario">${impresa}</camunda:inputParameter>
+        </camunda:inputOutput>
+      </bpmn:extensionElements>
+      <bpmn:incoming>SequenceFlow_1x3mgxe</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_077t7fh</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:serviceTask id="ServiceTask_1ekbtzi" name="Notifica sogg. finanziatore" camunda:modelerTemplate="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask" camunda:class="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask">
+      <bpmn:extensionElements>
+        <camunda:inputOutput>
+          <camunda:inputParameter name="from">${pm}</camunda:inputParameter>
+          <camunda:inputParameter name="to">${autorizzatoreSF}</camunda:inputParameter>
+          <camunda:inputParameter name="message">COD_CONFERMA_INAMM_PM_POSITIVO</camunda:inputParameter>
+        </camunda:inputOutput>
+      </bpmn:extensionElements>
+      <bpmn:incoming>SequenceFlow_16m8ln3</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_1xkgmnp</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:sequenceFlow id="SequenceFlow_06q3vsy" sourceRef="ServiceTask_0vgiu7w" targetRef="Task_054vd1s" />
+    <bpmn:serviceTask id="ServiceTask_0vgiu7w" name="Comunicazione a regione" camunda:class="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.ComunicazioneRegione">
+      <bpmn:extensionElements>
+        <camunda:inputOutput>
+          <camunda:inputParameter name="tipo_comunicazione">PREAVVISO_RIGETTO_AMMISSIBILITA</camunda:inputParameter>
+          <camunda:inputParameter name="stato">INVIATA</camunda:inputParameter>
+          <camunda:inputParameter name="mittente">${pm}</camunda:inputParameter>
+          <camunda:inputParameter name="destinatario">${impresa}</camunda:inputParameter>
+        </camunda:inputOutput>
+      </bpmn:extensionElements>
+      <bpmn:incoming>SequenceFlow_1mv0os2</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_06q3vsy</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:serviceTask id="ServiceTask_04xurd7" name="Notifica inaccoglibilità Impresa" camunda:modelerTemplate="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask" camunda:class="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask">
+      <bpmn:extensionElements>
+        <camunda:inputOutput>
+          <camunda:inputParameter name="from">${pm}</camunda:inputParameter>
+          <camunda:inputParameter name="to">${impresa}</camunda:inputParameter>
+          <camunda:inputParameter name="message">COD_CONFERMA_INAMM_PM_POSITIVO</camunda:inputParameter>
+        </camunda:inputOutput>
+      </bpmn:extensionElements>
+      <bpmn:incoming>SequenceFlow_09k397l</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_1pt8081</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:serviceTask id="ServiceTask_0m7o8x8" name="Notifica inaccoglibilità Valutatore" camunda:modelerTemplate="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask" camunda:class="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask">
+      <bpmn:extensionElements>
+        <camunda:inputOutput>
+          <camunda:inputParameter name="from">${pm}</camunda:inputParameter>
+          <camunda:inputParameter name="to">${valutatore}</camunda:inputParameter>
+          <camunda:inputParameter name="message">COD_CONFERMA_INAMM_PM_POSITIVO</camunda:inputParameter>
+        </camunda:inputOutput>
+      </bpmn:extensionElements>
+      <bpmn:incoming>SequenceFlow_16coo34</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_1gyy9il</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:serviceTask id="ServiceTask_0mmnij6" name="Notifica inaccoglibilità responsabile" camunda:modelerTemplate="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask" camunda:class="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask">
+      <bpmn:extensionElements>
+        <camunda:inputOutput>
+          <camunda:inputParameter name="from">${pm}</camunda:inputParameter>
+          <camunda:inputParameter name="to">${responsabile}</camunda:inputParameter>
+          <camunda:inputParameter name="message">COD_CONFERMA_INAMM_PM_POSITIVO</camunda:inputParameter>
+        </camunda:inputOutput>
+      </bpmn:extensionElements>
+      <bpmn:incoming>SequenceFlow_1u2h7g7</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_0npuk7t</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:userTask id="sez_accoglibilita_valutatore_controdeduzione" name="Riceve Controdeduzione" camunda:assignee="${valutatore}" camunda:candidateGroups="${valutatoreGroup}">
+      <bpmn:extensionElements>
+        <camunda:formData>
+          <camunda:formField id="codicePratica" label="Num. Pratica" type="string" defaultValue="${codicePratica}">
+            <camunda:validation>
+              <camunda:constraint name="readonly" />
+            </camunda:validation>
+          </camunda:formField>
+          <camunda:formField id="controdeduzione" label="Contro Deduzione" type="string" defaultValue="${controdeduzione}">
+            <camunda:validation>
+              <camunda:constraint name="readonly" />
+            </camunda:validation>
+          </camunda:formField>
+          <camunda:formField id="valutazioneControdeduzione" label="Valutazione Controdeduzione" type="boolean" defaultValue="true" />
+          <camunda:formField id="codiceIstruttoria" label="Codice Istruttoria" type="string" defaultValue="${codiceIstruttoria}">
+            <camunda:validation>
+              <camunda:constraint name="readonly" />
+            </camunda:validation>
+          </camunda:formField>
+        </camunda:formData>
+        <camunda:properties>
+          <camunda:property name="form_type" value="notifica" />
+          <camunda:property name="codice_scheda" value="CONTRODEDUZIONI" />
+          <camunda:property name="azioni_owner" value="[{&#34;type&#34;:&#34;button&#34;,&#34;label&#34;:&#34;Accogli&#34;,&#34;wf_var_name&#34;:&#34;valutazioneControdeduzione&#34;,&#34;wf_var_value&#34;:true,&#34;url&#34;:&#34;controdeduzioni/valida&#34;,&#34;method&#34;:&#34;POST&#34;,&#34;position&#34;:0},{&#34;type&#34;:&#34;button&#34;,&#34;label&#34;:&#34;Respingi&#34;,&#34;wf_var_name&#34;:&#34;valutazioneControdeduzione&#34;,&#34;wf_var_value&#34;:false,&#34;url&#34;:&#34;controdeduzioni/respingi&#34;,&#34;method&#34;:&#34;POST&#34;,&#34;position&#34;:1}]" />
+          <camunda:property name="destinatario" value="${responsabile}" />
+        </camunda:properties>
+      </bpmn:extensionElements>
+      <bpmn:incoming>SequenceFlow_1q9zqo4</bpmn:incoming>
+      <bpmn:incoming>SequenceFlow_16ce29x</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_1ml2zza</bpmn:outgoing>
+    </bpmn:userTask>
+    <bpmn:serviceTask id="ServiceTask_1nppm58" name="Comunicazione a regione" camunda:class="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.ComunicazioneRegione">
+      <bpmn:extensionElements>
+        <camunda:inputOutput>
+          <camunda:inputParameter name="tipo_comunicazione">CONTRODEDUZIONI</camunda:inputParameter>
+          <camunda:inputParameter name="stato">INVIATA</camunda:inputParameter>
+          <camunda:inputParameter name="mittente">${impresa}</camunda:inputParameter>
+          <camunda:inputParameter name="destinatario">${valutatore}</camunda:inputParameter>
+        </camunda:inputOutput>
+      </bpmn:extensionElements>
+      <bpmn:incoming>SequenceFlow_0fepwg0</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_16ce29x</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:sequenceFlow id="SequenceFlow_16ce29x" sourceRef="ServiceTask_1nppm58" targetRef="sez_accoglibilita_valutatore_controdeduzione" />
+    <bpmn:parallelGateway id="ParallelGateway_0u2e9fr">
+      <bpmn:incoming>SequenceFlow_1bjpc1s</bpmn:incoming>
+      <bpmn:incoming>SequenceFlow_0b8y4xj</bpmn:incoming>
+      <bpmn:incoming>SequenceFlow_0huag4k</bpmn:incoming>
+      <bpmn:incoming>SequenceFlow_0fdd3py</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_04jqutq</bpmn:outgoing>
+    </bpmn:parallelGateway>
+    <bpmn:boundaryEvent id="BoundaryEvent_19rvfdn" name="Ricevo Controdeduzione" attachedToRef="sez_accoglibilita_valutatore_genera_richiesta_di_non_accoglibilita">
+      <bpmn:outgoing>SequenceFlow_0s5aoyv</bpmn:outgoing>
+      <bpmn:messageEventDefinition id="MessageEventDefinition_10udbn5" messageRef="Message_0p8q6q6" />
+    </bpmn:boundaryEvent>
+    <bpmn:userTask id="sez_accoglibilita_valutatore_genera_richiesta_di_non_accoglibilita" name="Genera Richiesta di non Accoglibilità" camunda:assignee="${valutatore}" camunda:candidateGroups="${valutatoreGroup}">
+      <bpmn:extensionElements>
+        <camunda:formData>
+          <camunda:formField id="codicePratica" label="Numero Pratica" type="string" defaultValue="${codicePratica}">
+            <camunda:validation>
+              <camunda:constraint name="readonly" />
+            </camunda:validation>
+          </camunda:formField>
+          <camunda:formField id="note" label="Note Richiesta di non Accoglibilità" type="string" />
+          <camunda:formField id="codiceIstruttoria" label="Codice Istruttoria" type="string" defaultValue="${codiceIstruttoria}">
+            <camunda:validation>
+              <camunda:constraint name="readonly" />
+            </camunda:validation>
+          </camunda:formField>
+          <camunda:formField id="salva" type="boolean" />
+          <camunda:formField id="proponiInaccoglibilita" label="proponi Inaccoglibilita" type="boolean" />
+        </camunda:formData>
+        <camunda:properties>
+          <camunda:property name="form_type" value="dettaglio" />
+          <camunda:property name="codice_scheda" value="PROPOSTA_INACCOGLIBILITA" />
+          <camunda:property name="azioni_owner" value="[{&#34;type&#34;:&#34;button&#34;,&#34;label&#34;:&#34;Proponi inaccoglibilita&#34;,&#34;wf_var_name&#34;:&#34;proponiInaccoglibilita&#34;,&#34;wf_var_value&#34;:true,&#34;url&#34;:&#34;inaccoglibilita/genera&#34;,&#34;method&#34;:&#34;POST&#34;,&#34;position&#34;:0}]" />
+        </camunda:properties>
+      </bpmn:extensionElements>
+      <bpmn:incoming>SequenceFlow_04jqutq</bpmn:incoming>
+      <bpmn:incoming>SequenceFlow_0tdxje6</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_10u17fw</bpmn:outgoing>
+    </bpmn:userTask>
+    <bpmn:serviceTask id="Task_1klh81g" name="update skeda accoglibilità con owner null" camunda:class="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.LoggerDelegate">
+      <bpmn:incoming>SequenceFlow_1am8eyl</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_1e9zzow</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:intermediateThrowEvent id="IntermediateThrowEvent_0cypt5k" name="go to Controdeduzione">
+      <bpmn:incoming>SequenceFlow_1e9zzow</bpmn:incoming>
+      <bpmn:linkEventDefinition name="LinkRiceveControdeduzione" />
+    </bpmn:intermediateThrowEvent>
+    <bpmn:serviceTask id="ServiceTask_0v7k138" name="Comunicazione a regione" camunda:class="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.ComunicazioneRegione">
+      <bpmn:extensionElements>
+        <camunda:inputOutput>
+          <camunda:inputParameter name="tipo_comunicazione">CONTRODEDUZIONI</camunda:inputParameter>
+          <camunda:inputParameter name="stato">INVIATA</camunda:inputParameter>
+          <camunda:inputParameter name="mittente">${impresa}</camunda:inputParameter>
+          <camunda:inputParameter name="destinatario">${valutatore}</camunda:inputParameter>
+        </camunda:inputOutput>
+      </bpmn:extensionElements>
+      <bpmn:incoming>SequenceFlow_0s5aoyv</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_1am8eyl</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:sequenceFlow id="SequenceFlow_1am8eyl" sourceRef="ServiceTask_0v7k138" targetRef="Task_1klh81g" />
+    <bpmn:scriptTask id="Task_19c5gfz" name="notifica regione" scriptFormat="groovy">
+      <bpmn:incoming>SequenceFlow_1oth7e1</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_0phc5h5</bpmn:outgoing>
+      <bpmn:script>String businessKey = (String) execution.getProcessBusinessKey();			
+String autorizzatoreConfidi = (String) execution.getVariable("autorizzatoreConfidi");
+String autorizzatoreSF = (String) execution.getVariable("autorizzatoreSF");
+String autorizzatoreSFGroup = (String) execution.getVariable("autorizzatoreSFGroup");
+String codiceIstruttoria = (String) execution.getVariable("codiceIstruttoria");
+String codicePratica = (String) execution.getVariable("codicePratica");
+String impresa = (String) execution.getVariable("impresa");
+String impresaGroup = (String) execution.getVariable("impresaGroup");
+String numeroProtocollo = (String) execution.getVariable("numeroProtocollo");
+String operatore_sf = (String) execution.getVariable("operatore_sf");
+String operatoresfGroup = (String) execution.getVariable("operatoresfGroup");
+String pm = (String) execution.getVariable("pm");
+String pmGroup = (String) execution.getVariable("pmGroup");
+String processDefinitionKey = (String) execution.getVariable("processDefinitionKey");
+String responsabileGroup = (String) execution.getVariable("responsabileGroup");
+String responsabile = (String) execution.getVariable("responsabile");
+String stato_istruttoria = (String) execution.getVariable("stato_istruttoria");
+String valutatore = (String) execution.getVariable("valutatore");
+String valutatoreGroup  = (String) execution.getVariable("valutatoreGroup");
+String regione = (String) execution.getVariable("regione");
+String regioneGroup = (String) execution.getVariable("regioneGroup");	
+String payload = (String) execution.getVariable("payload");
+println 'businessKey =  '+ businessKey ;			
+println 'autorizzatoreConfidi =  '+ autorizzatoreConfidi ;
+println 'autorizzatoreSF =  '+ autorizzatoreSF;
+println 'autorizzatoreSFGroup =  ' +autorizzatoreSFGroup;
+println 'codiceIstruttoria =  ' +codiceIstruttoria;
+println 'codicePratica =  ' +codicePratica;
+println 'impresa =  ' +impresa;
+println 'impresaGroup =  ' +impresaGroup;
+println 'numeroProtocollo =  ' +numeroProtocollo;
+println 'operatore_sf =  ' +operatore_sf;
+println 'operatoresfGroup =  ' +operatoresfGroup;
+println 'pm =  ' +pm;
+println 'pmGroup =  ' +pmGroup;
+println 'processDefinitionKey =  ' +processDefinitionKey;
+println 'responsabileGroup =  ' +responsabileGroup;
+println 'responsabile =  ' +responsabile;
+println 'stato_istruttoria =  ' +stato_istruttoria;
+println 'valutatore =  ' +valutatore;
+println 'valutatoreGroup  =  ' +valutatoreGroup;
+println 'regione =  ' +regione;
+println 'regioneGroup =  ' +regioneGroup;	
+println 'payload =  ' +payload;
+execution.getProcessEngineServices().getRuntimeService()
+			.createMessageCorrelation("Message_PreavvisoComunicazioneNonAccoglibilita").processInstanceBusinessKey(businessKey)
+.setVariable("autorizzatoreConfidi", autorizzatoreConfidi)
+.setVariable("autorizzatoreSF", autorizzatoreSF)
+.setVariable("autorizzatoreSFGroup", autorizzatoreSFGroup)
+.setVariable("codiceIstruttoria", codiceIstruttoria)
+.setVariable("codicePratica", codicePratica)
+.setVariable("impresa",impresa)
+.setVariable("impresaGroup",impresaGroup)
+.setVariable("numeroProtocollo",numeroProtocollo)
+.setVariable("operatore_sf",operatore_sf)
+.setVariable("operatoresfGroup", operatoresfGroup)
+.setVariable("pm", pm)
+.setVariable("pmGroup", pmGroup)
+.setVariable("responsabileGroup", responsabileGroup)
+.setVariable("responsabile",responsabile)
+.setVariable("stato_istruttoria",stato_istruttoria)
+.setVariable("valutatore",valutatore)
+.setVariable("valutatoreGroup",valutatoreGroup)
+.setVariable("regione",regione)
+.setVariable("regioneGroup",regioneGroup)
+.setVariable("payload",payload)
+			.correlate();</bpmn:script>
+    </bpmn:scriptTask>
+    <bpmn:serviceTask id="ServiceTask_142oa2j" name="Comunicazione a regione" camunda:class="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.ComunicazioneRegione">
+      <bpmn:extensionElements>
+        <camunda:inputOutput>
+          <camunda:inputParameter name="tipo_comunicazione">INACCOGLIBILITA</camunda:inputParameter>
+          <camunda:inputParameter name="stato">INVIATA</camunda:inputParameter>
+          <camunda:inputParameter name="mittente">${pm}</camunda:inputParameter>
+          <camunda:inputParameter name="destinatario">${regione}</camunda:inputParameter>
+        </camunda:inputOutput>
+      </bpmn:extensionElements>
+      <bpmn:incoming>SequenceFlow_1xjfqgb</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_1oth7e1</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:sequenceFlow id="SequenceFlow_1xjfqgb" sourceRef="ParallelGateway_18m59q7" targetRef="ServiceTask_142oa2j" />
+    <bpmn:sequenceFlow id="SequenceFlow_1oth7e1" sourceRef="ServiceTask_142oa2j" targetRef="Task_19c5gfz" />
+    <bpmn:serviceTask id="ServiceTask_0z9af9d" name="Comunicazione a regione" camunda:class="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.ComunicazioneRegione">
+      <bpmn:extensionElements>
+        <camunda:inputOutput>
+          <camunda:inputParameter name="tipo_comunicazione">RICHIESTA_INTEGRAZIONE</camunda:inputParameter>
+          <camunda:inputParameter name="stato">INVIATA</camunda:inputParameter>
+          <camunda:inputParameter name="mittente">${valutatore}</camunda:inputParameter>
+          <camunda:inputParameter name="destinatario">${impresa}</camunda:inputParameter>
+        </camunda:inputOutput>
+      </bpmn:extensionElements>
+      <bpmn:incoming>SequenceFlow_13hpgzp</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_0qafkip</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:sequenceFlow id="SequenceFlow_0qafkip" sourceRef="ServiceTask_0z9af9d" targetRef="ServiceTask_0ykaplt" />
+    <bpmn:scriptTask id="ServiceTask_0ykaplt" name="Richiesta di Integrazione" scriptFormat="groovy">
+      <bpmn:incoming>SequenceFlow_0qafkip</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_04nlu7l</bpmn:outgoing>
+      <bpmn:script>String businessKey = (String) execution.getProcessBusinessKey();			
+String autorizzatoreConfidi = (String) execution.getVariable("autorizzatoreConfidi");
+String autorizzatoreSF = (String) execution.getVariable("autorizzatoreSF");
+String autorizzatoreSFGroup = (String) execution.getVariable("autorizzatoreSFGroup");
+String codiceIstruttoria = (String) execution.getVariable("codiceIstruttoria");
+String codicePratica = (String) execution.getVariable("codicePratica");
+String impresa = (String) execution.getVariable("impresa");
+String impresaGroup = (String) execution.getVariable("impresaGroup");
+String numeroProtocollo = (String) execution.getVariable("numeroProtocollo");
+String operatore_sf = (String) execution.getVariable("operatore_sf");
+String operatoresfGroup = (String) execution.getVariable("operatoresfGroup");
+String pm = (String) execution.getVariable("pm");
+String pmGroup = (String) execution.getVariable("pmGroup");
+String processDefinitionKey = (String) execution.getVariable("processDefinitionKey");
+String responsabileGroup = (String) execution.getVariable("responsabileGroup");
+String responsabile = (String) execution.getVariable("responsabile");
+String stato_istruttoria = (String) execution.getVariable("stato_istruttoria");
+String valutatore = (String) execution.getVariable("valutatore");
+String valutatoreGroup  = (String) execution.getVariable("valutatoreGroup");
+String payload = (String) execution.getVariable("payload");
+String regione = (String) execution.getVariable("regione");
+String regioneGroup = (String) execution.getVariable("regioneGroup");
+println 'businessKey =  '+ businessKey;			
+println 'autorizzatoreConfidi =  '+ autorizzatoreConfidi;
+println 'autorizzatoreSF =  '+ autorizzatoreSF;
+println 'autorizzatoreSFGroup =  ' +autorizzatoreSFGroup;
+println 'codiceIstruttoria =  ' +codiceIstruttoria;
+println 'codicePratica =  ' +codicePratica;
+println 'impresa =  ' +impresa;
+println 'impresaGroup =  ' +impresaGroup;
+println 'numeroProtocollo =  ' +numeroProtocollo;
+println 'operatore_sf =  ' +operatore_sf;
+println 'operatoresfGroup =  ' +operatoresfGroup;
+println 'pm =  ' +pm;
+println 'pmGroup =  ' +pmGroup;
+println 'processDefinitionKey =  ' +processDefinitionKey;
+println 'responsabileGroup =  ' +responsabileGroup;
+println 'responsabile =  ' +responsabile;
+println 'stato_istruttoria =  ' +stato_istruttoria;
+println 'valutatore =  ' +valutatore;
+println 'valutatoreGroup  =  ' +valutatoreGroup;
+println 'regione =  ' +regione;
+println 'regioneGroup =  ' +regioneGroup;	
+println 'payload =  ' +payload;
+execution.getProcessEngineServices().getRuntimeService()
+			.createMessageCorrelation("Message_RichiestaIntegrazione").processInstanceBusinessKey(businessKey)
+.setVariable("autorizzatoreConfidi", autorizzatoreConfidi)
+.setVariable("autorizzatoreSF", autorizzatoreSF)
+.setVariable("autorizzatoreSFGroup", autorizzatoreSFGroup)
+.setVariable("codiceIstruttoria", codiceIstruttoria)
+.setVariable("codicePratica", codicePratica)
+.setVariable("impresa",impresa)
+.setVariable("impresaGroup",impresaGroup)
+.setVariable("numeroProtocollo",numeroProtocollo)
+.setVariable("operatore_sf",operatore_sf)
+.setVariable("operatoresfGroup", operatoresfGroup)
+.setVariable("pm", pm)
+.setVariable("pmGroup", pmGroup)
+.setVariable("responsabileGroup", responsabileGroup)
+.setVariable("responsabile",responsabile)
+.setVariable("stato_istruttoria",stato_istruttoria)
+.setVariable("valutatore",valutatore)
+.setVariable("valutatoreGroup",valutatoreGroup)
+.setVariable("regione",regione)
+.setVariable("regioneGroup",regioneGroup)
+.setVariable("payload",payload)
+			.correlate();</bpmn:script>
+    </bpmn:scriptTask>
+    <bpmn:userTask id="UserTask_04c0dpd" name="     &#10;Conferma Esito&#10;" camunda:assignee="${pm}" camunda:candidateGroups="${pmGroup}">
+      <bpmn:extensionElements>
+        <camunda:formData>
+          <camunda:formField id="codicePratica" label="Numero Pratica" type="string" defaultValue="${codicePratica}">
+            <camunda:validation>
+              <camunda:constraint name="readonly" />
+            </camunda:validation>
+          </camunda:formField>
+          <camunda:formField id="note" label="Note" type="string" />
+          <camunda:formField id=" firmaRigettoInammissibilita" label=" Firma Preavviso di Rigetto inammissibilità" type="string" />
+          <camunda:formField id="confermaEsitoRigettoInamm" label="Conferma esito del preavviso rigetto per inammisibilità" type="boolean" />
+          <camunda:formField id="codiceIstruttoria" type="string" />
+        </camunda:formData>
+        <camunda:properties>
+          <camunda:property name="form_type" value="notifica" />
+          <camunda:property name="codice_scheda" value="PREAVVISO_RIGETTO_AMMISSIBILITA" />
+          <camunda:property name="azioni_owner" value="[{&#34;type&#34;:&#34;button&#34;,&#34;label&#34;:&#34;Conferma&#34;,&#34;wf_var_name&#34;:&#34;confermaEsitoRigettoInamm&#34;,&#34;wf_var_value&#34;:true,&#34;url&#34;:&#34;comunicazioni/conferma/ammissibilita/pm&#34;,&#34;method&#34;:&#34;POST&#34;,&#34;position&#34;:0},{&#34;type&#34;:&#34;button&#34;,&#34;label&#34;:&#34;Respingi&#34;,&#34;wf_var_name&#34;:&#34;confermaEsitoRigettoInamm&#34;,&#34;wf_var_value&#34;:false,&#34;url&#34;:&#34;comunicazioni/respingi/ammissibilita&#34;,&#34;method&#34;:&#34;POST&#34;,&#34;position&#34;:1}]" />
+        </camunda:properties>
+      </bpmn:extensionElements>
+      <bpmn:incoming>SequenceFlow_0gqrokl</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_01q747i</bpmn:outgoing>
+    </bpmn:userTask>
+    <bpmn:userTask id="UserTask_1e2bt59" name="Riceve Controdeduzione" camunda:assignee="${valutatore}" camunda:candidateGroups="${valutatoreGroup}">
+      <bpmn:extensionElements>
+        <camunda:formData>
+          <camunda:formField id="codicePratica" label="Numero Pratica" type="string" defaultValue="${codicePratica}">
+            <camunda:validation>
+              <camunda:constraint name="readonly" />
+            </camunda:validation>
+          </camunda:formField>
+          <camunda:formField id="controdeduzione" label="Controdeduzione" type="string" defaultValue="${controdeduzione}">
+            <camunda:validation>
+              <camunda:constraint name="readonly" />
+            </camunda:validation>
+          </camunda:formField>
+          <camunda:formField id="valutaControdeduzioneInamm" label="Accetta Controdeduzione?" type="boolean" />
+          <camunda:formField id="apriAccoglibilita" label="Vuoi riapreire l&#39;accoglibilità?" type="boolean" defaultValue="false" />
+        </camunda:formData>
+        <camunda:properties>
+          <camunda:property name="form_type" value="notifica" />
+          <camunda:property name="codice_scheda" value="CONTRODEDUZIONI" />
+          <camunda:property name="azioni_owner" value="[{&#34;type&#34;:&#34;button&#34;,&#34;label&#34;:&#34;Accogli&#34;,&#34;wf_var_name&#34;:&#34;valutaControdeduzioneInamm&#34;,&#34;wf_var_value&#34;:true,&#34;url&#34;:&#34;controdeduzioni/valida&#34;,&#34;method&#34;:&#34;POST&#34;,&#34;position&#34;:1},{&#34;type&#34;:&#34;button&#34;,&#34;label&#34;:&#34;Respingi&#34;,&#34;wf_var_name&#34;:&#34;valutaControdeduzioneInamm&#34;,&#34;wf_var_value&#34;:false,&#34;url&#34;:&#34;controdeduzioni/respingi&#34;,&#34;method&#34;:&#34;POST&#34;,&#34;position&#34;:2}]" />
+          <camunda:property name="destinatario" value="${responsabile}" />
+        </camunda:properties>
+      </bpmn:extensionElements>
+      <bpmn:incoming>SequenceFlow_1kis99b</bpmn:incoming>
+      <bpmn:incoming>SequenceFlow_10a6dhh</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_14us0c2</bpmn:outgoing>
+    </bpmn:userTask>
+    <bpmn:serviceTask id="ServiceTask_0z9zsy6" name="Comunicazione a regione" camunda:class="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.ComunicazioneRegione">
+      <bpmn:extensionElements>
+        <camunda:inputOutput>
+          <camunda:inputParameter name="tipo_comunicazione">CONTRODEDUZIONI</camunda:inputParameter>
+          <camunda:inputParameter name="stato">INVIATA</camunda:inputParameter>
+          <camunda:inputParameter name="mittente">${impresa}</camunda:inputParameter>
+          <camunda:inputParameter name="destinatario">${valutatore}</camunda:inputParameter>
+        </camunda:inputOutput>
+      </bpmn:extensionElements>
+      <bpmn:incoming>SequenceFlow_0kmwrmj</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_10a6dhh</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:sequenceFlow id="SequenceFlow_10a6dhh" sourceRef="ServiceTask_0z9zsy6" targetRef="UserTask_1e2bt59" />
+    <bpmn:serviceTask id="ServiceTask_1qafp6l" name="update skeda ammissibilita con owner null" camunda:class="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.LoggerDelegate">
+      <bpmn:incoming>SequenceFlow_15awwpg</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_0cqdqfi</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:serviceTask id="ServiceTask_0wc76kf" name="Comunicazione a regione" camunda:class="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.ComunicazioneRegione">
+      <bpmn:extensionElements>
+        <camunda:inputOutput>
+          <camunda:inputParameter name="tipo_comunicazione">CONTRODEDUZIONI</camunda:inputParameter>
+          <camunda:inputParameter name="stato">INVIATA</camunda:inputParameter>
+          <camunda:inputParameter name="mittente">${impresa}</camunda:inputParameter>
+          <camunda:inputParameter name="destinatario">${valutatore}</camunda:inputParameter>
+        </camunda:inputOutput>
+      </bpmn:extensionElements>
+      <bpmn:incoming>SequenceFlow_0cqdqfi</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_1av1yyi</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:intermediateThrowEvent id="IntermediateThrowEvent_1rg6480" name="go to Controdeduzione 2">
+      <bpmn:incoming>SequenceFlow_1av1yyi</bpmn:incoming>
+      <bpmn:linkEventDefinition id="LinkEventDefinition_1eqg1ga" name="LinkRiceveControdeduzione2" />
+    </bpmn:intermediateThrowEvent>
+    <bpmn:sequenceFlow id="SequenceFlow_1av1yyi" sourceRef="ServiceTask_0wc76kf" targetRef="IntermediateThrowEvent_1rg6480" />
+    <bpmn:intermediateThrowEvent id="IntermediateThrowEvent_11ljddg" name="go to Verifica Accoglibilità">
+      <bpmn:incoming>SequenceFlow_0vmusar</bpmn:incoming>
+      <bpmn:linkEventDefinition id="LinkEventDefinition_1wkj4sg" name="LinkVerificaAccoglibilita" />
+    </bpmn:intermediateThrowEvent>
+    <bpmn:scriptTask id="Task_1qslotm" name="notifica regione" scriptFormat="groovy">
+      <bpmn:incoming>SequenceFlow_0suhmmy</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_0z3sifw</bpmn:outgoing>
+      <bpmn:script>String businessKey = (String) execution.getProcessBusinessKey();			
+String autorizzatoreConfidi = (String) execution.getVariable("autorizzatoreConfidi");
+String autorizzatoreSF = (String) execution.getVariable("autorizzatoreSF");
+String autorizzatoreSFGroup = (String) execution.getVariable("autorizzatoreSFGroup");
+String codiceIstruttoria = (String) execution.getVariable("codiceIstruttoria");
+String codicePratica = (String) execution.getVariable("codicePratica");
+String impresa = (String) execution.getVariable("impresa");
+String impresaGroup = (String) execution.getVariable("impresaGroup");
+String numeroProtocollo = (String) execution.getVariable("numeroProtocollo");
+String operatore_sf = (String) execution.getVariable("operatore_sf");
+String operatoresfGroup = (String) execution.getVariable("operatoresfGroup");
+String pm = (String) execution.getVariable("pm");
+String pmGroup = (String) execution.getVariable("pmGroup");
+String processDefinitionKey = (String) execution.getVariable("processDefinitionKey");
+String responsabileGroup = (String) execution.getVariable("responsabileGroup");
+String responsabile = (String) execution.getVariable("responsabile");
+String stato_istruttoria = (String) execution.getVariable("stato_istruttoria");
+String valutatore = (String) execution.getVariable("valutatore");
+String valutatoreGroup  = (String) execution.getVariable("valutatoreGroup");
+String regione = (String) execution.getVariable("regione");
+String regioneGroup = (String) execution.getVariable("regioneGroup");	
+String payload = (String) execution.getVariable("payload");
+println 'businessKey =  '+ businessKey ;			
+println 'autorizzatoreConfidi =  '+ autorizzatoreConfidi ;
+println 'autorizzatoreSF =  '+ autorizzatoreSF;
+println 'autorizzatoreSFGroup =  ' +autorizzatoreSFGroup;
+println 'codiceIstruttoria =  ' +codiceIstruttoria;
+println 'codicePratica =  ' +codicePratica;
+println 'impresa =  ' +impresa;
+println 'impresaGroup =  ' +impresaGroup;
+println 'numeroProtocollo =  ' +numeroProtocollo;
+println 'operatore_sf =  ' +operatore_sf;
+println 'operatoresfGroup =  ' +operatoresfGroup;
+println 'pm =  ' +pm;
+println 'pmGroup =  ' +pmGroup;
+println 'processDefinitionKey =  ' +processDefinitionKey;
+println 'responsabileGroup =  ' +responsabileGroup;
+println 'responsabile =  ' +responsabile;
+println 'stato_istruttoria =  ' +stato_istruttoria;
+println 'valutatore =  ' +valutatore;
+println 'valutatoreGroup  =  ' +valutatoreGroup;
+println 'regione =  ' +regione;
+println 'regioneGroup =  ' +regioneGroup;	
+println 'payload =  ' +payload;
+execution.getProcessEngineServices().getRuntimeService()
+			.createMessageCorrelation("Message_PropostaInammissibilita").processInstanceBusinessKey(businessKey)
+.setVariable("autorizzatoreConfidi", autorizzatoreConfidi)
+.setVariable("autorizzatoreSF", autorizzatoreSF)
+.setVariable("autorizzatoreSFGroup", autorizzatoreSFGroup)
+.setVariable("codiceIstruttoria", codiceIstruttoria)
+.setVariable("codicePratica", codicePratica)
+.setVariable("impresa",impresa)
+.setVariable("impresaGroup",impresaGroup)
+.setVariable("numeroProtocollo",numeroProtocollo)
+.setVariable("operatore_sf",operatore_sf)
+.setVariable("operatoresfGroup", operatoresfGroup)
+.setVariable("pm", pm)
+.setVariable("pmGroup", pmGroup)
+.setVariable("responsabileGroup", responsabileGroup)
+.setVariable("responsabile",responsabile)
+.setVariable("stato_istruttoria",stato_istruttoria)
+.setVariable("valutatore",valutatore)
+.setVariable("valutatoreGroup",valutatoreGroup)
+.setVariable("regione",regione)
+.setVariable("regioneGroup",regioneGroup)
+.setVariable("payload",payload)
+			.correlate();</bpmn:script>
+    </bpmn:scriptTask>
+    <bpmn:serviceTask id="ServiceTask_0jlzkf3" name="Comunicazione a regione" camunda:class="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.ComunicazioneRegione">
+      <bpmn:extensionElements>
+        <camunda:inputOutput>
+          <camunda:inputParameter name="tipo_comunicazione">INAMMISSIBILITA</camunda:inputParameter>
+          <camunda:inputParameter name="stato">INVIATA</camunda:inputParameter>
+          <camunda:inputParameter name="mittente">${pm}</camunda:inputParameter>
+          <camunda:inputParameter name="destinatario">${regione}</camunda:inputParameter>
+        </camunda:inputOutput>
+      </bpmn:extensionElements>
+      <bpmn:incoming>SequenceFlow_0lqh0xd</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_0suhmmy</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:sequenceFlow id="SequenceFlow_0suhmmy" sourceRef="ServiceTask_0jlzkf3" targetRef="Task_1qslotm" />
   </bpmn:process>
   <bpmn:process id="istruttoria_regione_id" name="Istruttoria Regione" isExecutable="true" camunda:candidateStarterGroups="Responsabile Regione" camunda:candidateStarterUsers="${regione}" camunda:versionTag="1.0">
     <bpmn:laneSet id="LaneSet_14egva7">
@@ -6458,18 +6540,44 @@ execution.getProcessEngineServices().getRuntimeService()
     <bpmn:sequenceFlow id="SequenceFlow_1fu2bad" sourceRef="ScriptTask_0mbxhaf" targetRef="ParallelGateway_0vnhlyy" />
     <bpmn:sequenceFlow id="SequenceFlow_1axylxp" sourceRef="BoundaryEvent_0u4e2xb" targetRef="sez_accoglibilita_impresa_invio_spontaneo" />
     <bpmn:sequenceFlow id="SequenceFlow_1bcnv37" sourceRef="BoundaryEvent_1spbrli" targetRef="UserTask_08ej6bh" />
-    <bpmn:sequenceFlow id="SequenceFlow_0hk08ys" sourceRef="sez_accoglibilita_impresa_invio_spontaneo" targetRef="Task_0mjoqnk" />
+    <bpmn:sequenceFlow id="SequenceFlow_0hk08ys" sourceRef="sez_accoglibilita_impresa_invio_spontaneo" targetRef="ServiceTask_00ef1y1" />
     <bpmn:sequenceFlow id="SequenceFlow_166w29l" sourceRef="Task_0mjoqnk" targetRef="sez_accoglibilita_impresa_invio_spontaneo" />
-    <bpmn:serviceTask id="Task_0mjoqnk" name="Logger" camunda:class="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.LoggerDelegate">
+    <bpmn:sequenceFlow id="SequenceFlow_0cdsh7z" sourceRef="UserTask_08ej6bh" targetRef="ServiceTask_0f7yzx9" />
+    <bpmn:sequenceFlow id="SequenceFlow_07co33v" sourceRef="Task_1ktqboz" targetRef="UserTask_08ej6bh" />
+    <bpmn:serviceTask id="ServiceTask_00ef1y1" name="Comunicazione a regione" camunda:class="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.ComunicazioneRegione">
+      <bpmn:extensionElements>
+        <camunda:inputOutput>
+          <camunda:inputParameter name="tipo_comunicazione">COMUNICAZIONI_SPONTANEE</camunda:inputParameter>
+          <camunda:inputParameter name="stato">INVIATA</camunda:inputParameter>
+          <camunda:inputParameter name="mittente">${impresa}</camunda:inputParameter>
+          <camunda:inputParameter name="destinatario">${valutatore}</camunda:inputParameter>
+        </camunda:inputOutput>
+      </bpmn:extensionElements>
       <bpmn:incoming>SequenceFlow_0hk08ys</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_0amttao</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:serviceTask id="Task_0mjoqnk" name="Logger" camunda:class="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.LoggerDelegate">
+      <bpmn:incoming>SequenceFlow_0amttao</bpmn:incoming>
       <bpmn:outgoing>SequenceFlow_166w29l</bpmn:outgoing>
     </bpmn:serviceTask>
+    <bpmn:sequenceFlow id="SequenceFlow_0amttao" sourceRef="ServiceTask_00ef1y1" targetRef="Task_0mjoqnk" />
     <bpmn:serviceTask id="Task_1ktqboz" name="logger" camunda:class="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.LoggerDelegate">
-      <bpmn:incoming>SequenceFlow_0cdsh7z</bpmn:incoming>
+      <bpmn:incoming>SequenceFlow_06tizrd</bpmn:incoming>
       <bpmn:outgoing>SequenceFlow_07co33v</bpmn:outgoing>
     </bpmn:serviceTask>
-    <bpmn:sequenceFlow id="SequenceFlow_0cdsh7z" sourceRef="UserTask_08ej6bh" targetRef="Task_1ktqboz" />
-    <bpmn:sequenceFlow id="SequenceFlow_07co33v" sourceRef="Task_1ktqboz" targetRef="UserTask_08ej6bh" />
+    <bpmn:serviceTask id="ServiceTask_0f7yzx9" name="Comunicazione a regione" camunda:class="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.ComunicazioneRegione">
+      <bpmn:extensionElements>
+        <camunda:inputOutput>
+          <camunda:inputParameter name="tipo_comunicazione">COMUNICAZIONI_SPONTANEE</camunda:inputParameter>
+          <camunda:inputParameter name="stato">INVIATA</camunda:inputParameter>
+          <camunda:inputParameter name="mittente">${impresa}</camunda:inputParameter>
+          <camunda:inputParameter name="destinatario">${valutatore}</camunda:inputParameter>
+        </camunda:inputOutput>
+      </bpmn:extensionElements>
+      <bpmn:incoming>SequenceFlow_0cdsh7z</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_06tizrd</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:sequenceFlow id="SequenceFlow_06tizrd" sourceRef="ServiceTask_0f7yzx9" targetRef="Task_1ktqboz" />
   </bpmn:process>
   <bpmn:message id="Message_1ebfox9" name="Message_PreavvisoRigettoNonAccoglibileRegione" />
   <bpmn:message id="Message_08mgkjk" name="Message_PreavvisoComunicazioneNonAccoglibilita" />
@@ -6625,10 +6733,10 @@ execution.getProcessEngineServices().getRuntimeService()
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="SequenceFlow_0fepwg0_di" bpmnElement="SequenceFlow_0fepwg0">
         <di:waypoint x="3287" y="1792" />
-        <di:waypoint x="3287" y="1651" />
+        <di:waypoint x="3287" y="1670" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNShape id="UserTask_15gs02i_di" bpmnElement="sez_accoglibilita_valutatore_controdeduzione" bioc:stroke="rgb(251, 140, 0)" bioc:fill="rgb(255, 224, 178)">
-        <dc:Bounds x="3237" y="1571" width="100" height="80" />
+        <dc:Bounds x="3237" y="1450" width="100" height="80" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="ExclusiveGateway_15xsb5g_di" bpmnElement="ExclusiveGateway_15xsb5g" isMarkerVisible="true">
         <dc:Bounds x="3606" y="1586" width="50" height="50" />
@@ -6651,7 +6759,9 @@ execution.getProcessEngineServices().getRuntimeService()
         <dc:Bounds x="3573" y="789" width="100" height="80" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNEdge id="SequenceFlow_1ml2zza_di" bpmnElement="SequenceFlow_1ml2zza">
-        <di:waypoint x="3337" y="1611" />
+        <di:waypoint x="3337" y="1490" />
+        <di:waypoint x="3386" y="1490" />
+        <di:waypoint x="3386" y="1611" />
         <di:waypoint x="3434" y="1611" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="SequenceFlow_0dwwfgr_di" bpmnElement="SequenceFlow_0dwwfgr">
@@ -7131,8 +7241,8 @@ execution.getProcessEngineServices().getRuntimeService()
         <di:waypoint x="10158" y="1818" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="MessageFlow_1kf56tv_di" bpmnElement="MessageFlow_1kf56tv">
-        <di:waypoint x="7788" y="1510" />
-        <di:waypoint x="7788" y="3021" />
+        <di:waypoint x="7980" y="1510" />
+        <di:waypoint x="7980" y="3021" />
         <di:waypoint x="7878" y="3021" />
         <di:waypoint x="7878" y="4541" />
       </bpmndi:BPMNEdge>
@@ -7164,8 +7274,8 @@ execution.getProcessEngineServices().getRuntimeService()
         <di:waypoint x="10700" y="4425" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="MessageFlow_0g9k6f6_di" bpmnElement="MessageFlow_0g9k6f6">
-        <di:waypoint x="5584" y="1864" />
-        <di:waypoint x="5584" y="2367" />
+        <di:waypoint x="5764" y="1864" />
+        <di:waypoint x="5764" y="2367" />
         <di:waypoint x="5106" y="2367" />
         <di:waypoint x="5106" y="2869" />
       </bpmndi:BPMNEdge>
@@ -7176,7 +7286,7 @@ execution.getProcessEngineServices().getRuntimeService()
         <di:waypoint x="10620" y="4407" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNShape id="UserTask_1e2bt59_di" bpmnElement="UserTask_1e2bt59" bioc:stroke="rgb(142, 36, 170)" bioc:fill="rgb(225, 190, 231)">
-        <dc:Bounds x="11242" y="1571" width="100" height="80" />
+        <dc:Bounds x="11242" y="1349" width="100" height="80" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="ServiceTask_0lf2nmm_di" bpmnElement="ServiceTask_0lf2nmm">
         <dc:Bounds x="11485" y="1571" width="100" height="80" />
@@ -7212,8 +7322,9 @@ execution.getProcessEngineServices().getRuntimeService()
         <di:waypoint x="12499" y="712" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="SequenceFlow_14us0c2_di" bpmnElement="SequenceFlow_14us0c2">
-        <di:waypoint x="11342" y="1611" />
-        <di:waypoint x="11384" y="1611" />
+        <di:waypoint x="11342" y="1389" />
+        <di:waypoint x="11409" y="1389" />
+        <di:waypoint x="11409" y="1586" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="SequenceFlow_07w7edd_di" bpmnElement="SequenceFlow_07w7edd">
         <di:waypoint x="11292" y="1890" />
@@ -7283,8 +7394,8 @@ execution.getProcessEngineServices().getRuntimeService()
         <dc:Bounds x="13003" y="1900" width="100" height="80" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNEdge id="MessageFlow_150c7ws_di" bpmnElement="MessageFlow_150c7ws">
-        <di:waypoint x="13720" y="1980" />
-        <di:waypoint x="13720" y="2614" />
+        <di:waypoint x="13820" y="1980" />
+        <di:waypoint x="13820" y="2614" />
         <di:waypoint x="13545" y="2614" />
         <di:waypoint x="13545" y="3178" />
       </bpmndi:BPMNEdge>
@@ -7488,7 +7599,7 @@ execution.getProcessEngineServices().getRuntimeService()
         <dc:Bounds x="827" y="739" width="100" height="80" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="ScriptTask_1mlo451_di" bpmnElement="Task_19c5gfz">
-        <dc:Bounds x="5560" y="1784" width="100" height="80" />
+        <dc:Bounds x="5740" y="1784" width="100" height="80" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="ScriptTask_0sxad9f_di" bpmnElement="ServiceTask_1ygih5p">
         <dc:Bounds x="5764" y="2847" width="100" height="80" />
@@ -7497,7 +7608,7 @@ execution.getProcessEngineServices().getRuntimeService()
         <dc:Bounds x="5764" y="2692" width="100" height="80" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="ScriptTask_1pj93mq_di" bpmnElement="ServiceTask_0ykaplt">
-        <dc:Bounds x="7738" y="1430" width="100" height="80" />
+        <dc:Bounds x="7930" y="1430" width="100" height="80" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="ScriptTask_1hq0vnv_di" bpmnElement="ServiceTask_16mw2nw">
         <dc:Bounds x="8170" y="4519" width="100" height="80" />
@@ -7506,7 +7617,7 @@ execution.getProcessEngineServices().getRuntimeService()
         <dc:Bounds x="11093" y="1958" width="100" height="80" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="ScriptTask_06m9ppt_di" bpmnElement="Task_1qslotm">
-        <dc:Bounds x="13650" y="1900" width="100" height="80" />
+        <dc:Bounds x="13750" y="1900" width="100" height="80" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="ScriptTask_1bpimg8_di" bpmnElement="Task_15b83ay">
         <dc:Bounds x="14046" y="2952" width="100" height="80" />
@@ -7526,13 +7637,12 @@ execution.getProcessEngineServices().getRuntimeService()
       <bpmndi:BPMNEdge id="SequenceFlow_0s5aoyv_di" bpmnElement="SequenceFlow_0s5aoyv">
         <di:waypoint x="4256" y="1610" />
         <di:waypoint x="4320" y="1660" />
-        <di:waypoint x="4331" y="1697" />
-        <di:waypoint x="4331" y="1742" />
+        <di:waypoint x="4320" y="1742" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNShape id="IntermediateThrowEvent_1l5djoz_di" bpmnElement="IntermediateThrowEvent_0cypt5k" bioc:stroke="rgb(251, 140, 0)" bioc:fill="rgb(255, 224, 178)">
-        <dc:Bounds x="4452" y="1764" width="36" height="36" />
+        <dc:Bounds x="4477" y="1912" width="36" height="36" />
         <bpmndi:BPMNLabel>
-          <dc:Bounds x="4430" y="1807" width="84" height="27" />
+          <dc:Bounds x="4455" y="1955" width="84" height="27" />
         </bpmndi:BPMNLabel>
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="IntermediateCatchEvent_0n4zo3g_di" bpmnElement="IntermediateCatchEvent_1n9romm">
@@ -7621,7 +7731,7 @@ execution.getProcessEngineServices().getRuntimeService()
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="SequenceFlow_1q9zqo4_di" bpmnElement="SequenceFlow_1q9zqo4">
         <di:waypoint x="3287" y="1390" />
-        <di:waypoint x="3287" y="1571" />
+        <di:waypoint x="3287" y="1450" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNShape id="ScriptTask_1xtgr2l_di" bpmnElement="Task_0vypzuu">
         <dc:Bounds x="3237" y="1310" width="100" height="80" />
@@ -7684,8 +7794,8 @@ execution.getProcessEngineServices().getRuntimeService()
         <di:waypoint x="4953" y="4214" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="SequenceFlow_0phc5h5_di" bpmnElement="SequenceFlow_0phc5h5">
-        <di:waypoint x="5660" y="1824" />
-        <di:waypoint x="5790" y="1824" />
+        <di:waypoint x="5840" y="1824" />
+        <di:waypoint x="6007" y="1824" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNShape id="IntermediateCatchEvent_0paeu7z_di" bpmnElement="IntermediateThrowEvent_1c2riz9" bioc:stroke="rgb(67, 160, 71)" bioc:fill="rgb(200, 230, 201)">
         <dc:Bounds x="702" y="627" width="36" height="36" />
@@ -7745,7 +7855,7 @@ execution.getProcessEngineServices().getRuntimeService()
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="SequenceFlow_1x3mgxe_di" bpmnElement="SequenceFlow_1x3mgxe">
         <di:waypoint x="2832" y="1948" />
-        <di:waypoint x="3055" y="1948" />
+        <di:waypoint x="2910" y="1948" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="SequenceFlow_1itmn45_di" bpmnElement="SequenceFlow_1itmn45">
         <di:waypoint x="265" y="779" />
@@ -7768,11 +7878,11 @@ execution.getProcessEngineServices().getRuntimeService()
         <dc:Bounds x="8420" y="1431" width="100" height="80" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="ServiceTask_1jh3bry_di" bpmnElement="Task_1klh81g">
-        <dc:Bounds x="4290" y="1742" width="100" height="80" />
+        <dc:Bounds x="4290" y="1890" width="100" height="80" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNEdge id="SequenceFlow_1e9zzow_di" bpmnElement="SequenceFlow_1e9zzow">
-        <di:waypoint x="4390" y="1782" />
-        <di:waypoint x="4452" y="1782" />
+        <di:waypoint x="4390" y="1930" />
+        <di:waypoint x="4477" y="1930" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNShape id="IntermediateCatchEvent_0qewzrk_di" bpmnElement="IntermediateThrowEvent_00mavsi">
         <dc:Bounds x="324" y="761" width="36" height="36" />
@@ -8375,10 +8485,6 @@ execution.getProcessEngineServices().getRuntimeService()
         <di:waypoint x="5496" y="1893" />
         <di:waypoint x="5496" y="1849" />
       </bpmndi:BPMNEdge>
-      <bpmndi:BPMNEdge id="SequenceFlow_1imsgfe_di" bpmnElement="SequenceFlow_1imsgfe">
-        <di:waypoint x="5521" y="1824" />
-        <di:waypoint x="5560" y="1824" />
-      </bpmndi:BPMNEdge>
       <bpmndi:BPMNShape id="ServiceTask_0wevdru_di" bpmnElement="UserTask_0yfu6mt">
         <dc:Bounds x="6692" y="1784" width="100" height="80" />
       </bpmndi:BPMNShape>
@@ -8932,48 +9038,41 @@ execution.getProcessEngineServices().getRuntimeService()
         <dc:Bounds x="10759" y="1973" width="50" height="50" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="ServiceTask_04xurd7_di" bpmnElement="ServiceTask_04xurd7">
-        <dc:Bounds x="10610" y="2222" width="100" height="80" />
+        <dc:Bounds x="10610" y="2195" width="100" height="80" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="ServiceTask_1ekbtzi_di" bpmnElement="ServiceTask_1ekbtzi">
-        <dc:Bounds x="10610" y="1958" width="100" height="80" />
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="ServiceTask_1m83udq_di" bpmnElement="ServiceTask_1m83udq">
-        <dc:Bounds x="10610" y="1868" width="100" height="80" />
+        <dc:Bounds x="10610" y="1890" width="100" height="80" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="ServiceTask_0mmnij6_di" bpmnElement="ServiceTask_0mmnij6">
-        <dc:Bounds x="10610" y="2049" width="100" height="80" />
+        <dc:Bounds x="10610" y="2019" width="100" height="80" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="ServiceTask_0m7o8x8_di" bpmnElement="ServiceTask_0m7o8x8">
-        <dc:Bounds x="10610" y="2135" width="100" height="80" />
+        <dc:Bounds x="10610" y="2106" width="100" height="80" />
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNEdge id="SequenceFlow_1ovk96z_di" bpmnElement="SequenceFlow_1ovk96z">
-        <di:waypoint x="10527" y="1973" />
-        <di:waypoint x="10527" y="1908" />
-        <di:waypoint x="10610" y="1908" />
-      </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="SequenceFlow_16hk5gs_di" bpmnElement="SequenceFlow_16hk5gs">
         <di:waypoint x="10527" y="1973" />
         <di:waypoint x="10527" y="1815" />
         <di:waypoint x="10610" y="1815" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="SequenceFlow_16m8ln3_di" bpmnElement="SequenceFlow_16m8ln3">
-        <di:waypoint x="10552" y="1998" />
-        <di:waypoint x="10610" y="1998" />
+        <di:waypoint x="10527" y="1973" />
+        <di:waypoint x="10527" y="1930" />
+        <di:waypoint x="10610" y="1930" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="SequenceFlow_1u2h7g7_di" bpmnElement="SequenceFlow_1u2h7g7">
         <di:waypoint x="10527" y="2023" />
-        <di:waypoint x="10527" y="2089" />
-        <di:waypoint x="10610" y="2089" />
+        <di:waypoint x="10527" y="2059" />
+        <di:waypoint x="10610" y="2059" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="SequenceFlow_16coo34_di" bpmnElement="SequenceFlow_16coo34">
         <di:waypoint x="10527" y="2023" />
-        <di:waypoint x="10527" y="2175" />
-        <di:waypoint x="10610" y="2175" />
+        <di:waypoint x="10527" y="2146" />
+        <di:waypoint x="10610" y="2146" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="SequenceFlow_09k397l_di" bpmnElement="SequenceFlow_09k397l">
         <di:waypoint x="10527" y="2023" />
-        <di:waypoint x="10527" y="2262" />
-        <di:waypoint x="10610" y="2262" />
+        <di:waypoint x="10527" y="2235" />
+        <di:waypoint x="10610" y="2235" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="SequenceFlow_0alo9ks_di" bpmnElement="SequenceFlow_0alo9ks">
         <di:waypoint x="10710" y="1815" />
@@ -8982,30 +9081,26 @@ execution.getProcessEngineServices().getRuntimeService()
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="SequenceFlow_1mv0os2_di" bpmnElement="SequenceFlow_1mv0os2">
         <di:waypoint x="10809" y="1998" />
-        <di:waypoint x="11093" y="1998" />
-      </bpmndi:BPMNEdge>
-      <bpmndi:BPMNEdge id="SequenceFlow_0o8niv5_di" bpmnElement="SequenceFlow_0o8niv5">
-        <di:waypoint x="10710" y="1908" />
-        <di:waypoint x="10784" y="1908" />
-        <di:waypoint x="10784" y="1973" />
+        <di:waypoint x="10910" y="1999" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="SequenceFlow_1xkgmnp_di" bpmnElement="SequenceFlow_1xkgmnp">
-        <di:waypoint x="10710" y="1998" />
-        <di:waypoint x="10759" y="1998" />
+        <di:waypoint x="10710" y="1930" />
+        <di:waypoint x="10784" y="1930" />
+        <di:waypoint x="10784" y="1973" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="SequenceFlow_0npuk7t_di" bpmnElement="SequenceFlow_0npuk7t">
-        <di:waypoint x="10710" y="2089" />
-        <di:waypoint x="10784" y="2089" />
+        <di:waypoint x="10710" y="2059" />
+        <di:waypoint x="10784" y="2059" />
         <di:waypoint x="10784" y="2023" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="SequenceFlow_1gyy9il_di" bpmnElement="SequenceFlow_1gyy9il">
-        <di:waypoint x="10710" y="2175" />
-        <di:waypoint x="10784" y="2175" />
+        <di:waypoint x="10710" y="2146" />
+        <di:waypoint x="10784" y="2146" />
         <di:waypoint x="10784" y="2023" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="SequenceFlow_1pt8081_di" bpmnElement="SequenceFlow_1pt8081">
-        <di:waypoint x="10710" y="2262" />
-        <di:waypoint x="10784" y="2262" />
+        <di:waypoint x="10710" y="2235" />
+        <di:waypoint x="10784" y="2235" />
         <di:waypoint x="10784" y="2023" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNShape id="IntermediateCatchEvent_1pu9i74_di" bpmnElement="IntermediateCatchEvent_1pu9i74">
@@ -9268,14 +9363,14 @@ execution.getProcessEngineServices().getRuntimeService()
       </bpmndi:BPMNShape>
       <bpmndi:BPMNEdge id="SequenceFlow_1kis99b_di" bpmnElement="SequenceFlow_1kis99b">
         <di:waypoint x="11292" y="1227" />
-        <di:waypoint x="11292" y="1571" />
+        <di:waypoint x="11292" y="1349" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNShape id="ScriptTask_03y2vev_di" bpmnElement="ScriptTask_03y2vev">
         <dc:Bounds x="11242" y="1754" width="100" height="80" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNEdge id="SequenceFlow_0kmwrmj_di" bpmnElement="SequenceFlow_0kmwrmj">
         <di:waypoint x="11292" y="1754" />
-        <di:waypoint x="11292" y="1651" />
+        <di:waypoint x="11292" y="1570" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNShape id="ServiceTask_1bioqhb_di" bpmnElement="ServiceTask_1bioqhb">
         <dc:Bounds x="11992" y="1470" width="100" height="80" />
@@ -9398,22 +9493,22 @@ execution.getProcessEngineServices().getRuntimeService()
         <di:waypoint x="12390" y="1568" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNShape id="ServiceTask_1qafp6l_di" bpmnElement="ServiceTask_1qafp6l">
-        <dc:Bounds x="12390" y="1742" width="100" height="80" />
+        <dc:Bounds x="12390" y="1775" width="100" height="80" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="IntermediateThrowEvent_1rg6480_di" bpmnElement="IntermediateThrowEvent_1rg6480" bioc:stroke="rgb(142, 36, 170)" bioc:fill="rgb(225, 190, 231)">
-        <dc:Bounds x="12532" y="1764" width="36" height="36" />
+        <dc:Bounds x="12672" y="1797" width="36" height="36" />
         <bpmndi:BPMNLabel>
-          <dc:Bounds x="12510" y="1807" width="84" height="40" />
+          <dc:Bounds x="12650" y="1840" width="84" height="40" />
         </bpmndi:BPMNLabel>
       </bpmndi:BPMNShape>
       <bpmndi:BPMNEdge id="SequenceFlow_0cqdqfi_di" bpmnElement="SequenceFlow_0cqdqfi">
-        <di:waypoint x="12490" y="1782" />
-        <di:waypoint x="12532" y="1782" />
+        <di:waypoint x="12490" y="1815" />
+        <di:waypoint x="12530" y="1815" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="SequenceFlow_15awwpg_di" bpmnElement="SequenceFlow_15awwpg">
         <di:waypoint x="12408" y="1550" />
         <di:waypoint x="12440" y="1550" />
-        <di:waypoint x="12440" y="1742" />
+        <di:waypoint x="12440" y="1775" />
         <bpmndi:BPMNLabel>
           <dc:Bounds x="12374" y="1486" width="82" height="27" />
         </bpmndi:BPMNLabel>
@@ -9745,7 +9840,7 @@ execution.getProcessEngineServices().getRuntimeService()
       </bpmndi:BPMNShape>
       <bpmndi:BPMNEdge id="SequenceFlow_0lqh0xd_di" bpmnElement="SequenceFlow_0lqh0xd">
         <di:waypoint x="13535" y="1940" />
-        <di:waypoint x="13650" y="1940" />
+        <di:waypoint x="13590" y="1940" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="SequenceFlow_0g11pct_di" bpmnElement="SequenceFlow_0g11pct">
         <di:waypoint x="13328" y="1915" />
@@ -9882,20 +9977,21 @@ execution.getProcessEngineServices().getRuntimeService()
       <bpmndi:BPMNShape id="ExclusiveGateway_0jvzaef_di" bpmnElement="ExclusiveGateway_0jvzaef" isMarkerVisible="true">
         <dc:Bounds x="11384" y="1586" width="50" height="50" />
         <bpmndi:BPMNLabel>
-          <dc:Bounds x="11375" y="1646" width="68" height="27" />
+          <dc:Bounds x="11306" y="1597" width="68" height="27" />
         </bpmndi:BPMNLabel>
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="IntermediateThrowEvent_11ljddg_di" bpmnElement="IntermediateThrowEvent_11ljddg" bioc:stroke="rgb(30, 136, 229)" bioc:fill="rgb(187, 222, 251)">
-        <dc:Bounds x="11391" y="1501" width="36" height="36" />
+        <dc:Bounds x="11612" y="1674" width="36" height="36" />
         <bpmndi:BPMNLabel>
-          <dc:Bounds x="11377" y="1464" width="64" height="27" />
+          <dc:Bounds x="11598" y="1637" width="64" height="27" />
         </bpmndi:BPMNLabel>
       </bpmndi:BPMNShape>
       <bpmndi:BPMNEdge id="SequenceFlow_0vmusar_di" bpmnElement="SequenceFlow_0vmusar">
-        <di:waypoint x="11409" y="1586" />
-        <di:waypoint x="11409" y="1537" />
+        <di:waypoint x="11409" y="1636" />
+        <di:waypoint x="11409" y="1692" />
+        <di:waypoint x="11612" y="1692" />
         <bpmndi:BPMNLabel>
-          <dc:Bounds x="11399" y="1569" width="9" height="14" />
+          <dc:Bounds x="11445" y="1680" width="9" height="14" />
         </bpmndi:BPMNLabel>
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="SequenceFlow_1gvnkdv_di" bpmnElement="SequenceFlow_1gvnkdv">
@@ -10604,11 +10700,11 @@ execution.getProcessEngineServices().getRuntimeService()
         <di:waypoint x="4415" y="4214" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="SequenceFlow_13hpgzp_di" bpmnElement="SequenceFlow_13hpgzp">
-        <di:waypoint x="7788" y="1353" />
-        <di:waypoint x="7788" y="1430" />
+        <di:waypoint x="7838" y="1313" />
+        <di:waypoint x="7930" y="1313" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="SequenceFlow_04nlu7l_di" bpmnElement="SequenceFlow_04nlu7l">
-        <di:waypoint x="7838" y="1470" />
+        <di:waypoint x="8030" y="1470" />
         <di:waypoint x="8165" y="1470" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="SequenceFlow_1tjddh9_di" bpmnElement="SequenceFlow_1tjddh9">
@@ -10733,20 +10829,6 @@ execution.getProcessEngineServices().getRuntimeService()
         <di:waypoint x="18710" y="1864" />
         <di:waypoint x="18710" y="1922" />
       </bpmndi:BPMNEdge>
-      <bpmndi:BPMNShape id="ServiceTask_1y4vzs3_di" bpmnElement="ServiceTask_1y4vzs3">
-        <dc:Bounds x="5790" y="1784" width="100" height="80" />
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNEdge id="SequenceFlow_0qyn7ql_di" bpmnElement="SequenceFlow_0qyn7ql">
-        <di:waypoint x="5890" y="1824" />
-        <di:waypoint x="6007" y="1824" />
-      </bpmndi:BPMNEdge>
-      <bpmndi:BPMNShape id="ServiceTask_04gz3xk_di" bpmnElement="ServiceTask_04gz3xk">
-        <dc:Bounds x="13870" y="1900" width="100" height="80" />
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNEdge id="SequenceFlow_0qjn7fv_di" bpmnElement="SequenceFlow_0qjn7fv">
-        <di:waypoint x="13970" y="1940" />
-        <di:waypoint x="14014" y="1940" />
-      </bpmndi:BPMNEdge>
       <bpmndi:BPMNShape id="ServiceTask_0fd6oui_di" bpmnElement="ServiceTask_0fd6oui">
         <dc:Bounds x="17150" y="1872" width="100" height="80" />
       </bpmndi:BPMNShape>
@@ -10795,35 +10877,32 @@ execution.getProcessEngineServices().getRuntimeService()
         <dc:Bounds x="12449" y="1470" width="100" height="80" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNEdge id="SequenceFlow_0z3sifw_di" bpmnElement="SequenceFlow_0z3sifw">
-        <di:waypoint x="13750" y="1940" />
-        <di:waypoint x="13870" y="1940" />
+        <di:waypoint x="13850" y="1940" />
+        <di:waypoint x="14014" y="1940" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="SequenceFlow_0hk08ys_di" bpmnElement="SequenceFlow_0hk08ys">
         <di:waypoint x="4838" y="4131" />
-        <di:waypoint x="4950" y="4131" />
-        <di:waypoint x="4950" y="4058" />
+        <di:waypoint x="5000" y="4131" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="SequenceFlow_166w29l_di" bpmnElement="SequenceFlow_166w29l">
-        <di:waypoint x="4900" y="4018" />
-        <di:waypoint x="4820" y="4018" />
-        <di:waypoint x="4820" y="4090" />
+        <di:waypoint x="5000" y="3920" />
+        <di:waypoint x="4820" y="3920" />
+        <di:waypoint x="4820" y="4091" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNShape id="ServiceTask_0ttc7vd_di" bpmnElement="Task_0mjoqnk">
-        <dc:Bounds x="4900" y="3978" width="100" height="80" />
+        <dc:Bounds x="5000" y="3880" width="100" height="80" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="ServiceTask_0mqzloi_di" bpmnElement="Task_1ktqboz">
-        <dc:Bounds x="11520" y="4300" width="100" height="80" />
+        <dc:Bounds x="11600" y="4200" width="100" height="80" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNEdge id="SequenceFlow_0cdsh7z_di" bpmnElement="SequenceFlow_0cdsh7z">
         <di:waypoint x="11460" y="4425" />
-        <di:waypoint x="11570" y="4425" />
-        <di:waypoint x="11570" y="4380" />
+        <di:waypoint x="11600" y="4425" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="SequenceFlow_07co33v_di" bpmnElement="SequenceFlow_07co33v">
-        <di:waypoint x="11520" y="4340" />
-        <di:waypoint x="11490" y="4340" />
-        <di:waypoint x="11490" y="4395" />
-        <di:waypoint x="11460" y="4395" />
+        <di:waypoint x="11600" y="4240" />
+        <di:waypoint x="11430" y="4240" />
+        <di:waypoint x="11430" y="4385" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNShape id="ServiceTask_0ha9128_di" bpmnElement="ServiceTask_0ha9128">
         <dc:Bounds x="2633" y="2270" width="100" height="80" />
@@ -10967,6 +11046,87 @@ execution.getProcessEngineServices().getRuntimeService()
         <di:waypoint x="12092" y="1290" />
         <di:waypoint x="12194" y="1290" />
         <di:waypoint x="12194" y="1485" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="ServiceTask_1xcj9ka_di" bpmnElement="ServiceTask_1xcj9ka">
+        <dc:Bounds x="2910" y="1908" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="SequenceFlow_077t7fh_di" bpmnElement="SequenceFlow_077t7fh">
+        <di:waypoint x="3010" y="1948" />
+        <di:waypoint x="3055" y="1948" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="ServiceTask_0vgiu7w_di" bpmnElement="ServiceTask_0vgiu7w">
+        <dc:Bounds x="10910" y="1959" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="SequenceFlow_06q3vsy_di" bpmnElement="SequenceFlow_06q3vsy">
+        <di:waypoint x="11010" y="1999" />
+        <di:waypoint x="11093" y="1998" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="ServiceTask_1nppm58_di" bpmnElement="ServiceTask_1nppm58">
+        <dc:Bounds x="3237" y="1590" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="SequenceFlow_16ce29x_di" bpmnElement="SequenceFlow_16ce29x">
+        <di:waypoint x="3287" y="1590" />
+        <di:waypoint x="3287" y="1530" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="ServiceTask_0v7k138_di" bpmnElement="ServiceTask_0v7k138">
+        <dc:Bounds x="4290" y="1742" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="SequenceFlow_1am8eyl_di" bpmnElement="SequenceFlow_1am8eyl">
+        <di:waypoint x="4340" y="1822" />
+        <di:waypoint x="4340" y="1890" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="ServiceTask_00ef1y1_di" bpmnElement="ServiceTask_00ef1y1">
+        <dc:Bounds x="5000" y="4077" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="SequenceFlow_0amttao_di" bpmnElement="SequenceFlow_0amttao">
+        <di:waypoint x="5050" y="4077" />
+        <di:waypoint x="5050" y="3960" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="ServiceTask_142oa2j_di" bpmnElement="ServiceTask_142oa2j">
+        <dc:Bounds x="5570" y="1784" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="SequenceFlow_1xjfqgb_di" bpmnElement="SequenceFlow_1xjfqgb">
+        <di:waypoint x="5521" y="1824" />
+        <di:waypoint x="5570" y="1824" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="SequenceFlow_1oth7e1_di" bpmnElement="SequenceFlow_1oth7e1">
+        <di:waypoint x="5670" y="1824" />
+        <di:waypoint x="5740" y="1824" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="ServiceTask_0z9af9d_di" bpmnElement="ServiceTask_0z9af9d">
+        <dc:Bounds x="7930" y="1273" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="SequenceFlow_0qafkip_di" bpmnElement="SequenceFlow_0qafkip">
+        <di:waypoint x="7980" y="1353" />
+        <di:waypoint x="7980" y="1430" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="ServiceTask_0z9zsy6_di" bpmnElement="ServiceTask_0z9zsy6">
+        <dc:Bounds x="11242" y="1490" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="SequenceFlow_10a6dhh_di" bpmnElement="SequenceFlow_10a6dhh">
+        <di:waypoint x="11291" y="1490" />
+        <di:waypoint x="11290" y="1429" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="ServiceTask_0wc76kf_di" bpmnElement="ServiceTask_0wc76kf">
+        <dc:Bounds x="12530" y="1775" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="SequenceFlow_1av1yyi_di" bpmnElement="SequenceFlow_1av1yyi">
+        <di:waypoint x="12630" y="1815" />
+        <di:waypoint x="12672" y="1815" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="ServiceTask_0f7yzx9_di" bpmnElement="ServiceTask_0f7yzx9">
+        <dc:Bounds x="11600" y="4385" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="SequenceFlow_06tizrd_di" bpmnElement="SequenceFlow_06tizrd">
+        <di:waypoint x="11650" y="4385" />
+        <di:waypoint x="11650" y="4280" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="ServiceTask_0jlzkf3_di" bpmnElement="ServiceTask_0jlzkf3">
+        <dc:Bounds x="13590" y="1900" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="SequenceFlow_0suhmmy_di" bpmnElement="SequenceFlow_0suhmmy">
+        <di:waypoint x="13690" y="1940" />
+        <di:waypoint x="13750" y="1940" />
       </bpmndi:BPMNEdge>
     </bpmndi:BPMNPlane>
   </bpmndi:BPMNDiagram>
