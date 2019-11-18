@@ -1016,7 +1016,7 @@
         <camunda:properties>
           <camunda:property name="form_type" value="notifica" />
           <camunda:property name="codice_scheda" value="RIAPERTA" />
-          <camunda:property name="azioni_owner" />
+          <camunda:property name="azioni_owner" value="[{&#34;type&#34;:&#34;button&#34;,&#34;label&#34;:&#34;Riapri&#34;,&#34;wf_var_name&#34;:&#34;&#34;,&#34;wf_var_value&#34;:TRUE,&#34;url&#34;:&#34;inaccoglibilita/riapri&#34;,&#34;method&#34;:&#34;POST&#34;,&#34;position&#34;:0}]" />
         </camunda:properties>
       </bpmn:extensionElements>
       <bpmn:incoming>SequenceFlow_10hyv7z</bpmn:incoming>
