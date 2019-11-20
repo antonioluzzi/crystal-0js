@@ -3978,71 +3978,7 @@ execution.getProcessEngineServices().getRuntimeService()
     <bpmn:scriptTask id="ScriptTask_11f540a" name="set stato istruttoria accoglibilità" scriptFormat="groovy">
       <bpmn:incoming>SequenceFlow_0b89ib1</bpmn:incoming>
       <bpmn:outgoing>SequenceFlow_0tdxje6</bpmn:outgoing>
-      <bpmn:script>String businessKey = (String) execution.getProcessBusinessKey();			
-String autorizzatoreConfidi = (String) execution.getVariable("autorizzatoreConfidi");
-String autorizzatoreSF = (String) execution.getVariable("autorizzatoreSF");
-String autorizzatoreSFGroup = (String) execution.getVariable("autorizzatoreSFGroup");
-String codiceIstruttoria = (String) execution.getVariable("codiceIstruttoria");
-String codicePratica = (String) execution.getVariable("codicePratica");
-String impresa = (String) execution.getVariable("impresa");
-String impresaGroup = (String) execution.getVariable("impresaGroup");
-String numeroProtocollo = (String) execution.getVariable("numeroProtocollo");
-String operatore_sf = (String) execution.getVariable("operatore_sf");
-String operatoresfGroup = (String) execution.getVariable("operatoresfGroup");
-String pm = (String) execution.getVariable("pm");
-String pmGroup = (String) execution.getVariable("pmGroup");
-String processDefinitionKey = (String) execution.getVariable("processDefinitionKey");
-String responsabileGroup = (String) execution.getVariable("responsabileGroup");
-String responsabile = (String) execution.getVariable("responsabile");
-String stato_istruttoria = (String) execution.getVariable("stato_istruttoria");
-String valutatore = (String) execution.getVariable("valutatore");
-String valutatoreGroup  = (String) execution.getVariable("valutatoreGroup");
-String regione = (String) execution.getVariable("regione");
-String regioneGroup = (String) execution.getVariable("regioneGroup");	
-println 'businessKey =  '+ businessKey ;			
-println 'autorizzatoreConfidi =  '+ autorizzatoreConfidi ;
-println 'autorizzatoreSF =  '+ autorizzatoreSF;
-println 'autorizzatoreSFGroup =  ' +autorizzatoreSFGroup;
-println 'codiceIstruttoria =  ' +codiceIstruttoria;
-println 'codicePratica =  ' +codicePratica;
-println 'impresa =  ' +impresa;
-println 'impresaGroup =  ' +impresaGroup;
-println 'numeroProtocollo =  ' +numeroProtocollo;
-println 'operatore_sf =  ' +operatore_sf;
-println 'operatoresfGroup =  ' +operatoresfGroup;
-println 'pm =  ' +pm;
-println 'pmGroup =  ' +pmGroup;
-println 'processDefinitionKey =  ' +processDefinitionKey;
-println 'responsabileGroup =  ' +responsabileGroup;
-println 'responsabile =  ' +responsabile;
-println 'stato_istruttoria =  ' +stato_istruttoria;
-println 'valutatore =  ' +valutatore;
-println 'valutatoreGroup  =  ' +valutatoreGroup;
-println 'regione =  ' +regione;
-println 'regioneGroup =  ' +regioneGroup;	
-println 'payload =  ' +payload;
-execution.getProcessEngineServices().getRuntimeService()
-			.createMessageCorrelation("Message_BloccaControdeduzione").processInstanceBusinessKey(businessKey)
-.setVariable("autorizzatoreConfidi", autorizzatoreConfidi)
-.setVariable("autorizzatoreSF", autorizzatoreSF)
-.setVariable("autorizzatoreSFGroup", autorizzatoreSFGroup)
-.setVariable("codiceIstruttoria", codiceIstruttoria)
-.setVariable("codicePratica", codicePratica)
-.setVariable("impresa",impresa)
-.setVariable("impresaGroup",impresaGroup)
-.setVariable("numeroProtocollo",numeroProtocollo)
-.setVariable("operatore_sf",operatore_sf)
-.setVariable("operatoresfGroup", operatoresfGroup)
-.setVariable("pm", pm)
-.setVariable("pmGroup", pmGroup)
-.setVariable("responsabileGroup", responsabileGroup)
-.setVariable("responsabile",responsabile)
-.setVariable("stato_istruttoria",stato_istruttoria)
-.setVariable("valutatore",valutatore)
-.setVariable("valutatoreGroup",valutatoreGroup)
-.setVariable("regione",regione)
-.setVariable("regioneGroup",regioneGroup)
-			.correlate();</bpmn:script>
+      <bpmn:script>execution.setVariable('stato_istruttoria', 'PROPOSTA_INACCOGLIBILITA');</bpmn:script>
     </bpmn:scriptTask>
     <bpmn:serviceTask id="ServiceTask_1sa64q4" name="Notifica PM" camunda:modelerTemplate="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask" camunda:class="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask">
       <bpmn:extensionElements>
@@ -4132,7 +4068,71 @@ execution.getProcessEngineServices().getRuntimeService()
     <bpmn:scriptTask id="ScriptTask_1y6jlrg" name="invia blocca controdeduzioni" scriptFormat="groovy">
       <bpmn:incoming>SequenceFlow_0i3lqrh</bpmn:incoming>
       <bpmn:outgoing>SequenceFlow_0b89ib1</bpmn:outgoing>
-      <bpmn:script>execution.setVariable('stato_istruttoria', 'PROPOSTA_INACCOGLIBILITA');</bpmn:script>
+      <bpmn:script>String businessKey = (String) execution.getProcessBusinessKey();			
+String autorizzatoreConfidi = (String) execution.getVariable("autorizzatoreConfidi");
+String autorizzatoreSF = (String) execution.getVariable("autorizzatoreSF");
+String autorizzatoreSFGroup = (String) execution.getVariable("autorizzatoreSFGroup");
+String codiceIstruttoria = (String) execution.getVariable("codiceIstruttoria");
+String codicePratica = (String) execution.getVariable("codicePratica");
+String impresa = (String) execution.getVariable("impresa");
+String impresaGroup = (String) execution.getVariable("impresaGroup");
+String numeroProtocollo = (String) execution.getVariable("numeroProtocollo");
+String operatore_sf = (String) execution.getVariable("operatore_sf");
+String operatoresfGroup = (String) execution.getVariable("operatoresfGroup");
+String pm = (String) execution.getVariable("pm");
+String pmGroup = (String) execution.getVariable("pmGroup");
+String processDefinitionKey = (String) execution.getVariable("processDefinitionKey");
+String responsabileGroup = (String) execution.getVariable("responsabileGroup");
+String responsabile = (String) execution.getVariable("responsabile");
+String stato_istruttoria = (String) execution.getVariable("stato_istruttoria");
+String valutatore = (String) execution.getVariable("valutatore");
+String valutatoreGroup  = (String) execution.getVariable("valutatoreGroup");
+String regione = (String) execution.getVariable("regione");
+String regioneGroup = (String) execution.getVariable("regioneGroup");	
+println 'businessKey =  '+ businessKey ;			
+println 'autorizzatoreConfidi =  '+ autorizzatoreConfidi ;
+println 'autorizzatoreSF =  '+ autorizzatoreSF;
+println 'autorizzatoreSFGroup =  ' +autorizzatoreSFGroup;
+println 'codiceIstruttoria =  ' +codiceIstruttoria;
+println 'codicePratica =  ' +codicePratica;
+println 'impresa =  ' +impresa;
+println 'impresaGroup =  ' +impresaGroup;
+println 'numeroProtocollo =  ' +numeroProtocollo;
+println 'operatore_sf =  ' +operatore_sf;
+println 'operatoresfGroup =  ' +operatoresfGroup;
+println 'pm =  ' +pm;
+println 'pmGroup =  ' +pmGroup;
+println 'processDefinitionKey =  ' +processDefinitionKey;
+println 'responsabileGroup =  ' +responsabileGroup;
+println 'responsabile =  ' +responsabile;
+println 'stato_istruttoria =  ' +stato_istruttoria;
+println 'valutatore =  ' +valutatore;
+println 'valutatoreGroup  =  ' +valutatoreGroup;
+println 'regione =  ' +regione;
+println 'regioneGroup =  ' +regioneGroup;	
+println 'payload =  ' +payload;
+execution.getProcessEngineServices().getRuntimeService()
+			.createMessageCorrelation("Message_BloccaControdeduzione").processInstanceBusinessKey(businessKey)
+.setVariable("autorizzatoreConfidi", autorizzatoreConfidi)
+.setVariable("autorizzatoreSF", autorizzatoreSF)
+.setVariable("autorizzatoreSFGroup", autorizzatoreSFGroup)
+.setVariable("codiceIstruttoria", codiceIstruttoria)
+.setVariable("codicePratica", codicePratica)
+.setVariable("impresa",impresa)
+.setVariable("impresaGroup",impresaGroup)
+.setVariable("numeroProtocollo",numeroProtocollo)
+.setVariable("operatore_sf",operatore_sf)
+.setVariable("operatoresfGroup", operatoresfGroup)
+.setVariable("pm", pm)
+.setVariable("pmGroup", pmGroup)
+.setVariable("responsabileGroup", responsabileGroup)
+.setVariable("responsabile",responsabile)
+.setVariable("stato_istruttoria",stato_istruttoria)
+.setVariable("valutatore",valutatore)
+.setVariable("valutatoreGroup",valutatoreGroup)
+.setVariable("regione",regione)
+.setVariable("regioneGroup",regioneGroup)
+			.correlateWithResult();</bpmn:script>
     </bpmn:scriptTask>
     <bpmn:sequenceFlow id="SequenceFlow_0b89ib1" sourceRef="ScriptTask_1y6jlrg" targetRef="ScriptTask_11f540a" />
     <bpmn:scriptTask id="ScriptTask_1scicnz" name="invia blocca controdeduzioni" scriptFormat="groovy">
@@ -4202,7 +4202,7 @@ execution.getProcessEngineServices().getRuntimeService()
 .setVariable("valutatoreGroup",valutatoreGroup)
 .setVariable("regione",regione)
 .setVariable("regioneGroup",regioneGroup)
-			.correlate();</bpmn:script>
+			.correlateWithResult();</bpmn:script>
     </bpmn:scriptTask>
     <bpmn:scriptTask id="ScriptTask_0uu0hlk" name="invia messaggio blocca invio spontaneo" scriptFormat="groovy">
       <bpmn:incoming>SequenceFlow_10u17fw</bpmn:incoming>
