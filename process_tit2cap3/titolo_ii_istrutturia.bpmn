@@ -47,7 +47,6 @@
         <bpmn:flowNodeRef>ServiceTask_1pxtwzp</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>UserTask_1tl7n6y</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>IntermediateThrowEvent_0h4g76x</bpmn:flowNodeRef>
-        <bpmn:flowNodeRef>IntermediateThrowEvent_193et3u</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>ScriptTask_0uy4u96</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>ParallelGateway_0gok53j</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>IntermediateThrowEvent_0nqfjpo</bpmn:flowNodeRef>
@@ -146,6 +145,9 @@
         <bpmn:flowNodeRef>sez_accoglibilita_responsabile_convalida_esito_positivo</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>ScriptTask_0eqir1w</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>IntermediateThrowEvent_00mavsi</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ScriptTask_1om65o3</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>IntermediateThrowEvent_193et3u</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ScriptTask_01yita1</bpmn:flowNodeRef>
       </bpmn:lane>
       <bpmn:lane id="Lane_1vipss5" name="Valutatore">
         <bpmn:flowNodeRef>UserTask_1ivbzc3</bpmn:flowNodeRef>
@@ -346,13 +348,10 @@
         <bpmn:flowNodeRef>ServiceTask_0n0qjlc</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>ServiceTask_10o2nnc</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>Task_17yngde</bpmn:flowNodeRef>
-        <bpmn:flowNodeRef>IntermediateCatchEvent_1bprvgw</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>ExclusiveGateway_03oxyr1</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>ExclusiveGateway_1rslen8</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>sez_accoglibilita_pm_conferma_esito</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>Task_0xhc2pf</bpmn:flowNodeRef>
-        <bpmn:flowNodeRef>IntermediateCatchEvent_1xmdtv2</bpmn:flowNodeRef>
-        <bpmn:flowNodeRef>IntermediateThrowEvent_1d6rsvg</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>ParallelGateway_1h0vbf9</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>ServiceTask_05fl7me</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>ParallelGateway_0a0kpwb</bpmn:flowNodeRef>
@@ -444,6 +443,9 @@
         <bpmn:flowNodeRef>Task_0zw5c47</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>ServiceTask_03turip</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>IntermediateThrowEvent_0vsyou8</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>IntermediateCatchEvent_1xmdtv2</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>IntermediateCatchEvent_1bprvgw</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>IntermediateThrowEvent_1qeb7jb</bpmn:flowNodeRef>
       </bpmn:lane>
     </bpmn:laneSet>
     <bpmn:sequenceFlow id="SequenceFlow_13ia2bi" sourceRef="ScriptTask_0eqir1w" targetRef="UserTask_1huvg78" />
@@ -458,7 +460,7 @@
     <bpmn:sequenceFlow id="SequenceFlow_0tovlpr" sourceRef="Task_0zw5c47" targetRef="ExclusiveGateway_0fczzok" />
     <bpmn:sequenceFlow id="SequenceFlow_0xzoyai" sourceRef="UserTask_0uc3c57" targetRef="ExclusiveGateway_1l83ven" />
     <bpmn:sequenceFlow id="SequenceFlow_1a7z30s" sourceRef="ParallelGateway_1q0b6mw" targetRef="IntermediateThrowEvent_0h4g76x" />
-    <bpmn:sequenceFlow id="SequenceFlow_0xqbd4e" sourceRef="ScriptTask_0uy4u96" targetRef="IntermediateThrowEvent_193et3u" />
+    <bpmn:sequenceFlow id="SequenceFlow_0xqbd4e" sourceRef="ScriptTask_0uy4u96" targetRef="ScriptTask_01yita1" />
     <bpmn:sequenceFlow id="SequenceFlow_17rt0vz" sourceRef="ParallelGateway_0df7f3f" targetRef="IntermediateThrowEvent_0zq0f6l" />
     <bpmn:sequenceFlow id="SequenceFlow_1gvnkdv" name="no" sourceRef="ExclusiveGateway_0jvzaef" targetRef="ServiceTask_0lf2nmm" />
     <bpmn:sequenceFlow id="SequenceFlow_0vmusar" name="si" sourceRef="ExclusiveGateway_0jvzaef" targetRef="IntermediateThrowEvent_11ljddg">
@@ -660,13 +662,10 @@
     <bpmn:sequenceFlow id="SequenceFlow_1r4465f" sourceRef="ParallelGateway_031vjm5" targetRef="ServiceTask_10o2nnc" />
     <bpmn:sequenceFlow id="SequenceFlow_1xrjsf0" sourceRef="ParallelGateway_031vjm5" targetRef="ServiceTask_0n0qjlc" />
     <bpmn:sequenceFlow id="SequenceFlow_0phc5h5" sourceRef="Task_19c5gfz" targetRef="ExclusiveGateway_03oxyr1" />
-    <bpmn:sequenceFlow id="SequenceFlow_1qttd33" sourceRef="IntermediateCatchEvent_1bprvgw" targetRef="Task_17yngde" />
+    <bpmn:sequenceFlow id="SequenceFlow_1qttd33" sourceRef="IntermediateCatchEvent_1bprvgw" targetRef="Task_0xhc2pf" />
     <bpmn:sequenceFlow id="SequenceFlow_1bgduyd" sourceRef="Task_17yngde" targetRef="ExclusiveGateway_14hwrdl" />
-    <bpmn:sequenceFlow id="SequenceFlow_1uky38t" sourceRef="ExclusiveGateway_03oxyr1" targetRef="IntermediateCatchEvent_1bprvgw" />
     <bpmn:sequenceFlow id="SequenceFlow_07qp44j" sourceRef="Task_0xhc2pf" targetRef="ParallelGateway_1ofgofc" />
-    <bpmn:sequenceFlow id="SequenceFlow_1mw4nn5" sourceRef="IntermediateCatchEvent_1xmdtv2" targetRef="Task_0xhc2pf" />
-    <bpmn:sequenceFlow id="SequenceFlow_1vppqea" sourceRef="ExclusiveGateway_03oxyr1" targetRef="IntermediateCatchEvent_1xmdtv2" />
-    <bpmn:sequenceFlow id="SequenceFlow_0lr5i8v" sourceRef="ParallelGateway_1h0vbf9" targetRef="IntermediateThrowEvent_1d6rsvg" />
+    <bpmn:sequenceFlow id="SequenceFlow_1mw4nn5" sourceRef="IntermediateCatchEvent_1xmdtv2" targetRef="Task_17yngde" />
     <bpmn:sequenceFlow id="SequenceFlow_07e7dox" sourceRef="ParallelGateway_0a0kpwb" targetRef="ServiceTask_05fl7me" />
     <bpmn:sequenceFlow id="SequenceFlow_11kbsyq" sourceRef="ParallelGateway_0a0kpwb" targetRef="ServiceTask_1lfetuu" />
     <bpmn:sequenceFlow id="SequenceFlow_1romrbh" sourceRef="ServiceTask_1lfetuu" targetRef="ParallelGateway_1h0vbf9" />
@@ -781,7 +780,7 @@
     <bpmn:sequenceFlow id="SequenceFlow_05lq9xu" name="si" sourceRef="ExclusiveGateway_13fpwjr" targetRef="ParallelGateway_18q3ddl">
       <bpmn:conditionExpression xsi:type="bpmn:tFormalExpression">${convalidaValutazioneControdeduzione==true}</bpmn:conditionExpression>
     </bpmn:sequenceFlow>
-    <bpmn:sequenceFlow id="SequenceFlow_14n97ex" name="no" sourceRef="ExclusiveGateway_13fpwjr" targetRef="ParallelGateway_0q9i6t0" />
+    <bpmn:sequenceFlow id="SequenceFlow_14n97ex" name="no" sourceRef="ExclusiveGateway_13fpwjr" targetRef="ScriptTask_1om65o3" />
     <bpmn:sequenceFlow id="SequenceFlow_0owsgmi" sourceRef="IntermediateThrowEvent_1nzlzh1" targetRef="Task_0vypzuu" />
     <bpmn:sequenceFlow id="SequenceFlow_1aui1jh" sourceRef="sez_accoglibilita_pm_conferma_esito" targetRef="ExclusiveGateway_1rslen8" />
     <bpmn:sequenceFlow id="SequenceFlow_1tcvddm" sourceRef="IntermediateThrowEvent_0kz68ub" targetRef="Task_0wht5gf" />
@@ -2002,19 +2001,10 @@ execution.setVariable('secondFlow', 'false');</bpmn:script>
     <bpmn:parallelGateway id="ParallelGateway_1h0vbf9">
       <bpmn:incoming>SequenceFlow_08tng16</bpmn:incoming>
       <bpmn:incoming>SequenceFlow_1romrbh</bpmn:incoming>
-      <bpmn:outgoing>SequenceFlow_0lr5i8v</bpmn:outgoing>
+      <bpmn:outgoing>SequenceFlow_0euq3i2</bpmn:outgoing>
     </bpmn:parallelGateway>
-    <bpmn:intermediateThrowEvent id="IntermediateThrowEvent_1d6rsvg" name="Go To (ResponsabileConvalidaNonAccoglibilita)">
-      <bpmn:incoming>SequenceFlow_0lr5i8v</bpmn:incoming>
-      <bpmn:linkEventDefinition name="LinkResponsabileConvalidaNonAccoglibilita" />
-    </bpmn:intermediateThrowEvent>
-    <bpmn:intermediateCatchEvent id="IntermediateCatchEvent_1xmdtv2" name="Motivazione Regione">
-      <bpmn:incoming>SequenceFlow_1vppqea</bpmn:incoming>
-      <bpmn:outgoing>SequenceFlow_1mw4nn5</bpmn:outgoing>
-      <bpmn:messageEventDefinition messageRef="Message_03qrssu" />
-    </bpmn:intermediateCatchEvent>
     <bpmn:scriptTask id="Task_0xhc2pf" name="set stato restituita" scriptFormat="groovy">
-      <bpmn:incoming>SequenceFlow_1mw4nn5</bpmn:incoming>
+      <bpmn:incoming>SequenceFlow_1qttd33</bpmn:incoming>
       <bpmn:outgoing>SequenceFlow_07qp44j</bpmn:outgoing>
       <bpmn:script>execution.setVariable('stato_istruttoria', 'RESTITUITA');</bpmn:script>
     </bpmn:scriptTask>
@@ -2051,16 +2041,11 @@ execution.setVariable('secondFlow', 'false');</bpmn:script>
     </bpmn:exclusiveGateway>
     <bpmn:eventBasedGateway id="ExclusiveGateway_03oxyr1">
       <bpmn:incoming>SequenceFlow_0phc5h5</bpmn:incoming>
-      <bpmn:outgoing>SequenceFlow_1uky38t</bpmn:outgoing>
-      <bpmn:outgoing>SequenceFlow_1vppqea</bpmn:outgoing>
+      <bpmn:outgoing>SequenceFlow_0ko3fzf</bpmn:outgoing>
+      <bpmn:outgoing>SequenceFlow_1icxx9x</bpmn:outgoing>
     </bpmn:eventBasedGateway>
-    <bpmn:intermediateCatchEvent id="IntermediateCatchEvent_1bprvgw" name="Esito Non Accoglibile">
-      <bpmn:incoming>SequenceFlow_1uky38t</bpmn:incoming>
-      <bpmn:outgoing>SequenceFlow_1qttd33</bpmn:outgoing>
-      <bpmn:messageEventDefinition messageRef="Message_0wm7dq0" />
-    </bpmn:intermediateCatchEvent>
     <bpmn:serviceTask id="Task_17yngde" name="logger - istruttoria inaccoglibile" camunda:class="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.LoggerDelegate">
-      <bpmn:incoming>SequenceFlow_1qttd33</bpmn:incoming>
+      <bpmn:incoming>SequenceFlow_1mw4nn5</bpmn:incoming>
       <bpmn:outgoing>SequenceFlow_1bgduyd</bpmn:outgoing>
     </bpmn:serviceTask>
     <bpmn:serviceTask id="ServiceTask_10o2nnc" name="Notifica Responsabile" camunda:modelerTemplate="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask" camunda:class="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask">
@@ -2162,7 +2147,7 @@ execution.setVariable('secondFlow', 'false');</bpmn:script>
       <bpmn:outgoing>SequenceFlow_1x3mgxe</bpmn:outgoing>
     </bpmn:parallelGateway>
     <bpmn:parallelGateway id="ParallelGateway_0q9i6t0">
-      <bpmn:incoming>SequenceFlow_14n97ex</bpmn:incoming>
+      <bpmn:incoming>SequenceFlow_0k555zv</bpmn:incoming>
       <bpmn:outgoing>SequenceFlow_11uzqqz</bpmn:outgoing>
       <bpmn:outgoing>SequenceFlow_1t5dmpr</bpmn:outgoing>
     </bpmn:parallelGateway>
@@ -2739,7 +2724,8 @@ execution.setVariable('secondFlow2', 'true');</bpmn:script>
     <bpmn:scriptTask id="ScriptTask_03y2vev" name="set stato controdeduzione inviate" scriptFormat="groovy">
       <bpmn:incoming>SequenceFlow_07w7edd</bpmn:incoming>
       <bpmn:outgoing>SequenceFlow_0kmwrmj</bpmn:outgoing>
-      <bpmn:script>execution.setVariable('stato_istruttoria', 'CONTRODEDUZIONI_INAMMISSIBILITA');</bpmn:script>
+      <bpmn:script>execution.setVariable('stato_istruttoria', 'CONTRODEDUZIONI_INAMMISSIBILITA');
+execution.setVariable('noMessage2', '0');</bpmn:script>
     </bpmn:scriptTask>
     <bpmn:parallelGateway id="ParallelGateway_04993z1">
       <bpmn:incoming>SequenceFlow_0come06</bpmn:incoming>
@@ -3348,10 +3334,6 @@ execution.getProcessEngineServices().getRuntimeService()
       <bpmn:outgoing>SequenceFlow_0xqbd4e</bpmn:outgoing>
       <bpmn:script>execution.setVariable('stato_istruttoria', 'RIGETTATA');</bpmn:script>
     </bpmn:scriptTask>
-    <bpmn:intermediateThrowEvent id="IntermediateThrowEvent_193et3u" name="Go To Riceve Controdeduzione">
-      <bpmn:incoming>SequenceFlow_0xqbd4e</bpmn:incoming>
-      <bpmn:linkEventDefinition name="LinkRiceveControdeduzione2" />
-    </bpmn:intermediateThrowEvent>
     <bpmn:intermediateThrowEvent id="IntermediateThrowEvent_0h4g76x" name="Go To Riceve Controdeduzione">
       <bpmn:incoming>SequenceFlow_1a7z30s</bpmn:incoming>
       <bpmn:linkEventDefinition id="LinkEventDefinition_1fa0dza" name="LinkRiceveControdeduzione2" />
@@ -4246,6 +4228,7 @@ println 'valutatoreGroup  =  ' +valutatoreGroup;
 println 'regione =  ' +regione;
 println 'regioneGroup =  ' +regioneGroup;	
 println 'payload =  ' +payload;
+if(!execution.hasVariable("noMessage1") || (String) execution.getVariable("noMessage1").equals("0")) {
 execution.getProcessEngineServices().getRuntimeService()
 			.createMessageCorrelation("Message_BloccaInvioSpontaneo").processInstanceBusinessKey(businessKey)
 .setVariable("autorizzatoreConfidi", autorizzatoreConfidi)
@@ -4267,7 +4250,8 @@ execution.getProcessEngineServices().getRuntimeService()
 .setVariable("valutatoreGroup",valutatoreGroup)
 .setVariable("regione",regione)
 .setVariable("regioneGroup",regioneGroup)
-			.correlate();</bpmn:script>
+			.correlateWithResult();
+			}</bpmn:script>
     </bpmn:scriptTask>
     <bpmn:scriptTask id="ScriptTask_0aux4us" name="invia messaggio blocca invio spontaneo" scriptFormat="groovy">
       <bpmn:incoming>SequenceFlow_12x56yo</bpmn:incoming>
@@ -4338,7 +4322,9 @@ execution.getProcessEngineServices().getRuntimeService()
 .setVariable("regione",regione)
 .setVariable("regioneGroup",regioneGroup)
 			.correlate();					    	
-}</bpmn:script>
+}
+
+execution.setVariable('noMessage1', '0');</bpmn:script>
     </bpmn:scriptTask>
     <bpmn:userTask id="sez_accoglibilita_responsabile_convalida_esito_positivo" name="Convalida Esito Positivo" camunda:assignee="${responsabile}" camunda:candidateGroups="${responsabileGroup}">
       <bpmn:extensionElements>
@@ -4492,6 +4478,7 @@ println 'valutatoreGroup  =  ' +valutatoreGroup;
 println 'regione =  ' +regione;
 println 'regioneGroup =  ' +regioneGroup;	
 println 'payload =  ' +payload;
+if(!execution.hasVariable("noMessage2") || (String) execution.getVariable("noMessage2").equals("0")) {
 execution.getProcessEngineServices().getRuntimeService()
 			.createMessageCorrelation("BloccaInvioSpontaneoAmmissibilitaStarter").processInstanceBusinessKey(businessKey)
 .setVariable("autorizzatoreConfidi", autorizzatoreConfidi)
@@ -4513,7 +4500,8 @@ execution.getProcessEngineServices().getRuntimeService()
 .setVariable("valutatoreGroup",valutatoreGroup)
 .setVariable("regione",regione)
 .setVariable("regioneGroup",regioneGroup)
-			.correlate();</bpmn:script>
+			.correlateWithResult();
+}</bpmn:script>
     </bpmn:scriptTask>
     <bpmn:sequenceFlow id="SequenceFlow_0z3sifw" sourceRef="Task_1qslotm" targetRef="ExclusiveGateway_0jsqx59" />
     <bpmn:serviceTask id="ServiceTask_01v2sri" name="Notifica responsabile" camunda:modelerTemplate="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask" camunda:class="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask">
@@ -5348,6 +5336,39 @@ execution.getProcessEngineServices().getRuntimeService()
       <bpmn:incoming>SequenceFlow_1b43bn5</bpmn:incoming>
       <bpmn:linkEventDefinition id="LinkEventDefinition_17gnwkj" name="LinkVerificaAmmissibilita" />
     </bpmn:intermediateThrowEvent>
+    <bpmn:intermediateCatchEvent id="IntermediateCatchEvent_1xmdtv2" name="Motivazione Regione">
+      <bpmn:incoming>SequenceFlow_0ko3fzf</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_1mw4nn5</bpmn:outgoing>
+      <bpmn:messageEventDefinition messageRef="Message_03qrssu" />
+    </bpmn:intermediateCatchEvent>
+    <bpmn:sequenceFlow id="SequenceFlow_0ko3fzf" sourceRef="ExclusiveGateway_03oxyr1" targetRef="IntermediateCatchEvent_1xmdtv2" />
+    <bpmn:sequenceFlow id="SequenceFlow_1icxx9x" sourceRef="ExclusiveGateway_03oxyr1" targetRef="IntermediateCatchEvent_1bprvgw" />
+    <bpmn:intermediateCatchEvent id="IntermediateCatchEvent_1bprvgw" name="Esito Non Accoglibile">
+      <bpmn:incoming>SequenceFlow_1icxx9x</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_1qttd33</bpmn:outgoing>
+      <bpmn:messageEventDefinition messageRef="Message_0wm7dq0" />
+    </bpmn:intermediateCatchEvent>
+    <bpmn:sequenceFlow id="SequenceFlow_0euq3i2" sourceRef="ParallelGateway_1h0vbf9" targetRef="IntermediateThrowEvent_1qeb7jb" />
+    <bpmn:intermediateThrowEvent id="IntermediateThrowEvent_1qeb7jb" name="go to Verifica Accoglibilità">
+      <bpmn:incoming>SequenceFlow_0euq3i2</bpmn:incoming>
+      <bpmn:linkEventDefinition id="LinkEventDefinition_09m8n2n" name="LinkVerificaAccoglibilita" />
+    </bpmn:intermediateThrowEvent>
+    <bpmn:sequenceFlow id="SequenceFlow_0k555zv" sourceRef="ScriptTask_1om65o3" targetRef="ParallelGateway_0q9i6t0" />
+    <bpmn:scriptTask id="ScriptTask_1om65o3" name="set no Message" scriptFormat="groovy">
+      <bpmn:incoming>SequenceFlow_14n97ex</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_0k555zv</bpmn:outgoing>
+      <bpmn:script>execution.setVariable('noMessage1', '1');</bpmn:script>
+    </bpmn:scriptTask>
+    <bpmn:intermediateThrowEvent id="IntermediateThrowEvent_193et3u" name="Go To Riceve Controdeduzione">
+      <bpmn:incoming>SequenceFlow_12md5ve</bpmn:incoming>
+      <bpmn:linkEventDefinition name="LinkRiceveControdeduzione2" />
+    </bpmn:intermediateThrowEvent>
+    <bpmn:scriptTask id="ScriptTask_01yita1" name="set no Message" scriptFormat="groovy">
+      <bpmn:incoming>SequenceFlow_0xqbd4e</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_12md5ve</bpmn:outgoing>
+      <bpmn:script>execution.setVariable('noMessage2', '1');</bpmn:script>
+    </bpmn:scriptTask>
+    <bpmn:sequenceFlow id="SequenceFlow_12md5ve" sourceRef="ScriptTask_01yita1" targetRef="IntermediateThrowEvent_193et3u" />
   </bpmn:process>
   <bpmn:process id="istruttoria_regione_id" name="Istruttoria Regione" isExecutable="true" camunda:candidateStarterGroups="Responsabile Regione" camunda:candidateStarterUsers="${regione}" camunda:versionTag="1.0">
     <bpmn:laneSet id="LaneSet_14egva7">
@@ -5569,7 +5590,7 @@ execution.getProcessEngineServices().getRuntimeService()
     <bpmn:sequenceFlow id="SequenceFlow_0drt7fu" sourceRef="sez_accoglibilita_regione_preavviso_non_accoglibilita" targetRef="ServiceTask_1b8s7oe" />
     <bpmn:sequenceFlow id="SequenceFlow_19hk5sy" sourceRef="ServiceTask_1b8s7oe" targetRef="ExclusiveGateway_0gwur8z" />
     <bpmn:sequenceFlow id="SequenceFlow_17z2mcy" name="positivo" sourceRef="ExclusiveGateway_0gwur8z" targetRef="ServiceTask_1ygih5p">
-      <bpmn:conditionExpression xsi:type="bpmn:tFormalExpression">${ confermaComunicazioneDiNonAccoglibilita== true}</bpmn:conditionExpression>
+      <bpmn:conditionExpression xsi:type="bpmn:tFormalExpression">${ confermaComunicazioneDiNonAccoglibilita== false}</bpmn:conditionExpression>
     </bpmn:sequenceFlow>
     <bpmn:sequenceFlow id="SequenceFlow_07fwx1p" name="negativo" sourceRef="ExclusiveGateway_0gwur8z" targetRef="Task_090a71y" />
     <bpmn:sequenceFlow id="SequenceFlow_10hoh1o" sourceRef="Task_090a71y" targetRef="EndEvent_06m3ecu" />
@@ -5604,7 +5625,7 @@ execution.getProcessEngineServices().getRuntimeService()
       <bpmn:incoming>SequenceFlow_1ss5m6x</bpmn:incoming>
       <bpmn:outgoing>SequenceFlow_1mlhgl0</bpmn:outgoing>
     </bpmn:userTask>
-    <bpmn:exclusiveGateway id="ExclusiveGateway_1r54cus" name="Valuta" default="SequenceFlow_1czqjge">
+    <bpmn:exclusiveGateway id="ExclusiveGateway_1r54cus" name="Valuta">
       <bpmn:incoming>SequenceFlow_1iyn2zg</bpmn:incoming>
       <bpmn:outgoing>SequenceFlow_1czqjge</bpmn:outgoing>
       <bpmn:outgoing>SequenceFlow_1rieaq8</bpmn:outgoing>
@@ -5616,7 +5637,7 @@ execution.getProcessEngineServices().getRuntimeService()
     <bpmn:endEvent id="EndEvent_02oycqq">
       <bpmn:incoming>SequenceFlow_02dvp2n</bpmn:incoming>
     </bpmn:endEvent>
-    <bpmn:scriptTask id="ServiceTask_0ltr843" name="Invia motivazione">
+    <bpmn:scriptTask id="ServiceTask_0ltr843" name="Invia motivazione" scriptFormat="groovy">
       <bpmn:incoming>SequenceFlow_1czqjge</bpmn:incoming>
       <bpmn:outgoing>SequenceFlow_02dvp2n</bpmn:outgoing>
       <bpmn:script>String businessKey = (String) execution.getProcessBusinessKey();
@@ -5691,7 +5712,9 @@ execution.getProcessEngineServices().getRuntimeService()
     <bpmn:sequenceFlow id="SequenceFlow_1ss5m6x" sourceRef="StartEvent_15hwpem" targetRef="UserTask_1a3fun4" />
     <bpmn:sequenceFlow id="SequenceFlow_1mlhgl0" sourceRef="UserTask_1a3fun4" targetRef="ServiceTask_1e15mnt" />
     <bpmn:sequenceFlow id="SequenceFlow_1iyn2zg" sourceRef="ServiceTask_1e15mnt" targetRef="ExclusiveGateway_1r54cus" />
-    <bpmn:sequenceFlow id="SequenceFlow_1czqjge" name="negativo" sourceRef="ExclusiveGateway_1r54cus" targetRef="ServiceTask_0ltr843" />
+    <bpmn:sequenceFlow id="SequenceFlow_1czqjge" name="negativo" sourceRef="ExclusiveGateway_1r54cus" targetRef="ServiceTask_0ltr843">
+      <bpmn:conditionExpression xsi:type="bpmn:tFormalExpression">${valutaIstanzaDiAmmissibilita==false}</bpmn:conditionExpression>
+    </bpmn:sequenceFlow>
     <bpmn:sequenceFlow id="SequenceFlow_1rieaq8" name="positivo" sourceRef="ExclusiveGateway_1r54cus" targetRef="ServiceTask_1a35piv">
       <bpmn:conditionExpression xsi:type="bpmn:tFormalExpression">${valutaIstanzaDiAmmissibilita==true}</bpmn:conditionExpression>
     </bpmn:sequenceFlow>
@@ -5730,7 +5753,7 @@ execution.getProcessEngineServices().getRuntimeService()
       <bpmn:incoming>SequenceFlow_0ab2h38</bpmn:incoming>
       <bpmn:outgoing>SequenceFlow_0cncsu2</bpmn:outgoing>
     </bpmn:serviceTask>
-    <bpmn:exclusiveGateway id="ExclusiveGateway_160aoso" name="valuta" default="SequenceFlow_1rx20nu">
+    <bpmn:exclusiveGateway id="ExclusiveGateway_160aoso" name="valuta">
       <bpmn:incoming>SequenceFlow_0cncsu2</bpmn:incoming>
       <bpmn:outgoing>SequenceFlow_1rx20nu</bpmn:outgoing>
       <bpmn:outgoing>SequenceFlow_0s2aglv</bpmn:outgoing>
@@ -5812,7 +5835,9 @@ execution.getProcessEngineServices().getRuntimeService()
     <bpmn:sequenceFlow id="SequenceFlow_01ox6on" sourceRef="StartEvent_0vh91fj" targetRef="UserTask_0rf5tkq" />
     <bpmn:sequenceFlow id="SequenceFlow_0ab2h38" sourceRef="UserTask_0rf5tkq" targetRef="ServiceTask_02zrufq" />
     <bpmn:sequenceFlow id="SequenceFlow_0cncsu2" sourceRef="ServiceTask_02zrufq" targetRef="ExclusiveGateway_160aoso" />
-    <bpmn:sequenceFlow id="SequenceFlow_1rx20nu" name="negativo" sourceRef="ExclusiveGateway_160aoso" targetRef="Task_15b83ay" />
+    <bpmn:sequenceFlow id="SequenceFlow_1rx20nu" name="negativo" sourceRef="ExclusiveGateway_160aoso" targetRef="Task_15b83ay">
+      <bpmn:conditionExpression xsi:type="bpmn:tFormalExpression">${valutaPropostaInammissibilita==false}</bpmn:conditionExpression>
+    </bpmn:sequenceFlow>
     <bpmn:sequenceFlow id="SequenceFlow_0s2aglv" name="positivo" sourceRef="ExclusiveGateway_160aoso" targetRef="ServiceTask_1g14ffl">
       <bpmn:conditionExpression xsi:type="bpmn:tFormalExpression">${valutaPropostaInammissibilita==true}</bpmn:conditionExpression>
     </bpmn:sequenceFlow>
@@ -6781,7 +6806,7 @@ execution.getProcessEngineServices().getRuntimeService()
       <bpmndi:BPMNShape id="ExclusiveGateway_13fpwjr_di" bpmnElement="ExclusiveGateway_13fpwjr" isMarkerVisible="true">
         <dc:Bounds x="3881" y="804" width="50" height="50" />
         <bpmndi:BPMNLabel>
-          <dc:Bounds x="3879" y="864" width="53" height="14" />
+          <dc:Bounds x="3879.5" y="864" width="53" height="14" />
         </bpmndi:BPMNLabel>
       </bpmndi:BPMNShape>
       <bpmndi:BPMNEdge id="SequenceFlow_04c07o2_di" bpmnElement="SequenceFlow_04c07o2">
@@ -6803,9 +6828,9 @@ execution.getProcessEngineServices().getRuntimeService()
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="SequenceFlow_14n97ex_di" bpmnElement="SequenceFlow_14n97ex">
         <di:waypoint x="3931" y="829" />
-        <di:waypoint x="4096" y="829" />
+        <di:waypoint x="3970" y="829" />
         <bpmndi:BPMNLabel>
-          <dc:Bounds x="3957" y="812" width="13" height="14" />
+          <dc:Bounds x="3932" y="812" width="13" height="14" />
         </bpmndi:BPMNLabel>
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNShape id="IntermediateThrowEvent_0kiyndh_di" bpmnElement="IntermediateThrowEvent_12a4bz0" bioc:stroke="rgb(251, 140, 0)" bioc:fill="rgb(255, 224, 178)">
@@ -7033,43 +7058,34 @@ execution.getProcessEngineServices().getRuntimeService()
         <dc:Bounds x="6007" y="1799" width="50" height="50" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="IntermediateCatchEvent_1bprvgw_di" bpmnElement="IntermediateCatchEvent_1bprvgw">
-        <dc:Bounds x="6236" y="1806" width="36" height="36" />
+        <dc:Bounds x="6132" y="2021" width="36" height="36" />
         <bpmndi:BPMNLabel>
-          <dc:Bounds x="6229" y="1776" width="52" height="27" />
+          <dc:Bounds x="6125" y="1991" width="52" height="27" />
         </bpmndi:BPMNLabel>
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNEdge id="SequenceFlow_1uky38t_di" bpmnElement="SequenceFlow_1uky38t">
-        <di:waypoint x="6057" y="1824" />
-        <di:waypoint x="6236" y="1824" />
-      </bpmndi:BPMNEdge>
       <bpmndi:BPMNShape id="IntermediateCatchEvent_1xmdtv2_di" bpmnElement="IntermediateCatchEvent_1xmdtv2">
-        <dc:Bounds x="6113" y="2021" width="36" height="36" />
+        <dc:Bounds x="6228" y="1806" width="36" height="36" />
         <bpmndi:BPMNLabel>
-          <dc:Bounds x="6102" y="1991" width="59" height="27" />
+          <dc:Bounds x="6217" y="1776" width="59" height="27" />
         </bpmndi:BPMNLabel>
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNEdge id="SequenceFlow_1vppqea_di" bpmnElement="SequenceFlow_1vppqea">
-        <di:waypoint x="6032" y="1849" />
-        <di:waypoint x="6032" y="2039" />
-        <di:waypoint x="6113" y="2039" />
-      </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="SequenceFlow_1bmmwyf_di" bpmnElement="SequenceFlow_1bmmwyf">
         <di:waypoint x="5124" y="2887" />
         <di:waypoint x="5265" y="2887" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="MessageFlow_0m6vfhr_di" bpmnElement="MessageFlow_0m6vfhr">
-        <di:waypoint x="5864" y="2700" />
-        <di:waypoint x="6131" y="2485" />
-        <di:waypoint x="6131" y="2057" />
+        <di:waypoint x="5864" y="2710" />
+        <di:waypoint x="6246" y="2485" />
+        <di:waypoint x="6246" y="1842" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="MessageFlow_0lpl4p0_di" bpmnElement="MessageFlow_0lpl4p0">
         <di:waypoint x="5864" y="2855" />
         <di:waypoint x="6271" y="2687" />
-        <di:waypoint x="6254" y="1842" />
+        <di:waypoint x="6153" y="2056" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="SequenceFlow_1mw4nn5_di" bpmnElement="SequenceFlow_1mw4nn5">
-        <di:waypoint x="6149" y="2039" />
-        <di:waypoint x="6286" y="2039" />
+        <di:waypoint x="6264" y="1824" />
+        <di:waypoint x="6423" y="1824" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNShape id="IntermediateThrowEvent_09gptj4_di" bpmnElement="IntermediateThrowEvent_19xkprf" bioc:stroke="rgb(30, 136, 229)" bioc:fill="rgb(187, 222, 251)">
         <dc:Bounds x="7112" y="2021" width="36" height="36" />
@@ -7078,8 +7094,8 @@ execution.getProcessEngineServices().getRuntimeService()
         </bpmndi:BPMNLabel>
       </bpmndi:BPMNShape>
       <bpmndi:BPMNEdge id="SequenceFlow_1qttd33_di" bpmnElement="SequenceFlow_1qttd33">
-        <di:waypoint x="6272" y="1824" />
-        <di:waypoint x="6423" y="1824" />
+        <di:waypoint x="6168" y="2039" />
+        <di:waypoint x="6286" y="2039" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNShape id="ServiceTask_1o89m2t_di" bpmnElement="Task_17yngde">
         <dc:Bounds x="6423" y="1784" width="100" height="80" />
@@ -7369,9 +7385,9 @@ execution.getProcessEngineServices().getRuntimeService()
         </bpmndi:BPMNLabel>
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNShape id="IntermediateThrowEvent_1faihcv_di" bpmnElement="IntermediateThrowEvent_193et3u" bioc:stroke="rgb(142, 36, 170)" bioc:fill="rgb(225, 190, 231)">
-        <dc:Bounds x="12242" y="309" width="36" height="36" />
+        <dc:Bounds x="12372" y="292" width="36" height="36" />
         <bpmndi:BPMNLabel>
-          <dc:Bounds x="12218" y="272" width="84" height="27" />
+          <dc:Bounds x="12348" y="255" width="84" height="27" />
         </bpmndi:BPMNLabel>
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="IntermediateThrowEvent_1gcbzji_di" bpmnElement="IntermediateThrowEvent_1by0wew" bioc:stroke="rgb(229, 57, 53)" bioc:fill="rgb(255, 205, 210)">
@@ -7756,12 +7772,6 @@ execution.getProcessEngineServices().getRuntimeService()
           <dc:Bounds x="4982" y="1873" width="44" height="14" />
         </bpmndi:BPMNLabel>
       </bpmndi:BPMNEdge>
-      <bpmndi:BPMNShape id="IntermediateThrowEvent_1n162cm_di" bpmnElement="IntermediateThrowEvent_1d6rsvg">
-        <dc:Bounds x="4958" y="2125" width="36" height="36" />
-        <bpmndi:BPMNLabel>
-          <dc:Bounds x="4933" y="2168" width="89" height="53" />
-        </bpmndi:BPMNLabel>
-      </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="IntermediateCatchEvent_1ftm9k3_di" bpmnElement="IntermediateThrowEvent_0u10wzc">
         <dc:Bounds x="4391" y="589" width="36" height="36" />
         <bpmndi:BPMNLabel>
@@ -8448,10 +8458,6 @@ execution.getProcessEngineServices().getRuntimeService()
         <di:waypoint x="5001" y="1912" />
         <di:waypoint x="5090" y="1912" />
         <di:waypoint x="5090" y="1955" />
-      </bpmndi:BPMNEdge>
-      <bpmndi:BPMNEdge id="SequenceFlow_0lr5i8v_di" bpmnElement="SequenceFlow_0lr5i8v">
-        <di:waypoint x="4976" y="2092" />
-        <di:waypoint x="4976" y="2125" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNShape id="ParallelGateway_031vjm5_di" bpmnElement="ParallelGateway_031vjm5">
         <dc:Bounds x="5192" y="1799" width="50" height="50" />
@@ -10010,7 +10016,9 @@ execution.getProcessEngineServices().getRuntimeService()
       </bpmndi:BPMNShape>
       <bpmndi:BPMNEdge id="SequenceFlow_0xqbd4e_di" bpmnElement="SequenceFlow_0xqbd4e">
         <di:waypoint x="12025" y="327" />
-        <di:waypoint x="12242" y="327" />
+        <di:waypoint x="12093" y="327" />
+        <di:waypoint x="12093" y="320" />
+        <di:waypoint x="12160" y="320" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNShape id="IntermediateThrowEvent_0h4g76x_di" bpmnElement="IntermediateThrowEvent_0h4g76x" bioc:stroke="rgb(142, 36, 170)" bioc:fill="rgb(225, 190, 231)">
         <dc:Bounds x="13543" y="498" width="36" height="36" />
@@ -11128,6 +11136,41 @@ execution.getProcessEngineServices().getRuntimeService()
           <dc:Bounds x="9418" y="2084" width="65" height="27" />
         </bpmndi:BPMNLabel>
       </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="SequenceFlow_0ko3fzf_di" bpmnElement="SequenceFlow_0ko3fzf">
+        <di:waypoint x="6057" y="1824" />
+        <di:waypoint x="6228" y="1824" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="SequenceFlow_1icxx9x_di" bpmnElement="SequenceFlow_1icxx9x">
+        <di:waypoint x="6032" y="1849" />
+        <di:waypoint x="6032" y="2039" />
+        <di:waypoint x="6132" y="2039" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="IntermediateThrowEvent_1qeb7jb_di" bpmnElement="IntermediateThrowEvent_1qeb7jb" bioc:stroke="rgb(30, 136, 229)" bioc:fill="rgb(187, 222, 251)">
+        <dc:Bounds x="4958" y="2148" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="4944" y="2193.5" width="64" height="27" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="SequenceFlow_0euq3i2_di" bpmnElement="SequenceFlow_0euq3i2">
+        <di:waypoint x="4976" y="2092" />
+        <di:waypoint x="4976" y="2148" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="ScriptTask_1om65o3_di" bpmnElement="ScriptTask_1om65o3">
+        <dc:Bounds x="3970" y="789" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="SequenceFlow_0k555zv_di" bpmnElement="SequenceFlow_0k555zv">
+        <di:waypoint x="4070" y="829" />
+        <di:waypoint x="4096" y="829" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="ScriptTask_01yita1_di" bpmnElement="ScriptTask_01yita1">
+        <dc:Bounds x="12160" y="280" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="SequenceFlow_12md5ve_di" bpmnElement="SequenceFlow_12md5ve">
+        <di:waypoint x="12260" y="320" />
+        <di:waypoint x="12316" y="320" />
+        <di:waypoint x="12316" y="310" />
+        <di:waypoint x="12372" y="310" />
+      </bpmndi:BPMNEdge>
     </bpmndi:BPMNPlane>
   </bpmndi:BPMNDiagram>
 </bpmn:definitions>
