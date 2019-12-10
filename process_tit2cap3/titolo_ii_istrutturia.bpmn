@@ -2081,7 +2081,7 @@ execution.getProcessEngineServices().getRuntimeService()
       <bpmn:incoming>SequenceFlow_0ab9px7</bpmn:incoming>
       <bpmn:outgoing>SequenceFlow_1svazpx</bpmn:outgoing>
       <bpmn:timerEventDefinition>
-        <bpmn:timeDuration xsi:type="bpmn:tFormalExpression">PT5M</bpmn:timeDuration>
+        <bpmn:timeDuration xsi:type="bpmn:tFormalExpression">PT15M</bpmn:timeDuration>
       </bpmn:timerEventDefinition>
     </bpmn:intermediateCatchEvent>
     <bpmn:parallelGateway id="ExclusiveGateway_12xkc49">
@@ -2144,7 +2144,7 @@ execution.getProcessEngineServices().getRuntimeService()
       <bpmn:incoming>SequenceFlow_1mzwejx</bpmn:incoming>
       <bpmn:outgoing>SequenceFlow_01tcm15</bpmn:outgoing>
       <bpmn:timerEventDefinition id="TimerEventDefinition_0pq6p25">
-        <bpmn:timeDuration xsi:type="bpmn:tFormalExpression">PT5M</bpmn:timeDuration>
+        <bpmn:timeDuration xsi:type="bpmn:tFormalExpression">PT15M</bpmn:timeDuration>
       </bpmn:timerEventDefinition>
     </bpmn:intermediateCatchEvent>
     <bpmn:serviceTask id="ServiceTask_15tm2j1" name="Notifica scadenza responsabile" camunda:modelerTemplate="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask" camunda:class="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask">
@@ -2486,7 +2486,7 @@ execution.getProcessEngineServices().getRuntimeService()
       <bpmn:incoming>SequenceFlow_1penavj</bpmn:incoming>
       <bpmn:outgoing>SequenceFlow_01kvziz</bpmn:outgoing>
       <bpmn:timerEventDefinition id="TimerEventDefinition_1gwqskp">
-        <bpmn:timeDuration xsi:type="bpmn:tFormalExpression">PT5M</bpmn:timeDuration>
+        <bpmn:timeDuration xsi:type="bpmn:tFormalExpression">PT15M</bpmn:timeDuration>
       </bpmn:timerEventDefinition>
     </bpmn:intermediateCatchEvent>
     <bpmn:intermediateCatchEvent id="IntermediateCatchEvent_1f2chhz" name="acquisizione controdeduzione">
@@ -2947,7 +2947,7 @@ execution.getProcessEngineServices().getRuntimeService()
       <bpmn:incoming>SequenceFlow_1ca2ewc</bpmn:incoming>
       <bpmn:outgoing>SequenceFlow_1j29yyb</bpmn:outgoing>
       <bpmn:timerEventDefinition id="TimerEventDefinition_0icrvbd">
-        <bpmn:timeDuration xsi:type="bpmn:tFormalExpression">PT5M</bpmn:timeDuration>
+        <bpmn:timeDuration xsi:type="bpmn:tFormalExpression">PT15M</bpmn:timeDuration>
       </bpmn:timerEventDefinition>
     </bpmn:intermediateCatchEvent>
     <bpmn:parallelGateway id="ParallelGateway_0bzloh7">
@@ -3231,7 +3231,7 @@ execution.getProcessEngineServices().getRuntimeService()
       <bpmn:incoming>SequenceFlow_0es69ph</bpmn:incoming>
       <bpmn:outgoing>SequenceFlow_1vp887j</bpmn:outgoing>
       <bpmn:timerEventDefinition id="TimerEventDefinition_06ws592">
-        <bpmn:timeDuration xsi:type="bpmn:tFormalExpression">PT5M</bpmn:timeDuration>
+        <bpmn:timeDuration xsi:type="bpmn:tFormalExpression">PT15M</bpmn:timeDuration>
       </bpmn:timerEventDefinition>
     </bpmn:intermediateCatchEvent>
     <bpmn:serviceTask id="ServiceTask_0xxx9c8" name="Notifica sollecito finanziatore" camunda:modelerTemplate="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask" camunda:class="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask">
@@ -3458,7 +3458,7 @@ execution.getProcessEngineServices().getRuntimeService()
       <bpmn:incoming>SequenceFlow_0qcqdn5</bpmn:incoming>
       <bpmn:outgoing>SequenceFlow_0r5eig2</bpmn:outgoing>
       <bpmn:timerEventDefinition id="TimerEventDefinition_0skby00">
-        <bpmn:timeDuration xsi:type="bpmn:tFormalExpression">PT5M</bpmn:timeDuration>
+        <bpmn:timeDuration xsi:type="bpmn:tFormalExpression">PT15M</bpmn:timeDuration>
       </bpmn:timerEventDefinition>
     </bpmn:intermediateCatchEvent>
     <bpmn:serviceTask id="ServiceTask_1jzfvy6" name="Notifica PM" camunda:modelerTemplate="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask" camunda:class="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask">
@@ -3675,7 +3675,7 @@ execution.getProcessEngineServices().getRuntimeService()
 .setVariable("valutatoreGroup",valutatoreGroup)
 .setVariable("regione",regione)
 .setVariable("regioneGroup",regioneGroup)
-			.correlateWithResult();</bpmn:script>
+			.correlate();</bpmn:script>
     </bpmn:scriptTask>
     <bpmn:sequenceFlow id="SequenceFlow_0b89ib1" sourceRef="ScriptTask_1y6jlrg" targetRef="ScriptTask_11f540a" />
     <bpmn:scriptTask id="ScriptTask_1scicnz" name="invia blocca controdeduzioni" scriptFormat="groovy">
@@ -3745,7 +3745,7 @@ execution.getProcessEngineServices().getRuntimeService()
 .setVariable("valutatoreGroup",valutatoreGroup)
 .setVariable("regione",regione)
 .setVariable("regioneGroup",regioneGroup)
-			.correlateWithResult();</bpmn:script>
+			.correlate();</bpmn:script>
     </bpmn:scriptTask>
     <bpmn:sequenceFlow id="SequenceFlow_0z3sifw" sourceRef="Task_1qslotm" targetRef="ExclusiveGateway_0jsqx59" />
     <bpmn:intermediateThrowEvent id="IntermediateThrowEvent_1cglo3f" name="Catch(Verifica Accoglibilità)">
@@ -4430,7 +4430,7 @@ execution.getProcessEngineServices().getRuntimeService()
       <bpmn:linkEventDefinition id="LinkEventDefinition_09m8n2n" name="LinkVerificaAccoglibilita" />
     </bpmn:intermediateThrowEvent>
     <bpmn:sequenceFlow id="SequenceFlow_08gvlc3" name="SI" sourceRef="ExclusiveGateway_1xlt308" targetRef="ScriptTask_0aux4us">
-      <bpmn:conditionExpression xsi:type="bpmn:tFormalExpression">${noMessage1=='0'}</bpmn:conditionExpression>
+      <bpmn:conditionExpression xsi:type="bpmn:tFormalExpression">${noMessage1 == '0' || noMessage1 == 0}</bpmn:conditionExpression>
     </bpmn:sequenceFlow>
     <bpmn:parallelGateway id="ParallelGateway_01stlsf">
       <bpmn:incoming>SequenceFlow_1n07tpv</bpmn:incoming>
@@ -4510,7 +4510,7 @@ execution.getProcessEngineServices().getRuntimeService()
 .setVariable("valutatoreGroup",valutatoreGroup)
 .setVariable("regione",regione)
 .setVariable("regioneGroup",regioneGroup)
-			.correlateWithResult();</bpmn:script>
+			.correlate();</bpmn:script>
     </bpmn:scriptTask>
     <bpmn:scriptTask id="ScriptTask_1x7waq5" name="set stato variabile noMessage = 0  (ricevuto da Impresa)" scriptFormat="groovy">
       <bpmn:incoming>SequenceFlow_0fepwg0</bpmn:incoming>
@@ -4682,7 +4682,7 @@ execution.getProcessEngineServices().getRuntimeService()
 .setVariable("valutatoreGroup",valutatoreGroup)
 .setVariable("regione",regione)
 .setVariable("regioneGroup",regioneGroup)
-			.correlateWithResult();</bpmn:script>
+			.correlate();</bpmn:script>
     </bpmn:scriptTask>
     <bpmn:exclusiveGateway id="ExclusiveGateway_08h6pmd" name="Il messaggio arriva da Impresa?" default="SequenceFlow_04331yp">
       <bpmn:incoming>SequenceFlow_10u17fw</bpmn:incoming>
@@ -4690,7 +4690,7 @@ execution.getProcessEngineServices().getRuntimeService()
       <bpmn:outgoing>SequenceFlow_04331yp</bpmn:outgoing>
     </bpmn:exclusiveGateway>
     <bpmn:sequenceFlow id="SequenceFlow_13cxkrr" sourceRef="ExclusiveGateway_08h6pmd" targetRef="ScriptTask_0uu0hlk">
-      <bpmn:conditionExpression xsi:type="bpmn:tFormalExpression">${noMessage1=='0'}</bpmn:conditionExpression>
+      <bpmn:conditionExpression xsi:type="bpmn:tFormalExpression">${noMessage1 == '0' || noMessage1 == 0}</bpmn:conditionExpression>
     </bpmn:sequenceFlow>
     <bpmn:sequenceFlow id="SequenceFlow_04331yp" sourceRef="ExclusiveGateway_08h6pmd" targetRef="Task_15s8wm7" />
     <bpmn:parallelGateway id="ParallelGateway_11vcdkr">
@@ -4899,7 +4899,7 @@ execution.getProcessEngineServices().getRuntimeService()
       <bpmn:outgoing>SequenceFlow_0a2p22q</bpmn:outgoing>
     </bpmn:exclusiveGateway>
     <bpmn:sequenceFlow id="SequenceFlow_0oyin3d" name="SI" sourceRef="ExclusiveGateway_1necxyp" targetRef="ScriptTask_0eqir1w">
-      <bpmn:conditionExpression xsi:type="bpmn:tFormalExpression">${noMessage2=='0'}</bpmn:conditionExpression>
+      <bpmn:conditionExpression xsi:type="bpmn:tFormalExpression">${noMessage2 == '0' || noMessage2 == 0}</bpmn:conditionExpression>
     </bpmn:sequenceFlow>
     <bpmn:sequenceFlow id="SequenceFlow_0a2p22q" name="NO" sourceRef="ExclusiveGateway_1necxyp" targetRef="UserTask_1huvg78" />
     <bpmn:intermediateCatchEvent id="IntermediateThrowEvent_1ivu6f1" name="Catch(Riceve Controdeduzione da flusso)">
@@ -5026,10 +5026,10 @@ execution.getProcessEngineServices().getRuntimeService()
 .setVariable("valutatoreGroup",valutatoreGroup)
 .setVariable("regione",regione)
 .setVariable("regioneGroup",regioneGroup)
-			.correlateWithResult();</bpmn:script>
+			.correlate();</bpmn:script>
     </bpmn:scriptTask>
     <bpmn:sequenceFlow id="SequenceFlow_19c9y2x" name="SI" sourceRef="ExclusiveGateway_113g69h" targetRef="ScriptTask_1vn02o8">
-      <bpmn:conditionExpression xsi:type="bpmn:tFormalExpression">${noMessage2=='0'}</bpmn:conditionExpression>
+      <bpmn:conditionExpression xsi:type="bpmn:tFormalExpression">${noMessage2 == '0' || noMessage2 == 0}</bpmn:conditionExpression>
     </bpmn:sequenceFlow>
     <bpmn:exclusiveGateway id="ExclusiveGateway_113g69h" name="Il messaggio arriva da Impresa?" default="SequenceFlow_0ya96z0">
       <bpmn:incoming>SequenceFlow_1drnfr7</bpmn:incoming>
@@ -5267,7 +5267,7 @@ execution.getProcessEngineServices().getRuntimeService()
 .setVariable("valutatoreGroup",valutatoreGroup)
 .setVariable("regione",regione)
 .setVariable("regioneGroup",regioneGroup)
-			.correlateWithResult();</bpmn:script>
+			.correlate();</bpmn:script>
     </bpmn:scriptTask>
     <bpmn:userTask id="UserTask_1huvg78" name="Convalida Esito Positvo" camunda:assignee="${responsabile}">
       <bpmn:extensionElements>
