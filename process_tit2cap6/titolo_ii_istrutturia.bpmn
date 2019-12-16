@@ -3132,7 +3132,7 @@ execution.getProcessEngineServices().getRuntimeService()
         </camunda:formData>
         <camunda:properties>
           <camunda:property name="form_type" value="notifica" />
-          <camunda:property name="codice_scheda" value="CONTRODEDUZIONI" />
+          <camunda:property name="codice_scheda" value="CONTRODEDUZIONI_AMMISSIBILITA" />
           <camunda:property name="azioni_owner" value="[{&#34;type&#34;:&#34;button&#34;,&#34;label&#34;:&#34;Accogli&#34;,&#34;wf_var_name&#34;:&#34;valutaControdeduzioneInamm&#34;,&#34;wf_var_value&#34;:true,&#34;url&#34;:&#34;controdeduzioni/valida&#34;,&#34;method&#34;:&#34;POST&#34;,&#34;position&#34;:1},{&#34;type&#34;:&#34;button&#34;,&#34;label&#34;:&#34;Respingi&#34;,&#34;wf_var_name&#34;:&#34;valutaControdeduzioneInamm&#34;,&#34;wf_var_value&#34;:false,&#34;url&#34;:&#34;controdeduzioni/respingi&#34;,&#34;method&#34;:&#34;POST&#34;,&#34;position&#34;:2}]" />
           <camunda:property name="destinatario" value="${responsabile}" />
         </camunda:properties>
@@ -4142,7 +4142,7 @@ execution.getProcessEngineServices().getRuntimeService()
         </camunda:formData>
         <camunda:properties>
           <camunda:property name="form_type" value="notifica" />
-          <camunda:property name="codice_scheda" value="CONTRODEDUZIONI_INAMMISSIBILITA" />
+          <camunda:property name="codice_scheda" value="CONTRODEDUZIONI_AMMISSIBILITA" />
           <camunda:property name="azioni_owner" value="[{&#34;type&#34;:&#34;button&#34;,&#34;label&#34;:&#34;Accogli&#34;,&#34;wf_var_name&#34;:&#34;convalidaEsitoControdedInamm&#34;,&#34;wf_var_value&#34;:true,&#34;url&#34;:&#34;&#34;,&#34;method&#34;:&#34;POST&#34;,&#34;position&#34;:1},{&#34;type&#34;:&#34;button&#34;,&#34;label&#34;:&#34;Respingi&#34;,&#34;wf_var_name&#34;:&#34;convalidaEsitoControdedInamm&#34;,&#34;wf_var_value&#34;:false,&#34;url&#34;:&#34;&#34;,&#34;method&#34;:&#34;POST&#34;,&#34;position&#34;:2}] 		" />
         </camunda:properties>
       </bpmn:extensionElements>
