@@ -3406,7 +3406,8 @@ execution.getProcessEngineServices().getRuntimeService()
     <bpmn:scriptTask id="ScriptTask_1x7waq5" name="set stato variabile noMessage = 0  (ricevuto da Impresa)" scriptFormat="groovy">
       <bpmn:incoming>SequenceFlow_0fepwg0</bpmn:incoming>
       <bpmn:outgoing>SequenceFlow_0w9hm5h</bpmn:outgoing>
-      <bpmn:script>execution.setVariable('noMessage1', '0');</bpmn:script>
+      <bpmn:script>execution.setVariable('noMessage1', '0');
+execution.setVariable('timeOutInacc','0'); </bpmn:script>
     </bpmn:scriptTask>
     <bpmn:sequenceFlow id="SequenceFlow_0w9hm5h" sourceRef="ScriptTask_1x7waq5" targetRef="sez_accoglibilita_valutatore_controdeduzione" />
     <bpmn:scriptTask id="Task_0vypzuu" name="set stato controdeduzione inviate" scriptFormat="groovy">
@@ -4075,7 +4076,9 @@ execution.setVariable('noMessage2','0');
 execution.setVariable('showButtonInamm','0');
 execution.setVariable('showButtonInacc','0');
 execution.setVariable('proponiInammissibilita',false);
-execution.setVariable('proponiInaccoglibilita',false);</bpmn:script>
+execution.setVariable('proponiInaccoglibilita',false);
+execution.setVariable('timeOutInacc','0'); 
+execution.setVariable('timeOutInamm','0');</bpmn:script>
     </bpmn:scriptTask>
     <bpmn:scriptTask id="Task_1451x8h" name="set stato istruttoria accoglibilità e azzeramento noMessage" scriptFormat="groovy">
       <bpmn:incoming>SequenceFlow_1ff8eyd</bpmn:incoming>
@@ -4098,7 +4101,8 @@ execution.setVariable('noMessage2','0');</bpmn:script>
     <bpmn:scriptTask id="ScriptTask_0rejwj2" name="set stato istruttoria proposta inammissibilità" scriptFormat="groovy">
       <bpmn:incoming>SequenceFlow_1gy4wk8</bpmn:incoming>
       <bpmn:outgoing>SequenceFlow_0ga29a5</bpmn:outgoing>
-      <bpmn:script>execution.setVariable('stato_istruttoria', 'PROPOSTA_INAMMISSIBILITA');</bpmn:script>
+      <bpmn:script>execution.setVariable('stato_istruttoria', 'PROPOSTA_INAMMISSIBILITA');
+execution.setVariable('timeOutInamm','1');</bpmn:script>
     </bpmn:scriptTask>
     <bpmn:sequenceFlow id="SequenceFlow_16cru05" sourceRef="ExclusiveGateway_193llke" targetRef="IntermediateThrowEvent_1doow7w" />
     <bpmn:sequenceFlow id="SequenceFlow_1gy4wk8" sourceRef="IntermediateThrowEvent_1doow7w" targetRef="ScriptTask_0rejwj2" />
@@ -4614,7 +4618,8 @@ execution.setVariable('proponiInammissibilita','false');</bpmn:script>
     <bpmn:scriptTask id="ScriptTask_11f540a" name="set stato istruttoria accoglibilità" scriptFormat="groovy">
       <bpmn:incoming>SequenceFlow_0bdrp7g</bpmn:incoming>
       <bpmn:outgoing>SequenceFlow_0tdxje6</bpmn:outgoing>
-      <bpmn:script>execution.setVariable('stato_istruttoria', 'PROPOSTA_INACCOGLIBILITA');</bpmn:script>
+      <bpmn:script>execution.setVariable('stato_istruttoria', 'PROPOSTA_INACCOGLIBILITA');
+execution.setVariable('timeOutInacc','1'); </bpmn:script>
     </bpmn:scriptTask>
     <bpmn:userTask id="UserTask_1huvg78" name="Convalida Esito Positvo" camunda:assignee="${responsabile}">
       <bpmn:extensionElements>
@@ -4681,7 +4686,8 @@ execution.setVariable('proponiInammissibilita','false');</bpmn:script>
     <bpmn:scriptTask id="ScriptTask_0rlpg84" name="set stato variabile noMessage = 0  (ricevuto da Impresa)" scriptFormat="groovy">
       <bpmn:incoming>SequenceFlow_0kmwrmj</bpmn:incoming>
       <bpmn:outgoing>SequenceFlow_1cwgsjj</bpmn:outgoing>
-      <bpmn:script>execution.setVariable('noMessage2', '0');</bpmn:script>
+      <bpmn:script>execution.setVariable('noMessage2', '0');
+execution.setVariable('timeOutInamm','0');</bpmn:script>
     </bpmn:scriptTask>
   </bpmn:process>
   <bpmn:process id="istruttoria_regione_id" name="Istruttoria Regione" isExecutable="true" camunda:candidateStarterGroups="Responsabile Regione" camunda:candidateStarterUsers="${regione}" camunda:versionTag="1.0">
