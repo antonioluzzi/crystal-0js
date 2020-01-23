@@ -326,42 +326,24 @@
         <bpmn:flowNodeRef>sez_accoglibilita_pm_preavviso_rigetto</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>IntermediateCatchEvent_1i9r3tg</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>ServiceTask_0ky3ywh</bpmn:flowNodeRef>
-        <bpmn:flowNodeRef>ServiceTask_0k6egfz</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>ServiceTask_0ttb0da</bpmn:flowNodeRef>
-        <bpmn:flowNodeRef>ServiceTask_089957z</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>ParallelGateway_1ofgofc</bpmn:flowNodeRef>
-        <bpmn:flowNodeRef>ServiceTask_1qqj0k8</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>ServiceTask_150bbhb</bpmn:flowNodeRef>
-        <bpmn:flowNodeRef>ParallelGateway_04tk5jt</bpmn:flowNodeRef>
-        <bpmn:flowNodeRef>ServiceTask_0f6i804</bpmn:flowNodeRef>
-        <bpmn:flowNodeRef>UserTask_1gtojjs</bpmn:flowNodeRef>
-        <bpmn:flowNodeRef>ScriptTask_0hud6ys</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>ExclusiveGateway_14hwrdl</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>ExclusiveGateway_0xgdh9f</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>UserTask_0yfu6mt</bpmn:flowNodeRef>
-        <bpmn:flowNodeRef>ServiceTask_08qayqz</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>EndEvent_11dxfd8</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>ServiceTask_030xwm0</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>ScriptTask_1r2czme</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>ParallelGateway_1qjz6k1</bpmn:flowNodeRef>
-        <bpmn:flowNodeRef>ServiceTask_1mv20b9</bpmn:flowNodeRef>
-        <bpmn:flowNodeRef>ServiceTask_0mg6bmn</bpmn:flowNodeRef>
-        <bpmn:flowNodeRef>ParallelGateway_0605ote</bpmn:flowNodeRef>
-        <bpmn:flowNodeRef>ScriptTask_1rnyd02</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>Task_1o9sc0w</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>ServiceTask_0pypg5k</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>ParallelGateway_04qrz1n</bpmn:flowNodeRef>
-        <bpmn:flowNodeRef>ServiceTask_11tc185</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>ParallelGateway_0d625zv</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>ServiceTask_08vy2gu</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>EndEvent_0bn2jyw</bpmn:flowNodeRef>
-        <bpmn:flowNodeRef>ServiceTask_1g1glei</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>ServiceTask_0453esv</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>EndEvent_1rv1fon</bpmn:flowNodeRef>
-        <bpmn:flowNodeRef>ParallelGateway_0ca03l4</bpmn:flowNodeRef>
-        <bpmn:flowNodeRef>ParallelGateway_1jsrk52</bpmn:flowNodeRef>
-        <bpmn:flowNodeRef>ScriptTask_09bgivb</bpmn:flowNodeRef>
-        <bpmn:flowNodeRef>IntermediateCatchEvent_0ghyjnu</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>ExclusiveGateway_0fczzok</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>IntermediateThrowEvent_1cglo3f</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>ServiceTask_0ha9128</bpmn:flowNodeRef>
@@ -388,12 +370,6 @@
         <bpmn:flowNodeRef>IntermediateThrowEvent_1doow7w</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>ScriptTask_0hzia9m</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>IntermediateThrowEvent_1qeb7jb</bpmn:flowNodeRef>
-        <bpmn:flowNodeRef>IntermediateThrowEvent_19xkprf</bpmn:flowNodeRef>
-        <bpmn:flowNodeRef>ScriptTask_0md439o</bpmn:flowNodeRef>
-        <bpmn:flowNodeRef>IntermediateThrowEvent_1gf02eg</bpmn:flowNodeRef>
-        <bpmn:flowNodeRef>ScriptTask_1o7ojza</bpmn:flowNodeRef>
-        <bpmn:flowNodeRef>ScriptTask_0681hoj</bpmn:flowNodeRef>
-        <bpmn:flowNodeRef>UserTask_0s65z0k</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>ScriptTask_0hdffop</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>IntermediateThrowEvent_0vsyou8</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>ScriptTask_1qkuw1c</bpmn:flowNodeRef>
@@ -401,14 +377,44 @@
         <bpmn:flowNodeRef>ScriptTask_0j0tpo7</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>IntermediateThrowEvent_0zq0f6l</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>ScriptTask_0f7s1d4</bpmn:flowNodeRef>
-        <bpmn:flowNodeRef>ServiceTask_0lubyl3</bpmn:flowNodeRef>
-        <bpmn:flowNodeRef>UserTask_04zhyie</bpmn:flowNodeRef>
-        <bpmn:flowNodeRef>ScriptTask_1a6vdfr</bpmn:flowNodeRef>
-        <bpmn:flowNodeRef>IntermediateThrowEvent_1q6qjfs</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>ScriptTask_0a05s21</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>IntermediateThrowEvent_1rs59nj</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>IntermediateThrowEvent_19da6rw</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>ScriptTask_11f540a</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ScriptTask_0hud6ys</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>UserTask_1gtojjs</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ServiceTask_0f6i804</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>IntermediateThrowEvent_19xkprf</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ScriptTask_0md439o</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ParallelGateway_04tk5jt</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ServiceTask_1qqj0k8</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ServiceTask_0ft1l45</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ServiceTask_08qayqz</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ServiceTask_1a2ca98</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ServiceTask_1e38z98</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ServiceTask_0mg6bmn</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ServiceTask_1mv20b9</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ParallelGateway_0605ote</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ScriptTask_1rnyd02</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ServiceTask_0lubyl3</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>UserTask_04zhyie</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ScriptTask_1a6vdfr</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>IntermediateThrowEvent_1q6qjfs</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ServiceTask_11tc185</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ServiceTask_0yo2n41</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ServiceTask_1g1glei</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>IntermediateThrowEvent_1gf02eg</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ScriptTask_1o7ojza</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ScriptTask_0681hoj</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>UserTask_0s65z0k</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ParallelGateway_1jsrk52</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ServiceTask_089957z</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ParallelGateway_0ca03l4</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ScriptTask_09bgivb</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>IntermediateCatchEvent_0ghyjnu</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ServiceTask_1vwme69</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ServiceTask_0k6egfz</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>ServiceTask_1ckm5n9</bpmn:flowNodeRef>
       </bpmn:lane>
     </bpmn:laneSet>
     <bpmn:sequenceFlow id="SequenceFlow_13ia2bi" sourceRef="ScriptTask_0eqir1w" targetRef="UserTask_1huvg78" />
@@ -770,25 +776,16 @@
     <bpmn:sequenceFlow id="SequenceFlow_0pj402k" sourceRef="ParallelGateway_04tk5jt" targetRef="ServiceTask_0f6i804" />
     <bpmn:sequenceFlow id="SequenceFlow_1dggnrj" sourceRef="ParallelGateway_0605ote" targetRef="ServiceTask_0lubyl3" />
     <bpmn:sequenceFlow id="SequenceFlow_17dmhwi" sourceRef="ParallelGateway_1jsrk52" targetRef="ServiceTask_1g1glei" />
-    <bpmn:sequenceFlow id="SequenceFlow_0ek1aid" sourceRef="UserTask_1gtojjs" targetRef="ScriptTask_0hud6ys" />
-    <bpmn:sequenceFlow id="SequenceFlow_1qaesq2" sourceRef="ServiceTask_0f6i804" targetRef="UserTask_1gtojjs" />
-    <bpmn:sequenceFlow id="SequenceFlow_1en35me" sourceRef="ScriptTask_0hud6ys" targetRef="ScriptTask_0md439o" />
     <bpmn:sequenceFlow id="SequenceFlow_100xv5n" sourceRef="ExclusiveGateway_14hwrdl" targetRef="ServiceTask_08qayqz" />
     <bpmn:sequenceFlow id="SequenceFlow_0a27xfp" sourceRef="ExclusiveGateway_14hwrdl" targetRef="UserTask_0yfu6mt" />
     <bpmn:sequenceFlow id="SequenceFlow_0krcm9c" sourceRef="ServiceTask_08qayqz" targetRef="ExclusiveGateway_0xgdh9f" />
     <bpmn:sequenceFlow id="SequenceFlow_1stenjc" sourceRef="UserTask_0yfu6mt" targetRef="ExclusiveGateway_0xgdh9f" />
     <bpmn:sequenceFlow id="SequenceFlow_0y61l26" sourceRef="ServiceTask_030xwm0" targetRef="EndEvent_11dxfd8" />
-    <bpmn:sequenceFlow id="SequenceFlow_1enkyu8" sourceRef="UserTask_04zhyie" targetRef="ScriptTask_1rnyd02" />
-    <bpmn:sequenceFlow id="SequenceFlow_0w1ihua" sourceRef="ServiceTask_0lubyl3" targetRef="UserTask_04zhyie" />
-    <bpmn:sequenceFlow id="SequenceFlow_1w5xud1" sourceRef="ScriptTask_1rnyd02" targetRef="ScriptTask_1a6vdfr" />
     <bpmn:sequenceFlow id="SequenceFlow_0iolesv" sourceRef="ParallelGateway_04qrz1n" targetRef="ServiceTask_11tc185" />
     <bpmn:sequenceFlow id="SequenceFlow_12s0n2d" sourceRef="ParallelGateway_04qrz1n" targetRef="ServiceTask_0pypg5k" />
     <bpmn:sequenceFlow id="SequenceFlow_1d9thcv" sourceRef="ServiceTask_11tc185" targetRef="ParallelGateway_0d625zv" />
     <bpmn:sequenceFlow id="SequenceFlow_170wqqn" sourceRef="ServiceTask_0pypg5k" targetRef="ParallelGateway_0d625zv" />
     <bpmn:sequenceFlow id="SequenceFlow_0iaqahz" sourceRef="ServiceTask_08vy2gu" targetRef="EndEvent_0bn2jyw" />
-    <bpmn:sequenceFlow id="SequenceFlow_07r7el4" sourceRef="UserTask_0s65z0k" targetRef="ScriptTask_0681hoj" />
-    <bpmn:sequenceFlow id="SequenceFlow_10hyv7z" sourceRef="ServiceTask_1g1glei" targetRef="UserTask_0s65z0k" />
-    <bpmn:sequenceFlow id="SequenceFlow_16zrvcf" sourceRef="ScriptTask_0681hoj" targetRef="ScriptTask_1o7ojza" />
     <bpmn:sequenceFlow id="SequenceFlow_0tdh390" sourceRef="ServiceTask_0453esv" targetRef="EndEvent_1rv1fon" />
     <bpmn:sequenceFlow id="SequenceFlow_0mg90oe" sourceRef="ScriptTask_09bgivb" targetRef="ParallelGateway_0ca03l4" />
     <bpmn:sequenceFlow id="SequenceFlow_1xqkf26" sourceRef="IntermediateCatchEvent_0ghyjnu" targetRef="ScriptTask_09bgivb" />
@@ -797,26 +794,6 @@
       <bpmn:outgoing>SequenceFlow_0tkozuz</bpmn:outgoing>
       <bpmn:outgoing>SequenceFlow_08j8sjg</bpmn:outgoing>
     </bpmn:eventBasedGateway>
-    <bpmn:intermediateCatchEvent id="IntermediateCatchEvent_0ghyjnu" name="Esito Negativo">
-      <bpmn:incoming>SequenceFlow_08j8sjg</bpmn:incoming>
-      <bpmn:outgoing>SequenceFlow_1xqkf26</bpmn:outgoing>
-      <bpmn:messageEventDefinition messageRef="Message_1d0el3f" />
-    </bpmn:intermediateCatchEvent>
-    <bpmn:scriptTask id="ScriptTask_09bgivb" name="set stato restituita" scriptFormat="groovy">
-      <bpmn:incoming>SequenceFlow_1xqkf26</bpmn:incoming>
-      <bpmn:outgoing>SequenceFlow_0mg90oe</bpmn:outgoing>
-      <bpmn:script>execution.setVariable('stato_istruttoria', 'RESTITUITA');</bpmn:script>
-    </bpmn:scriptTask>
-    <bpmn:parallelGateway id="ParallelGateway_1jsrk52">
-      <bpmn:incoming>SequenceFlow_1hjvzyu</bpmn:incoming>
-      <bpmn:incoming>SequenceFlow_0jj6zb9</bpmn:incoming>
-      <bpmn:outgoing>SequenceFlow_17dmhwi</bpmn:outgoing>
-    </bpmn:parallelGateway>
-    <bpmn:parallelGateway id="ParallelGateway_0ca03l4">
-      <bpmn:incoming>SequenceFlow_0mg90oe</bpmn:incoming>
-      <bpmn:outgoing>SequenceFlow_187ja09</bpmn:outgoing>
-      <bpmn:outgoing>SequenceFlow_002k98l</bpmn:outgoing>
-    </bpmn:parallelGateway>
     <bpmn:endEvent id="EndEvent_1rv1fon" name="Lancia Segnale Fine Istruttoria">
       <bpmn:incoming>SequenceFlow_0tdh390</bpmn:incoming>
       <bpmn:signalEventDefinition id="SignalEventDefinition_1pnfqko" signalRef="Signal_090zcqp" />
@@ -831,17 +808,6 @@
       </bpmn:extensionElements>
       <bpmn:incoming>SequenceFlow_0hqhd8z</bpmn:incoming>
       <bpmn:outgoing>SequenceFlow_0tdh390</bpmn:outgoing>
-    </bpmn:serviceTask>
-    <bpmn:serviceTask id="ServiceTask_1g1glei" name="Notifica per DB" camunda:modelerTemplate="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask" camunda:class="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask">
-      <bpmn:extensionElements>
-        <camunda:inputOutput>
-          <camunda:inputParameter name="from">${pm}</camunda:inputParameter>
-          <camunda:inputParameter name="to">${pm}</camunda:inputParameter>
-          <camunda:inputParameter name="message">startOverFlow_restituita</camunda:inputParameter>
-        </camunda:inputOutput>
-      </bpmn:extensionElements>
-      <bpmn:incoming>SequenceFlow_17dmhwi</bpmn:incoming>
-      <bpmn:outgoing>SequenceFlow_10hyv7z</bpmn:outgoing>
     </bpmn:serviceTask>
     <bpmn:endEvent id="EndEvent_0bn2jyw" name="Lancia Segnale Fine Istruttoria">
       <bpmn:incoming>SequenceFlow_0iaqahz</bpmn:incoming>
@@ -861,23 +827,14 @@
     <bpmn:parallelGateway id="ParallelGateway_0d625zv">
       <bpmn:incoming>SequenceFlow_170wqqn</bpmn:incoming>
       <bpmn:incoming>SequenceFlow_1d9thcv</bpmn:incoming>
+      <bpmn:incoming>SequenceFlow_1gwd202</bpmn:incoming>
       <bpmn:outgoing>SequenceFlow_0ir7a8g</bpmn:outgoing>
     </bpmn:parallelGateway>
-    <bpmn:serviceTask id="ServiceTask_11tc185" name="Notifica responsabile" camunda:modelerTemplate="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask" camunda:class="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask">
-      <bpmn:extensionElements>
-        <camunda:inputOutput>
-          <camunda:inputParameter name="from">${pm}</camunda:inputParameter>
-          <camunda:inputParameter name="to">${responsabile}</camunda:inputParameter>
-          <camunda:inputParameter name="message">COD_END_INAMM_PM</camunda:inputParameter>
-        </camunda:inputOutput>
-      </bpmn:extensionElements>
-      <bpmn:incoming>SequenceFlow_0iolesv</bpmn:incoming>
-      <bpmn:outgoing>SequenceFlow_1d9thcv</bpmn:outgoing>
-    </bpmn:serviceTask>
     <bpmn:parallelGateway id="ParallelGateway_04qrz1n">
       <bpmn:incoming>SequenceFlow_0ywruiz</bpmn:incoming>
       <bpmn:outgoing>SequenceFlow_12s0n2d</bpmn:outgoing>
       <bpmn:outgoing>SequenceFlow_0iolesv</bpmn:outgoing>
+      <bpmn:outgoing>SequenceFlow_0o7wowg</bpmn:outgoing>
     </bpmn:parallelGateway>
     <bpmn:serviceTask id="ServiceTask_0pypg5k" name="Notifica Valutatore" camunda:modelerTemplate="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask" camunda:class="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask">
       <bpmn:extensionElements>
@@ -894,44 +851,11 @@
       <bpmn:incoming>SequenceFlow_01wy0p1</bpmn:incoming>
       <bpmn:outgoing>SequenceFlow_0ywruiz</bpmn:outgoing>
     </bpmn:serviceTask>
-    <bpmn:scriptTask id="ScriptTask_1rnyd02" name="set stato  riaperta" scriptFormat="groovy">
-      <bpmn:incoming>SequenceFlow_1enkyu8</bpmn:incoming>
-      <bpmn:outgoing>SequenceFlow_1w5xud1</bpmn:outgoing>
-      <bpmn:script>execution.setVariable('stato_istruttoria', 'RIAPERTA');
-
-execution.setVariable('startOverFlow', 'RIAPERTA');</bpmn:script>
-    </bpmn:scriptTask>
-    <bpmn:parallelGateway id="ParallelGateway_0605ote">
-      <bpmn:incoming>SequenceFlow_13urkla</bpmn:incoming>
-      <bpmn:incoming>SequenceFlow_0v16xpa</bpmn:incoming>
-      <bpmn:outgoing>SequenceFlow_1dggnrj</bpmn:outgoing>
-    </bpmn:parallelGateway>
-    <bpmn:serviceTask id="ServiceTask_0mg6bmn" name="Notifica responsabile" camunda:modelerTemplate="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask" camunda:class="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask">
-      <bpmn:extensionElements>
-        <camunda:inputOutput>
-          <camunda:inputParameter name="from">${pm}</camunda:inputParameter>
-          <camunda:inputParameter name="to">${responsabile}</camunda:inputParameter>
-          <camunda:inputParameter name="message">COD_END_RESTITUITA_PM</camunda:inputParameter>
-        </camunda:inputOutput>
-      </bpmn:extensionElements>
-      <bpmn:incoming>SequenceFlow_1tc8vb3</bpmn:incoming>
-      <bpmn:outgoing>SequenceFlow_0v16xpa</bpmn:outgoing>
-    </bpmn:serviceTask>
-    <bpmn:serviceTask id="ServiceTask_1mv20b9" name="Notifica Valutatore" camunda:modelerTemplate="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask" camunda:class="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask">
-      <bpmn:extensionElements>
-        <camunda:inputOutput>
-          <camunda:inputParameter name="from">${pm}</camunda:inputParameter>
-          <camunda:inputParameter name="to">${valutatore}</camunda:inputParameter>
-          <camunda:inputParameter name="message">COD_END_RESTITUITA_PM</camunda:inputParameter>
-        </camunda:inputOutput>
-      </bpmn:extensionElements>
-      <bpmn:incoming>SequenceFlow_03qcxet</bpmn:incoming>
-      <bpmn:outgoing>SequenceFlow_13urkla</bpmn:outgoing>
-    </bpmn:serviceTask>
     <bpmn:parallelGateway id="ParallelGateway_1qjz6k1">
       <bpmn:incoming>SequenceFlow_02cuscd</bpmn:incoming>
       <bpmn:outgoing>SequenceFlow_03qcxet</bpmn:outgoing>
       <bpmn:outgoing>SequenceFlow_1tc8vb3</bpmn:outgoing>
+      <bpmn:outgoing>SequenceFlow_00mkmhu</bpmn:outgoing>
     </bpmn:parallelGateway>
     <bpmn:scriptTask id="ScriptTask_1r2czme" name="set stato restituita" scriptFormat="groovy">
       <bpmn:incoming>SequenceFlow_1it9np8</bpmn:incoming>
@@ -952,17 +876,6 @@ execution.setVariable('startOverFlow', 'RIAPERTA');</bpmn:script>
     <bpmn:endEvent id="EndEvent_11dxfd8" name="end">
       <bpmn:incoming>SequenceFlow_0y61l26</bpmn:incoming>
     </bpmn:endEvent>
-    <bpmn:serviceTask id="ServiceTask_08qayqz" name="Notifica responsabile" camunda:modelerTemplate="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask" camunda:class="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask">
-      <bpmn:extensionElements>
-        <camunda:inputOutput>
-          <camunda:inputParameter name="from">${pm}</camunda:inputParameter>
-          <camunda:inputParameter name="to">${responsabile}</camunda:inputParameter>
-          <camunda:inputParameter name="message">COD_END_INACC_PM</camunda:inputParameter>
-        </camunda:inputOutput>
-      </bpmn:extensionElements>
-      <bpmn:incoming>SequenceFlow_100xv5n</bpmn:incoming>
-      <bpmn:outgoing>SequenceFlow_0krcm9c</bpmn:outgoing>
-    </bpmn:serviceTask>
     <bpmn:serviceTask id="UserTask_0yfu6mt" name="Notifica Valutatore" camunda:modelerTemplate="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask" camunda:class="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask">
       <bpmn:extensionElements>
         <camunda:inputOutput>
@@ -977,46 +890,14 @@ execution.setVariable('startOverFlow', 'RIAPERTA');</bpmn:script>
     <bpmn:parallelGateway id="ExclusiveGateway_0xgdh9f">
       <bpmn:incoming>SequenceFlow_1stenjc</bpmn:incoming>
       <bpmn:incoming>SequenceFlow_0krcm9c</bpmn:incoming>
+      <bpmn:incoming>SequenceFlow_15uvlra</bpmn:incoming>
       <bpmn:outgoing>SequenceFlow_0ekxoef</bpmn:outgoing>
     </bpmn:parallelGateway>
     <bpmn:parallelGateway id="ExclusiveGateway_14hwrdl">
       <bpmn:incoming>SequenceFlow_1bgduyd</bpmn:incoming>
       <bpmn:outgoing>SequenceFlow_0a27xfp</bpmn:outgoing>
       <bpmn:outgoing>SequenceFlow_100xv5n</bpmn:outgoing>
-    </bpmn:parallelGateway>
-    <bpmn:scriptTask id="ScriptTask_0hud6ys" name="set stato  riaperta" scriptFormat="groovy">
-      <bpmn:incoming>SequenceFlow_0ek1aid</bpmn:incoming>
-      <bpmn:outgoing>SequenceFlow_1en35me</bpmn:outgoing>
-      <bpmn:script>execution.setVariable('stato_istruttoria', 'RIAPERTA');
-
-execution.setVariable('startOverFlow', 'RIAPERTA');</bpmn:script>
-    </bpmn:scriptTask>
-    <bpmn:userTask id="UserTask_1gtojjs" name="Pm prende visione" camunda:assignee="${pm}" camunda:candidateGroups="${pmGroup}">
-      <bpmn:extensionElements>
-        <camunda:properties>
-          <camunda:property name="form_type" value="notifica" />
-          <camunda:property name="codice_scheda" value="RIAPERTA" />
-          <camunda:property name="azioni_owner" value="[{&#34;type&#34;:&#34;button&#34;,&#34;label&#34;:&#34;Riapri&#34;,&#34;wf_var_name&#34;:&#34;&#34;,&#34;wf_var_value&#34;:TRUE,&#34;url&#34;:&#34;inaccoglibilita/riapri&#34;,&#34;method&#34;:&#34;POST&#34;,&#34;position&#34;:0}]" />
-        </camunda:properties>
-      </bpmn:extensionElements>
-      <bpmn:incoming>SequenceFlow_1qaesq2</bpmn:incoming>
-      <bpmn:outgoing>SequenceFlow_0ek1aid</bpmn:outgoing>
-    </bpmn:userTask>
-    <bpmn:serviceTask id="ServiceTask_0f6i804" name="Notifica per DB" camunda:modelerTemplate="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask" camunda:class="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask">
-      <bpmn:extensionElements>
-        <camunda:inputOutput>
-          <camunda:inputParameter name="from">${pm}</camunda:inputParameter>
-          <camunda:inputParameter name="to">${pm}</camunda:inputParameter>
-          <camunda:inputParameter name="message">startOverFlow_restituita</camunda:inputParameter>
-        </camunda:inputOutput>
-      </bpmn:extensionElements>
-      <bpmn:incoming>SequenceFlow_0pj402k</bpmn:incoming>
-      <bpmn:outgoing>SequenceFlow_1qaesq2</bpmn:outgoing>
-    </bpmn:serviceTask>
-    <bpmn:parallelGateway id="ParallelGateway_04tk5jt">
-      <bpmn:incoming>SequenceFlow_0b4qvan</bpmn:incoming>
-      <bpmn:incoming>SequenceFlow_14xsilr</bpmn:incoming>
-      <bpmn:outgoing>SequenceFlow_0pj402k</bpmn:outgoing>
+      <bpmn:outgoing>SequenceFlow_0hb1gto</bpmn:outgoing>
     </bpmn:parallelGateway>
     <bpmn:serviceTask id="ServiceTask_150bbhb" name="Notifica responsabile" camunda:modelerTemplate="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask" camunda:class="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask">
       <bpmn:extensionElements>
@@ -1029,33 +910,12 @@ execution.setVariable('startOverFlow', 'RIAPERTA');</bpmn:script>
       <bpmn:incoming>SequenceFlow_1f8jvde</bpmn:incoming>
       <bpmn:outgoing>SequenceFlow_14xsilr</bpmn:outgoing>
     </bpmn:serviceTask>
-    <bpmn:serviceTask id="ServiceTask_1qqj0k8" name="Notifica Valutatore" camunda:modelerTemplate="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask" camunda:class="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask">
-      <bpmn:extensionElements>
-        <camunda:inputOutput>
-          <camunda:inputParameter name="from">${pm}</camunda:inputParameter>
-          <camunda:inputParameter name="to">${valutatore}</camunda:inputParameter>
-          <camunda:inputParameter name="message">COD_END_INACC_RIAPERTA_PM</camunda:inputParameter>
-        </camunda:inputOutput>
-      </bpmn:extensionElements>
-      <bpmn:incoming>SequenceFlow_1c51x8j</bpmn:incoming>
-      <bpmn:outgoing>SequenceFlow_0b4qvan</bpmn:outgoing>
-    </bpmn:serviceTask>
     <bpmn:parallelGateway id="ParallelGateway_1ofgofc">
       <bpmn:incoming>SequenceFlow_07qp44j</bpmn:incoming>
       <bpmn:outgoing>SequenceFlow_1c51x8j</bpmn:outgoing>
       <bpmn:outgoing>SequenceFlow_1f8jvde</bpmn:outgoing>
+      <bpmn:outgoing>SequenceFlow_0nvub03</bpmn:outgoing>
     </bpmn:parallelGateway>
-    <bpmn:serviceTask id="ServiceTask_089957z" name="Notifica Valutatore" camunda:modelerTemplate="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask" camunda:class="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask">
-      <bpmn:extensionElements>
-        <camunda:inputOutput>
-          <camunda:inputParameter name="from">${pm}</camunda:inputParameter>
-          <camunda:inputParameter name="to">${valutatore}</camunda:inputParameter>
-          <camunda:inputParameter name="message">COD_END_RESTITUITA_PM</camunda:inputParameter>
-        </camunda:inputOutput>
-      </bpmn:extensionElements>
-      <bpmn:incoming>SequenceFlow_187ja09</bpmn:incoming>
-      <bpmn:outgoing>SequenceFlow_1hjvzyu</bpmn:outgoing>
-    </bpmn:serviceTask>
     <bpmn:serviceTask id="ServiceTask_0ttb0da" name="Notifica responsabile" camunda:modelerTemplate="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask" camunda:class="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask">
       <bpmn:extensionElements>
         <camunda:inputOutput>
@@ -1066,17 +926,6 @@ execution.setVariable('startOverFlow', 'RIAPERTA');</bpmn:script>
       </bpmn:extensionElements>
       <bpmn:incoming>SequenceFlow_002k98l</bpmn:incoming>
       <bpmn:outgoing>SequenceFlow_0jj6zb9</bpmn:outgoing>
-    </bpmn:serviceTask>
-    <bpmn:serviceTask id="ServiceTask_0k6egfz" name="Notifica responsabile" camunda:modelerTemplate="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask" camunda:class="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask">
-      <bpmn:extensionElements>
-        <camunda:inputOutput>
-          <camunda:inputParameter name="from">${pm}</camunda:inputParameter>
-          <camunda:inputParameter name="to">${responsabile}</camunda:inputParameter>
-          <camunda:inputParameter name="message">COD_END_CHIUSA_PM</camunda:inputParameter>
-        </camunda:inputOutput>
-      </bpmn:extensionElements>
-      <bpmn:incoming>SequenceFlow_1lbwmtd</bpmn:incoming>
-      <bpmn:outgoing>SequenceFlow_1sl4rvz</bpmn:outgoing>
     </bpmn:serviceTask>
     <bpmn:serviceTask id="ServiceTask_0ky3ywh" name="Notifica Valutatore" camunda:modelerTemplate="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask" camunda:class="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask">
       <bpmn:extensionElements>
@@ -2301,6 +2150,7 @@ String valutatore = (String) execution.getVariable("valutatore");
 String valutatoreGroup  = (String) execution.getVariable("valutatoreGroup");
 String regione = (String) execution.getVariable("regione");
 String regioneGroup = (String) execution.getVariable("regioneGroup");
+String visualizzatoreImpresa = (String) execution.getVariable("visualizzatoreImpresa");
 String payload = (String) execution.getVariable("payload");	
 println 'businessKey =  '+ businessKey ;			
 println 'autorizzatoreConfidi =  '+ autorizzatoreConfidi ;
@@ -2324,6 +2174,7 @@ println 'valutatoreGroup  =  ' +valutatoreGroup;
 println 'regione =  ' +regione;
 println 'regioneGroup =  ' +regioneGroup;	
 println 'payload =  ' +payload;
+println 'visualizzatoreImpresa =  ' +visualizzatoreImpresa;
 execution.getProcessEngineServices().getRuntimeService()
 			.createMessageCorrelation("Message_PreavvisoDiInammissibilita").processInstanceBusinessKey(businessKey)
 .setVariable("autorizzatoreConfidi", autorizzatoreConfidi)
@@ -2346,6 +2197,7 @@ execution.getProcessEngineServices().getRuntimeService()
 .setVariable("regione",regione)
 .setVariable("regioneGroup",regioneGroup)
 .setVariable("payload",payload)
+.setVariable("visualizzatoreImpresa",visualizzatoreImpresa)
 			.correlate();</bpmn:script>
     </bpmn:scriptTask>
     <bpmn:parallelGateway id="ParallelGateway_03t94fx">
@@ -2578,12 +2430,14 @@ execution.getProcessEngineServices().getRuntimeService()
     <bpmn:parallelGateway id="ParallelGateway_0dkf3xs">
       <bpmn:incoming>SequenceFlow_0hz3cro</bpmn:incoming>
       <bpmn:incoming>SequenceFlow_1sl4rvz</bpmn:incoming>
+      <bpmn:incoming>SequenceFlow_13tl9jz</bpmn:incoming>
       <bpmn:outgoing>SequenceFlow_0hqhd8z</bpmn:outgoing>
     </bpmn:parallelGateway>
     <bpmn:parallelGateway id="ParallelGateway_0jtvu0o">
       <bpmn:incoming>SequenceFlow_172ytya</bpmn:incoming>
       <bpmn:outgoing>SequenceFlow_17z1qy6</bpmn:outgoing>
       <bpmn:outgoing>SequenceFlow_1lbwmtd</bpmn:outgoing>
+      <bpmn:outgoing>SequenceFlow_04ogfda</bpmn:outgoing>
     </bpmn:parallelGateway>
     <bpmn:serviceTask id="Task_0t7ufmb" name="logger" camunda:class="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.LoggerDelegate">
       <bpmn:incoming>SequenceFlow_0o274zw</bpmn:incoming>
@@ -3407,7 +3261,7 @@ execution.getProcessEngineServices().getRuntimeService()
       <bpmn:incoming>SequenceFlow_0fepwg0</bpmn:incoming>
       <bpmn:outgoing>SequenceFlow_0w9hm5h</bpmn:outgoing>
       <bpmn:script>execution.setVariable('noMessage1', '0');
-execution.setVariable('timeOutInacc','0'); </bpmn:script>
+execution.setVariable('timeOutInacc','0');</bpmn:script>
     </bpmn:scriptTask>
     <bpmn:sequenceFlow id="SequenceFlow_0w9hm5h" sourceRef="ScriptTask_1x7waq5" targetRef="sez_accoglibilita_valutatore_controdeduzione" />
     <bpmn:scriptTask id="Task_0vypzuu" name="set stato controdeduzione inviate" scriptFormat="groovy">
@@ -4133,17 +3987,6 @@ execution.setVariable('proponiInaccoglibilita','false');</bpmn:script>
       <bpmn:linkEventDefinition id="LinkEventDefinition_09m8n2n" name="LinkVerificaAccoglibilita" />
     </bpmn:intermediateThrowEvent>
     <bpmn:sequenceFlow id="SequenceFlow_1c2rfue" sourceRef="ScriptTask_0hzia9m" targetRef="IntermediateThrowEvent_1qeb7jb" />
-    <bpmn:intermediateThrowEvent id="IntermediateThrowEvent_19xkprf" name="go to Istruttoria Riaperta">
-      <bpmn:incoming>SequenceFlow_148apq9</bpmn:incoming>
-      <bpmn:linkEventDefinition name="linkIstruttoriaRiaperta" />
-    </bpmn:intermediateThrowEvent>
-    <bpmn:scriptTask id="ScriptTask_0md439o" name="set showButton a 1" scriptFormat="groovy">
-      <bpmn:incoming>SequenceFlow_1en35me</bpmn:incoming>
-      <bpmn:outgoing>SequenceFlow_148apq9</bpmn:outgoing>
-      <bpmn:script>execution.setVariable('showButtonInacc','1');
-execution.setVariable('proponiInaccoglibilita','false');</bpmn:script>
-    </bpmn:scriptTask>
-    <bpmn:sequenceFlow id="SequenceFlow_148apq9" sourceRef="ScriptTask_0md439o" targetRef="IntermediateThrowEvent_19xkprf" />
     <bpmn:intermediateThrowEvent id="IntermediateThrowEvent_1a9zl3r" name="go to Verifica Accoglibilità">
       <bpmn:incoming>SequenceFlow_01l4ipr</bpmn:incoming>
       <bpmn:linkEventDefinition name="LinkVerificaAccoglibilita" />
@@ -4252,37 +4095,6 @@ execution.setVariable('proponiInaccoglibilita','false');</bpmn:script>
       <bpmn:linkEventDefinition id="LinkEventDefinition_1wkj4sg" name="LinkVerificaAccoglibilita" />
     </bpmn:intermediateThrowEvent>
     <bpmn:sequenceFlow id="SequenceFlow_0apc4p6" sourceRef="ScriptTask_1uglr7z" targetRef="IntermediateThrowEvent_11ljddg" />
-    <bpmn:intermediateThrowEvent id="IntermediateThrowEvent_1gf02eg" name="go to Istruttoria Riaperta">
-      <bpmn:incoming>SequenceFlow_0l6k4ak</bpmn:incoming>
-      <bpmn:linkEventDefinition id="LinkEventDefinition_1mu3n0c" name="linkIstruttoriaRiaperta" />
-    </bpmn:intermediateThrowEvent>
-    <bpmn:sequenceFlow id="SequenceFlow_0l6k4ak" sourceRef="ScriptTask_1o7ojza" targetRef="IntermediateThrowEvent_1gf02eg" />
-    <bpmn:scriptTask id="ScriptTask_1o7ojza" name="set showButton a 0" scriptFormat="groovy">
-      <bpmn:incoming>SequenceFlow_16zrvcf</bpmn:incoming>
-      <bpmn:outgoing>SequenceFlow_0l6k4ak</bpmn:outgoing>
-      <bpmn:script>execution.setVariable('showButtonInacc','0');
-execution.setVariable('proponiInaccoglibilita','false');
-        execution.setVariable('showButtonInamm','0');
-execution.setVariable('proponiInammissibilita','false');</bpmn:script>
-    </bpmn:scriptTask>
-    <bpmn:scriptTask id="ScriptTask_0681hoj" name="set stato  riaperta" scriptFormat="groovy">
-      <bpmn:incoming>SequenceFlow_07r7el4</bpmn:incoming>
-      <bpmn:outgoing>SequenceFlow_16zrvcf</bpmn:outgoing>
-      <bpmn:script>execution.setVariable('stato_istruttoria', 'RIAPERTA');
-
-execution.setVariable('startOverFlow', 'RIAPERTA');</bpmn:script>
-    </bpmn:scriptTask>
-    <bpmn:userTask id="UserTask_0s65z0k" name="Pm prende visione" camunda:assignee="${pm}" camunda:candidateGroups="${pmGroup}">
-      <bpmn:extensionElements>
-        <camunda:properties>
-          <camunda:property name="form_type" value="notifica" />
-          <camunda:property name="codice_scheda" value="RIAPERTA" />
-          <camunda:property name="azioni_owner" value="[{&#34;type&#34;:&#34;button&#34;,&#34;label&#34;:&#34;Riapri&#34;,&#34;wf_var_name&#34;:&#34;&#34;,&#34;wf_var_value&#34;:TRUE,&#34;url&#34;:&#34;inaccoglibilita/riapri&#34;,&#34;method&#34;:&#34;POST&#34;,&#34;position&#34;:0}]" />
-        </camunda:properties>
-      </bpmn:extensionElements>
-      <bpmn:incoming>SequenceFlow_10hyv7z</bpmn:incoming>
-      <bpmn:outgoing>SequenceFlow_07r7el4</bpmn:outgoing>
-    </bpmn:userTask>
     <bpmn:scriptTask id="ScriptTask_0hdffop" name="set showButton a 0" scriptFormat="groovy">
       <bpmn:incoming>SequenceFlow_0plmjxb</bpmn:incoming>
       <bpmn:outgoing>SequenceFlow_1ayc3mu</bpmn:outgoing>
@@ -4519,39 +4331,6 @@ execution.setVariable('proponiInammissibilita','false');</bpmn:script>
       <bpmn:script>execution.setVariable('showButtonInamm','1');
 execution.setVariable('proponiInammissibilita','false');</bpmn:script>
     </bpmn:scriptTask>
-    <bpmn:serviceTask id="ServiceTask_0lubyl3" name="Notifica per DB" camunda:modelerTemplate="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask" camunda:class="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask">
-      <bpmn:extensionElements>
-        <camunda:inputOutput>
-          <camunda:inputParameter name="from">${pm}</camunda:inputParameter>
-          <camunda:inputParameter name="to">${pm}</camunda:inputParameter>
-          <camunda:inputParameter name="message">startOverFlow_restituita</camunda:inputParameter>
-        </camunda:inputOutput>
-      </bpmn:extensionElements>
-      <bpmn:incoming>SequenceFlow_1dggnrj</bpmn:incoming>
-      <bpmn:outgoing>SequenceFlow_0w1ihua</bpmn:outgoing>
-    </bpmn:serviceTask>
-    <bpmn:userTask id="UserTask_04zhyie" name="Pm prende visione" camunda:assignee="${pm}" camunda:candidateGroups="${pmGroup}">
-      <bpmn:extensionElements>
-        <camunda:properties>
-          <camunda:property name="form_type" value="notifica" />
-          <camunda:property name="codice_scheda" value="RIAPERTA" />
-          <camunda:property name="azioni_owner" value="[{&#34;type&#34;:&#34;button&#34;,&#34;label&#34;:&#34;Riapri&#34;,&#34;wf_var_name&#34;:&#34;&#34;,&#34;wf_var_value&#34;:TRUE,&#34;url&#34;:&#34;inammissibilita/riapri&#34;,&#34;method&#34;:&#34;POST&#34;,&#34;position&#34;:0}]" />
-        </camunda:properties>
-      </bpmn:extensionElements>
-      <bpmn:incoming>SequenceFlow_0w1ihua</bpmn:incoming>
-      <bpmn:outgoing>SequenceFlow_1enkyu8</bpmn:outgoing>
-    </bpmn:userTask>
-    <bpmn:scriptTask id="ScriptTask_1a6vdfr" name="set showButton Inammissibilita a 1" scriptFormat="groovy">
-      <bpmn:incoming>SequenceFlow_1w5xud1</bpmn:incoming>
-      <bpmn:outgoing>SequenceFlow_1aavvvd</bpmn:outgoing>
-      <bpmn:script>execution.setVariable('showButtonInamm','1');
-execution.setVariable('proponiInammissibilita','false');</bpmn:script>
-    </bpmn:scriptTask>
-    <bpmn:sequenceFlow id="SequenceFlow_1aavvvd" sourceRef="ScriptTask_1a6vdfr" targetRef="IntermediateThrowEvent_1q6qjfs" />
-    <bpmn:intermediateThrowEvent id="IntermediateThrowEvent_1q6qjfs" name="go to Verifica Ammissibilità">
-      <bpmn:incoming>SequenceFlow_1aavvvd</bpmn:incoming>
-      <bpmn:linkEventDefinition id="LinkEventDefinition_0206p0a" name="LinkVerificaAmmissibilita" />
-    </bpmn:intermediateThrowEvent>
     <bpmn:intermediateThrowEvent id="IntermediateThrowEvent_1jco7uq" name="go to Verifica Ammissibilità">
       <bpmn:incoming>SequenceFlow_0pi0qc1</bpmn:incoming>
       <bpmn:linkEventDefinition name="LinkVerificaAmmissibilita" />
@@ -4619,7 +4398,7 @@ execution.setVariable('proponiInammissibilita','false');</bpmn:script>
       <bpmn:incoming>SequenceFlow_0bdrp7g</bpmn:incoming>
       <bpmn:outgoing>SequenceFlow_0tdxje6</bpmn:outgoing>
       <bpmn:script>execution.setVariable('stato_istruttoria', 'PROPOSTA_INACCOGLIBILITA');
-execution.setVariable('timeOutInacc','1'); </bpmn:script>
+execution.setVariable('timeOutInacc','1');</bpmn:script>
     </bpmn:scriptTask>
     <bpmn:userTask id="UserTask_1huvg78" name="Convalida Esito Positvo" camunda:assignee="${responsabile}">
       <bpmn:extensionElements>
@@ -4689,6 +4468,326 @@ execution.setVariable('timeOutInacc','1'); </bpmn:script>
       <bpmn:script>execution.setVariable('noMessage2', '0');
 execution.setVariable('timeOutInamm','0');</bpmn:script>
     </bpmn:scriptTask>
+    <bpmn:sequenceFlow id="SequenceFlow_0nvub03" sourceRef="ParallelGateway_1ofgofc" targetRef="ServiceTask_0ft1l45" />
+    <bpmn:sequenceFlow id="SequenceFlow_1hf087c" sourceRef="ServiceTask_0ft1l45" targetRef="ParallelGateway_04tk5jt" />
+    <bpmn:scriptTask id="ScriptTask_0hud6ys" name="set stato  riaperta" scriptFormat="groovy">
+      <bpmn:incoming>SequenceFlow_0ek1aid</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_1en35me</bpmn:outgoing>
+      <bpmn:script>execution.setVariable('stato_istruttoria', 'RIAPERTA');
+
+execution.setVariable('startOverFlow', 'RIAPERTA');</bpmn:script>
+    </bpmn:scriptTask>
+    <bpmn:userTask id="UserTask_1gtojjs" name="Pm prende visione" camunda:assignee="${pm}" camunda:candidateGroups="${pmGroup}">
+      <bpmn:extensionElements>
+        <camunda:properties>
+          <camunda:property name="form_type" value="notifica" />
+          <camunda:property name="codice_scheda" value="RIAPERTA" />
+          <camunda:property name="azioni_owner" value="[{&#34;type&#34;:&#34;button&#34;,&#34;label&#34;:&#34;Riapri&#34;,&#34;wf_var_name&#34;:&#34;&#34;,&#34;wf_var_value&#34;:TRUE,&#34;url&#34;:&#34;inaccoglibilita/riapri&#34;,&#34;method&#34;:&#34;POST&#34;,&#34;position&#34;:0}]" />
+        </camunda:properties>
+      </bpmn:extensionElements>
+      <bpmn:incoming>SequenceFlow_1qaesq2</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_0ek1aid</bpmn:outgoing>
+    </bpmn:userTask>
+    <bpmn:serviceTask id="ServiceTask_0f6i804" name="Notifica per DB" camunda:modelerTemplate="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask" camunda:class="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask">
+      <bpmn:extensionElements>
+        <camunda:inputOutput>
+          <camunda:inputParameter name="from">${pm}</camunda:inputParameter>
+          <camunda:inputParameter name="to">${pm}</camunda:inputParameter>
+          <camunda:inputParameter name="message">startOverFlow_restituita</camunda:inputParameter>
+        </camunda:inputOutput>
+      </bpmn:extensionElements>
+      <bpmn:incoming>SequenceFlow_0pj402k</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_1qaesq2</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:intermediateThrowEvent id="IntermediateThrowEvent_19xkprf" name="go to Istruttoria Riaperta">
+      <bpmn:incoming>SequenceFlow_148apq9</bpmn:incoming>
+      <bpmn:linkEventDefinition name="linkIstruttoriaRiaperta" />
+    </bpmn:intermediateThrowEvent>
+    <bpmn:scriptTask id="ScriptTask_0md439o" name="set showButton a 1" scriptFormat="groovy">
+      <bpmn:incoming>SequenceFlow_1en35me</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_148apq9</bpmn:outgoing>
+      <bpmn:script>execution.setVariable('showButtonInacc','1');
+execution.setVariable('proponiInaccoglibilita','false');</bpmn:script>
+    </bpmn:scriptTask>
+    <bpmn:sequenceFlow id="SequenceFlow_0ek1aid" sourceRef="UserTask_1gtojjs" targetRef="ScriptTask_0hud6ys" />
+    <bpmn:sequenceFlow id="SequenceFlow_1en35me" sourceRef="ScriptTask_0hud6ys" targetRef="ScriptTask_0md439o" />
+    <bpmn:sequenceFlow id="SequenceFlow_1qaesq2" sourceRef="ServiceTask_0f6i804" targetRef="UserTask_1gtojjs" />
+    <bpmn:sequenceFlow id="SequenceFlow_148apq9" sourceRef="ScriptTask_0md439o" targetRef="IntermediateThrowEvent_19xkprf" />
+    <bpmn:parallelGateway id="ParallelGateway_04tk5jt">
+      <bpmn:incoming>SequenceFlow_0b4qvan</bpmn:incoming>
+      <bpmn:incoming>SequenceFlow_14xsilr</bpmn:incoming>
+      <bpmn:incoming>SequenceFlow_1hf087c</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_0pj402k</bpmn:outgoing>
+    </bpmn:parallelGateway>
+    <bpmn:serviceTask id="ServiceTask_1qqj0k8" name="Notifica Valutatore" camunda:modelerTemplate="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask" camunda:class="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask">
+      <bpmn:extensionElements>
+        <camunda:inputOutput>
+          <camunda:inputParameter name="from">${pm}</camunda:inputParameter>
+          <camunda:inputParameter name="to">${valutatore}</camunda:inputParameter>
+          <camunda:inputParameter name="message">COD_END_INACC_RIAPERTA_PM</camunda:inputParameter>
+        </camunda:inputOutput>
+      </bpmn:extensionElements>
+      <bpmn:incoming>SequenceFlow_1c51x8j</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_0b4qvan</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:serviceTask id="ServiceTask_0ft1l45" name="Notifica pm" camunda:modelerTemplate="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask" camunda:class="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask">
+      <bpmn:extensionElements>
+        <camunda:inputOutput>
+          <camunda:inputParameter name="from">${regione}</camunda:inputParameter>
+          <camunda:inputParameter name="to">${pm}</camunda:inputParameter>
+          <camunda:inputParameter name="message">COD_END_INACC_RIAPERTA_PM</camunda:inputParameter>
+        </camunda:inputOutput>
+      </bpmn:extensionElements>
+      <bpmn:incoming>SequenceFlow_0nvub03</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_1hf087c</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:serviceTask id="ServiceTask_08qayqz" name="Notifica responsabile" camunda:modelerTemplate="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask" camunda:class="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask">
+      <bpmn:extensionElements>
+        <camunda:inputOutput>
+          <camunda:inputParameter name="from">${pm}</camunda:inputParameter>
+          <camunda:inputParameter name="to">${responsabile}</camunda:inputParameter>
+          <camunda:inputParameter name="message">COD_END_INACC_PM</camunda:inputParameter>
+        </camunda:inputOutput>
+      </bpmn:extensionElements>
+      <bpmn:incoming>SequenceFlow_100xv5n</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_0krcm9c</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:serviceTask id="ServiceTask_1a2ca98" name="Notifica pm" camunda:modelerTemplate="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask" camunda:class="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask">
+      <bpmn:extensionElements>
+        <camunda:inputOutput>
+          <camunda:inputParameter name="from">${regione}</camunda:inputParameter>
+          <camunda:inputParameter name="to">${pm}</camunda:inputParameter>
+          <camunda:inputParameter name="message">COD_END_INACC_PM</camunda:inputParameter>
+        </camunda:inputOutput>
+      </bpmn:extensionElements>
+      <bpmn:incoming>SequenceFlow_0hb1gto</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_15uvlra</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:sequenceFlow id="SequenceFlow_0hb1gto" sourceRef="ExclusiveGateway_14hwrdl" targetRef="ServiceTask_1a2ca98" />
+    <bpmn:sequenceFlow id="SequenceFlow_15uvlra" sourceRef="ServiceTask_1a2ca98" targetRef="ExclusiveGateway_0xgdh9f" />
+    <bpmn:sequenceFlow id="SequenceFlow_00mkmhu" sourceRef="ParallelGateway_1qjz6k1" targetRef="ServiceTask_1e38z98" />
+    <bpmn:sequenceFlow id="SequenceFlow_0q15njs" sourceRef="ServiceTask_1e38z98" targetRef="ParallelGateway_0605ote" />
+    <bpmn:serviceTask id="ServiceTask_1e38z98" name="Notifica pm" camunda:modelerTemplate="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask" camunda:class="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask">
+      <bpmn:extensionElements>
+        <camunda:inputOutput>
+          <camunda:inputParameter name="from">${regione}</camunda:inputParameter>
+          <camunda:inputParameter name="to">${pm}</camunda:inputParameter>
+          <camunda:inputParameter name="message">COD_END_RESTITUITA_PM</camunda:inputParameter>
+        </camunda:inputOutput>
+      </bpmn:extensionElements>
+      <bpmn:incoming>SequenceFlow_00mkmhu</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_0q15njs</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:serviceTask id="ServiceTask_0mg6bmn" name="Notifica responsabile" camunda:modelerTemplate="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask" camunda:class="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask">
+      <bpmn:extensionElements>
+        <camunda:inputOutput>
+          <camunda:inputParameter name="from">${pm}</camunda:inputParameter>
+          <camunda:inputParameter name="to">${responsabile}</camunda:inputParameter>
+          <camunda:inputParameter name="message">COD_END_RESTITUITA_PM</camunda:inputParameter>
+        </camunda:inputOutput>
+      </bpmn:extensionElements>
+      <bpmn:incoming>SequenceFlow_1tc8vb3</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_0v16xpa</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:serviceTask id="ServiceTask_1mv20b9" name="Notifica Valutatore" camunda:modelerTemplate="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask" camunda:class="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask">
+      <bpmn:extensionElements>
+        <camunda:inputOutput>
+          <camunda:inputParameter name="from">${pm}</camunda:inputParameter>
+          <camunda:inputParameter name="to">${valutatore}</camunda:inputParameter>
+          <camunda:inputParameter name="message">COD_END_RESTITUITA_PM</camunda:inputParameter>
+        </camunda:inputOutput>
+      </bpmn:extensionElements>
+      <bpmn:incoming>SequenceFlow_03qcxet</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_13urkla</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:parallelGateway id="ParallelGateway_0605ote">
+      <bpmn:incoming>SequenceFlow_13urkla</bpmn:incoming>
+      <bpmn:incoming>SequenceFlow_0v16xpa</bpmn:incoming>
+      <bpmn:incoming>SequenceFlow_0q15njs</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_1dggnrj</bpmn:outgoing>
+    </bpmn:parallelGateway>
+    <bpmn:scriptTask id="ScriptTask_1rnyd02" name="set stato  riaperta" scriptFormat="groovy">
+      <bpmn:incoming>SequenceFlow_1enkyu8</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_1w5xud1</bpmn:outgoing>
+      <bpmn:script>execution.setVariable('stato_istruttoria', 'RIAPERTA');
+
+execution.setVariable('startOverFlow', 'RIAPERTA');</bpmn:script>
+    </bpmn:scriptTask>
+    <bpmn:serviceTask id="ServiceTask_0lubyl3" name="Notifica per DB" camunda:modelerTemplate="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask" camunda:class="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask">
+      <bpmn:extensionElements>
+        <camunda:inputOutput>
+          <camunda:inputParameter name="from">${pm}</camunda:inputParameter>
+          <camunda:inputParameter name="to">${pm}</camunda:inputParameter>
+          <camunda:inputParameter name="message">startOverFlow_restituita</camunda:inputParameter>
+        </camunda:inputOutput>
+      </bpmn:extensionElements>
+      <bpmn:incoming>SequenceFlow_1dggnrj</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_0w1ihua</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:userTask id="UserTask_04zhyie" name="Pm prende visione" camunda:assignee="${pm}" camunda:candidateGroups="${pmGroup}">
+      <bpmn:extensionElements>
+        <camunda:properties>
+          <camunda:property name="form_type" value="notifica" />
+          <camunda:property name="codice_scheda" value="RIAPERTA" />
+          <camunda:property name="azioni_owner" value="[{&#34;type&#34;:&#34;button&#34;,&#34;label&#34;:&#34;Riapri&#34;,&#34;wf_var_name&#34;:&#34;&#34;,&#34;wf_var_value&#34;:TRUE,&#34;url&#34;:&#34;inammissibilita/riapri&#34;,&#34;method&#34;:&#34;POST&#34;,&#34;position&#34;:0}]" />
+        </camunda:properties>
+      </bpmn:extensionElements>
+      <bpmn:incoming>SequenceFlow_0w1ihua</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_1enkyu8</bpmn:outgoing>
+    </bpmn:userTask>
+    <bpmn:scriptTask id="ScriptTask_1a6vdfr" name="set showButton Inammissibilita a 1" scriptFormat="groovy">
+      <bpmn:incoming>SequenceFlow_1w5xud1</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_1aavvvd</bpmn:outgoing>
+      <bpmn:script>execution.setVariable('showButtonInamm','1');
+execution.setVariable('proponiInammissibilita','false');</bpmn:script>
+    </bpmn:scriptTask>
+    <bpmn:intermediateThrowEvent id="IntermediateThrowEvent_1q6qjfs" name="go to Verifica Ammissibilità">
+      <bpmn:incoming>SequenceFlow_1aavvvd</bpmn:incoming>
+      <bpmn:linkEventDefinition id="LinkEventDefinition_0206p0a" name="LinkVerificaAmmissibilita" />
+    </bpmn:intermediateThrowEvent>
+    <bpmn:sequenceFlow id="SequenceFlow_1enkyu8" sourceRef="UserTask_04zhyie" targetRef="ScriptTask_1rnyd02" />
+    <bpmn:sequenceFlow id="SequenceFlow_1w5xud1" sourceRef="ScriptTask_1rnyd02" targetRef="ScriptTask_1a6vdfr" />
+    <bpmn:sequenceFlow id="SequenceFlow_0w1ihua" sourceRef="ServiceTask_0lubyl3" targetRef="UserTask_04zhyie" />
+    <bpmn:sequenceFlow id="SequenceFlow_1aavvvd" sourceRef="ScriptTask_1a6vdfr" targetRef="IntermediateThrowEvent_1q6qjfs" />
+    <bpmn:serviceTask id="ServiceTask_11tc185" name="Notifica responsabile" camunda:modelerTemplate="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask" camunda:class="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask">
+      <bpmn:extensionElements>
+        <camunda:inputOutput>
+          <camunda:inputParameter name="from">${pm}</camunda:inputParameter>
+          <camunda:inputParameter name="to">${responsabile}</camunda:inputParameter>
+          <camunda:inputParameter name="message">COD_END_INAMM_PM</camunda:inputParameter>
+        </camunda:inputOutput>
+      </bpmn:extensionElements>
+      <bpmn:incoming>SequenceFlow_0iolesv</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_1d9thcv</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:serviceTask id="ServiceTask_0yo2n41" name="Notifica pm" camunda:modelerTemplate="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask" camunda:class="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask">
+      <bpmn:extensionElements>
+        <camunda:inputOutput>
+          <camunda:inputParameter name="from">${regione}</camunda:inputParameter>
+          <camunda:inputParameter name="to">${pm}</camunda:inputParameter>
+          <camunda:inputParameter name="message">COD_END_INAMM_PM</camunda:inputParameter>
+        </camunda:inputOutput>
+      </bpmn:extensionElements>
+      <bpmn:incoming>SequenceFlow_0o7wowg</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_1gwd202</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:sequenceFlow id="SequenceFlow_0o7wowg" sourceRef="ParallelGateway_04qrz1n" targetRef="ServiceTask_0yo2n41" />
+    <bpmn:sequenceFlow id="SequenceFlow_1gwd202" sourceRef="ServiceTask_0yo2n41" targetRef="ParallelGateway_0d625zv" />
+    <bpmn:serviceTask id="ServiceTask_1g1glei" name="Notifica per DB" camunda:modelerTemplate="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask" camunda:class="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask">
+      <bpmn:extensionElements>
+        <camunda:inputOutput>
+          <camunda:inputParameter name="from">${pm}</camunda:inputParameter>
+          <camunda:inputParameter name="to">${pm}</camunda:inputParameter>
+          <camunda:inputParameter name="message">startOverFlow_restituita</camunda:inputParameter>
+        </camunda:inputOutput>
+      </bpmn:extensionElements>
+      <bpmn:incoming>SequenceFlow_17dmhwi</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_10hyv7z</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:intermediateThrowEvent id="IntermediateThrowEvent_1gf02eg" name="go to Istruttoria Riaperta">
+      <bpmn:incoming>SequenceFlow_0l6k4ak</bpmn:incoming>
+      <bpmn:linkEventDefinition id="LinkEventDefinition_1mu3n0c" name="linkIstruttoriaRiaperta" />
+    </bpmn:intermediateThrowEvent>
+    <bpmn:scriptTask id="ScriptTask_1o7ojza" name="set showButton a 0" scriptFormat="groovy">
+      <bpmn:incoming>SequenceFlow_16zrvcf</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_0l6k4ak</bpmn:outgoing>
+      <bpmn:script>execution.setVariable('showButtonInacc','0');
+execution.setVariable('proponiInaccoglibilita','false');
+        execution.setVariable('showButtonInamm','0');
+execution.setVariable('proponiInammissibilita','false');</bpmn:script>
+    </bpmn:scriptTask>
+    <bpmn:scriptTask id="ScriptTask_0681hoj" name="set stato  riaperta" scriptFormat="groovy">
+      <bpmn:incoming>SequenceFlow_07r7el4</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_16zrvcf</bpmn:outgoing>
+      <bpmn:script>execution.setVariable('stato_istruttoria', 'RIAPERTA');
+
+execution.setVariable('startOverFlow', 'RIAPERTA');</bpmn:script>
+    </bpmn:scriptTask>
+    <bpmn:userTask id="UserTask_0s65z0k" name="Pm prende visione" camunda:assignee="${pm}" camunda:candidateGroups="${pmGroup}">
+      <bpmn:extensionElements>
+        <camunda:properties>
+          <camunda:property name="form_type" value="notifica" />
+          <camunda:property name="codice_scheda" value="RIAPERTA" />
+          <camunda:property name="azioni_owner" value="[{&#34;type&#34;:&#34;button&#34;,&#34;label&#34;:&#34;Riapri&#34;,&#34;wf_var_name&#34;:&#34;&#34;,&#34;wf_var_value&#34;:TRUE,&#34;url&#34;:&#34;inaccoglibilita/riapri&#34;,&#34;method&#34;:&#34;POST&#34;,&#34;position&#34;:0}]" />
+        </camunda:properties>
+      </bpmn:extensionElements>
+      <bpmn:incoming>SequenceFlow_10hyv7z</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_07r7el4</bpmn:outgoing>
+    </bpmn:userTask>
+    <bpmn:sequenceFlow id="SequenceFlow_10hyv7z" sourceRef="ServiceTask_1g1glei" targetRef="UserTask_0s65z0k" />
+    <bpmn:sequenceFlow id="SequenceFlow_0l6k4ak" sourceRef="ScriptTask_1o7ojza" targetRef="IntermediateThrowEvent_1gf02eg" />
+    <bpmn:sequenceFlow id="SequenceFlow_16zrvcf" sourceRef="ScriptTask_0681hoj" targetRef="ScriptTask_1o7ojza" />
+    <bpmn:sequenceFlow id="SequenceFlow_07r7el4" sourceRef="UserTask_0s65z0k" targetRef="ScriptTask_0681hoj" />
+    <bpmn:parallelGateway id="ParallelGateway_1jsrk52">
+      <bpmn:incoming>SequenceFlow_1hjvzyu</bpmn:incoming>
+      <bpmn:incoming>SequenceFlow_0jj6zb9</bpmn:incoming>
+      <bpmn:incoming>SequenceFlow_0l9vqr6</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_17dmhwi</bpmn:outgoing>
+    </bpmn:parallelGateway>
+    <bpmn:serviceTask id="ServiceTask_089957z" name="Notifica Valutatore" camunda:modelerTemplate="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask" camunda:class="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask">
+      <bpmn:extensionElements>
+        <camunda:inputOutput>
+          <camunda:inputParameter name="from">${pm}</camunda:inputParameter>
+          <camunda:inputParameter name="to">${valutatore}</camunda:inputParameter>
+          <camunda:inputParameter name="message">COD_END_RESTITUITA_PM</camunda:inputParameter>
+        </camunda:inputOutput>
+      </bpmn:extensionElements>
+      <bpmn:incoming>SequenceFlow_187ja09</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_1hjvzyu</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:parallelGateway id="ParallelGateway_0ca03l4">
+      <bpmn:incoming>SequenceFlow_0mg90oe</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_187ja09</bpmn:outgoing>
+      <bpmn:outgoing>SequenceFlow_002k98l</bpmn:outgoing>
+      <bpmn:outgoing>SequenceFlow_1w0dnz3</bpmn:outgoing>
+    </bpmn:parallelGateway>
+    <bpmn:scriptTask id="ScriptTask_09bgivb" name="set stato restituita" scriptFormat="groovy">
+      <bpmn:incoming>SequenceFlow_1xqkf26</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_0mg90oe</bpmn:outgoing>
+      <bpmn:script>execution.setVariable('stato_istruttoria', 'RESTITUITA');</bpmn:script>
+    </bpmn:scriptTask>
+    <bpmn:intermediateCatchEvent id="IntermediateCatchEvent_0ghyjnu" name="Esito Negativo">
+      <bpmn:incoming>SequenceFlow_08j8sjg</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_1xqkf26</bpmn:outgoing>
+      <bpmn:messageEventDefinition messageRef="Message_1d0el3f" />
+    </bpmn:intermediateCatchEvent>
+    <bpmn:sequenceFlow id="SequenceFlow_1w0dnz3" sourceRef="ParallelGateway_0ca03l4" targetRef="ServiceTask_1vwme69" />
+    <bpmn:sequenceFlow id="SequenceFlow_0l9vqr6" sourceRef="ServiceTask_1vwme69" targetRef="ParallelGateway_1jsrk52" />
+    <bpmn:serviceTask id="ServiceTask_1vwme69" name="Notifica pm" camunda:modelerTemplate="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask" camunda:class="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask">
+      <bpmn:extensionElements>
+        <camunda:inputOutput>
+          <camunda:inputParameter name="from">${regione}</camunda:inputParameter>
+          <camunda:inputParameter name="to">${pm}</camunda:inputParameter>
+          <camunda:inputParameter name="message">COD_END_RESTITUITA_PM</camunda:inputParameter>
+        </camunda:inputOutput>
+      </bpmn:extensionElements>
+      <bpmn:incoming>SequenceFlow_1w0dnz3</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_0l9vqr6</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:serviceTask id="ServiceTask_0k6egfz" name="Notifica responsabile" camunda:modelerTemplate="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask" camunda:class="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask">
+      <bpmn:extensionElements>
+        <camunda:inputOutput>
+          <camunda:inputParameter name="from">${pm}</camunda:inputParameter>
+          <camunda:inputParameter name="to">${responsabile}</camunda:inputParameter>
+          <camunda:inputParameter name="message">COD_END_CHIUSA_PM</camunda:inputParameter>
+        </camunda:inputOutput>
+      </bpmn:extensionElements>
+      <bpmn:incoming>SequenceFlow_1lbwmtd</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_1sl4rvz</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:serviceTask id="ServiceTask_1ckm5n9" name="Notifica pm" camunda:modelerTemplate="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask" camunda:class="it.eng.tz.titolo.ii.bandi.istruttoria.bpm.delegate.NotificationTask">
+      <bpmn:extensionElements>
+        <camunda:inputOutput>
+          <camunda:inputParameter name="from">${regione}</camunda:inputParameter>
+          <camunda:inputParameter name="to">${pm}</camunda:inputParameter>
+          <camunda:inputParameter name="message">COD_END_CHIUSA_PM</camunda:inputParameter>
+        </camunda:inputOutput>
+      </bpmn:extensionElements>
+      <bpmn:incoming>SequenceFlow_04ogfda</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_13tl9jz</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:sequenceFlow id="SequenceFlow_04ogfda" sourceRef="ParallelGateway_0jtvu0o" targetRef="ServiceTask_1ckm5n9" />
+    <bpmn:sequenceFlow id="SequenceFlow_13tl9jz" sourceRef="ServiceTask_1ckm5n9" targetRef="ParallelGateway_0dkf3xs" />
   </bpmn:process>
   <bpmn:process id="istruttoria_regione_id" name="Istruttoria Regione" isExecutable="true" camunda:candidateStarterGroups="Responsabile Regione" camunda:candidateStarterUsers="${regione}" camunda:versionTag="1.0">
     <bpmn:laneSet id="LaneSet_14egva7">
@@ -4960,8 +5059,7 @@ execution.getProcessEngineServices().getRuntimeService()
     <bpmn:scriptTask id="ServiceTask_0ltr843" name="Invia motivazione" scriptFormat="groovy">
       <bpmn:incoming>SequenceFlow_1czqjge</bpmn:incoming>
       <bpmn:outgoing>SequenceFlow_02dvp2n</bpmn:outgoing>
-      <bpmn:script>String businessKey = (String) execution.getProcessBusinessKey();
-String businessKey = (String) execution.getProcessBusinessKey();			
+      <bpmn:script>String businessKey = (String) execution.getProcessBusinessKey();			
 String autorizzatoreConfidi = (String) execution.getVariable("autorizzatoreConfidi");
 String autorizzatoreSF = (String) execution.getVariable("autorizzatoreSF");
 String autorizzatoreSFGroup = (String) execution.getVariable("autorizzatoreSFGroup");
@@ -7325,9 +7423,9 @@ execution.getProcessEngineServices().getRuntimeService()
         <di:waypoint x="6423" y="1824" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNShape id="IntermediateThrowEvent_09gptj4_di" bpmnElement="IntermediateThrowEvent_19xkprf" bioc:stroke="rgb(30, 136, 229)" bioc:fill="rgb(187, 222, 251)">
-        <dc:Bounds x="7302" y="2021" width="36" height="36" />
+        <dc:Bounds x="7372" y="2107" width="36" height="36" />
         <bpmndi:BPMNLabel>
-          <dc:Bounds x="7284" y="1984" width="74" height="27" />
+          <dc:Bounds x="7354" y="2070" width="74" height="27" />
         </bpmndi:BPMNLabel>
       </bpmndi:BPMNShape>
       <bpmndi:BPMNEdge id="SequenceFlow_1qttd33_di" bpmnElement="SequenceFlow_1qttd33">
@@ -7754,14 +7852,14 @@ execution.getProcessEngineServices().getRuntimeService()
         <di:waypoint x="17904" y="1824" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNShape id="IntermediateCatchEvent_0ghyjnu_di" bpmnElement="IntermediateCatchEvent_0ghyjnu">
-        <dc:Bounds x="17302" y="2021" width="36" height="36" />
+        <dc:Bounds x="17302" y="2005" width="36" height="36" />
         <bpmndi:BPMNLabel>
-          <dc:Bounds x="17221" y="2032" width="71" height="14" />
+          <dc:Bounds x="17221" y="2016" width="71" height="14" />
         </bpmndi:BPMNLabel>
       </bpmndi:BPMNShape>
       <bpmndi:BPMNEdge id="SequenceFlow_08j8sjg_di" bpmnElement="SequenceFlow_08j8sjg">
         <di:waypoint x="17320" y="1937" />
-        <di:waypoint x="17320" y="2021" />
+        <di:waypoint x="17320" y="2005" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="SequenceFlow_0o274zw_di" bpmnElement="SequenceFlow_0o274zw">
         <di:waypoint x="17940" y="1824" />
@@ -7780,7 +7878,7 @@ execution.getProcessEngineServices().getRuntimeService()
         <di:waypoint x="17085" y="2932" />
         <di:waypoint x="17085" y="2357" />
         <di:waypoint x="17320" y="2357" />
-        <di:waypoint x="17320" y="2057" />
+        <di:waypoint x="17320" y="2041" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="MessageFlow_0qw85a2_di" bpmnElement="MessageFlow_0qw85a2">
         <di:waypoint x="17219" y="3087" />
@@ -8608,34 +8706,33 @@ execution.getProcessEngineServices().getRuntimeService()
         <dc:Bounds x="6692" y="1784" width="100" height="80" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="ServiceTask_08qayqz_di" bpmnElement="ServiceTask_08qayqz">
-        <dc:Bounds x="6692" y="1890" width="100" height="80" />
+        <dc:Bounds x="6692" y="1872" width="100" height="80" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNEdge id="SequenceFlow_100xv5n_di" bpmnElement="SequenceFlow_100xv5n">
         <di:waypoint x="6620" y="1849" />
-        <di:waypoint x="6620" y="1930" />
-        <di:waypoint x="6692" y="1930" />
+        <di:waypoint x="6620" y="1912" />
+        <di:waypoint x="6692" y="1912" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="SequenceFlow_0krcm9c_di" bpmnElement="SequenceFlow_0krcm9c">
-        <di:waypoint x="6792" y="1930" />
-        <di:waypoint x="6860" y="1930" />
+        <di:waypoint x="6792" y="1912" />
+        <di:waypoint x="6860" y="1912" />
         <di:waypoint x="6860" y="1849" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNShape id="ParallelGateway_1ofgofc_di" bpmnElement="ParallelGateway_1ofgofc">
         <dc:Bounds x="6425" y="2014" width="50" height="50" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="ParallelGateway_04tk5jt_di" bpmnElement="ParallelGateway_04tk5jt">
-        <dc:Bounds x="6605" y="2014" width="50" height="50" />
+        <dc:Bounds x="6605" y="2100" width="50" height="50" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="ServiceTask_1qqj0k8_di" bpmnElement="ServiceTask_1qqj0k8">
-        <dc:Bounds x="6490" y="1929" width="100" height="80" />
+        <dc:Bounds x="6490" y="1999" width="100" height="80" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="ServiceTask_150bbhb_di" bpmnElement="ServiceTask_150bbhb">
         <dc:Bounds x="6490" y="2085" width="100" height="80" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNEdge id="SequenceFlow_1c51x8j_di" bpmnElement="SequenceFlow_1c51x8j">
-        <di:waypoint x="6450" y="2014" />
-        <di:waypoint x="6450" y="1969" />
-        <di:waypoint x="6490" y="1969" />
+        <di:waypoint x="6475" y="2039" />
+        <di:waypoint x="6490" y="2039" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="SequenceFlow_1f8jvde_di" bpmnElement="SequenceFlow_1f8jvde">
         <di:waypoint x="6450" y="2064" />
@@ -8643,14 +8740,13 @@ execution.getProcessEngineServices().getRuntimeService()
         <di:waypoint x="6490" y="2125" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="SequenceFlow_0b4qvan_di" bpmnElement="SequenceFlow_0b4qvan">
-        <di:waypoint x="6590" y="1969" />
-        <di:waypoint x="6630" y="1969" />
-        <di:waypoint x="6630" y="2014" />
+        <di:waypoint x="6590" y="2039" />
+        <di:waypoint x="6630" y="2039" />
+        <di:waypoint x="6630" y="2100" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="SequenceFlow_14xsilr_di" bpmnElement="SequenceFlow_14xsilr">
         <di:waypoint x="6590" y="2125" />
-        <di:waypoint x="6630" y="2125" />
-        <di:waypoint x="6630" y="2064" />
+        <di:waypoint x="6605" y="2125" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNShape id="ScriptTask_11f540a_di" bpmnElement="ScriptTask_11f540a">
         <dc:Bounds x="4141" y="1908" width="100" height="80" />
@@ -9450,10 +9546,10 @@ execution.getProcessEngineServices().getRuntimeService()
         <dc:Bounds x="14915" y="1757" width="50" height="50" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="ServiceTask_1mv20b9_di" bpmnElement="ServiceTask_1mv20b9">
-        <dc:Bounds x="14670" y="1959" width="100" height="80" />
+        <dc:Bounds x="14670" y="2027" width="100" height="80" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="ServiceTask_0mg6bmn_di" bpmnElement="ServiceTask_0mg6bmn">
-        <dc:Bounds x="14670" y="2085" width="100" height="80" />
+        <dc:Bounds x="14670" y="2120" width="100" height="80" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="ParallelGateway_04qrz1n_di" bpmnElement="ParallelGateway_04qrz1n">
         <dc:Bounds x="14665" y="1757" width="50" height="50" />
@@ -9462,13 +9558,13 @@ execution.getProcessEngineServices().getRuntimeService()
         <dc:Bounds x="14770" y="1742" width="100" height="80" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="ServiceTask_11tc185_di" bpmnElement="ServiceTask_11tc185">
-        <dc:Bounds x="14770" y="1853" width="100" height="80" />
+        <dc:Bounds x="14770" y="1840" width="100" height="80" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="ParallelGateway_1qjz6k1_di" bpmnElement="ParallelGateway_1qjz6k1">
         <dc:Bounds x="14555" y="2042" width="50" height="50" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="ParallelGateway_0605ote_di" bpmnElement="ParallelGateway_0605ote">
-        <dc:Bounds x="14815" y="2042" width="50" height="50" />
+        <dc:Bounds x="14815" y="2135" width="50" height="50" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNEdge id="SequenceFlow_1qn4edu_di" bpmnElement="SequenceFlow_1qn4edu">
         <di:waypoint x="13189" y="2125" />
@@ -9495,29 +9591,27 @@ execution.getProcessEngineServices().getRuntimeService()
         <di:waypoint x="14915" y="1782" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="SequenceFlow_1d9thcv_di" bpmnElement="SequenceFlow_1d9thcv">
-        <di:waypoint x="14870" y="1893" />
-        <di:waypoint x="14940" y="1893" />
+        <di:waypoint x="14870" y="1880" />
+        <di:waypoint x="14940" y="1880" />
         <di:waypoint x="14940" y="1807" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="SequenceFlow_03qcxet_di" bpmnElement="SequenceFlow_03qcxet">
-        <di:waypoint x="14580" y="2042" />
-        <di:waypoint x="14580" y="1999" />
-        <di:waypoint x="14670" y="1999" />
+        <di:waypoint x="14605" y="2067" />
+        <di:waypoint x="14670" y="2067" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="SequenceFlow_13urkla_di" bpmnElement="SequenceFlow_13urkla">
-        <di:waypoint x="14770" y="1999" />
-        <di:waypoint x="14840" y="1999" />
-        <di:waypoint x="14840" y="2042" />
+        <di:waypoint x="14770" y="2067" />
+        <di:waypoint x="14840" y="2067" />
+        <di:waypoint x="14840" y="2135" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="SequenceFlow_1tc8vb3_di" bpmnElement="SequenceFlow_1tc8vb3">
         <di:waypoint x="14580" y="2092" />
-        <di:waypoint x="14580" y="2125" />
-        <di:waypoint x="14670" y="2125" />
+        <di:waypoint x="14580" y="2160" />
+        <di:waypoint x="14670" y="2160" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="SequenceFlow_0v16xpa_di" bpmnElement="SequenceFlow_0v16xpa">
-        <di:waypoint x="14770" y="2125" />
-        <di:waypoint x="14840" y="2125" />
-        <di:waypoint x="14840" y="2092" />
+        <di:waypoint x="14770" y="2160" />
+        <di:waypoint x="14815" y="2160" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="SequenceFlow_12s0n2d_di" bpmnElement="SequenceFlow_12s0n2d">
         <di:waypoint x="14715" y="1782" />
@@ -9525,8 +9619,8 @@ execution.getProcessEngineServices().getRuntimeService()
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="SequenceFlow_0iolesv_di" bpmnElement="SequenceFlow_0iolesv">
         <di:waypoint x="14690" y="1807" />
-        <di:waypoint x="14690" y="1893" />
-        <di:waypoint x="14770" y="1893" />
+        <di:waypoint x="14690" y="1880" />
+        <di:waypoint x="14770" y="1880" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNShape id="ExclusiveGateway_1lypshb_di" bpmnElement="ExclusiveGateway_1lypshb" isMarkerVisible="true">
         <dc:Bounds x="13189" y="1915" width="50" height="50" />
@@ -9576,9 +9670,9 @@ execution.getProcessEngineServices().getRuntimeService()
         <di:waypoint x="14665" y="1782" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNShape id="IntermediateThrowEvent_1q6qjfs_di" bpmnElement="IntermediateThrowEvent_1q6qjfs" bioc:stroke="rgb(229, 57, 53)" bioc:fill="rgb(255, 205, 210)">
-        <dc:Bounds x="15602" y="2049" width="36" height="36" />
+        <dc:Bounds x="15642" y="2142" width="36" height="36" />
         <bpmndi:BPMNLabel>
-          <dc:Bounds x="15588" y="2095" width="64" height="27" />
+          <dc:Bounds x="15628" y="2188" width="64" height="27" />
         </bpmndi:BPMNLabel>
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="EndEvent_0bn2jyw_di" bpmnElement="EndEvent_0bn2jyw">
@@ -9930,47 +10024,45 @@ execution.getProcessEngineServices().getRuntimeService()
         <di:waypoint x="16980" y="1912" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNShape id="ScriptTask_09bgivb_di" bpmnElement="ScriptTask_09bgivb">
-        <dc:Bounds x="17410" y="1999" width="100" height="80" />
+        <dc:Bounds x="17410" y="1983" width="100" height="80" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="ParallelGateway_0ca03l4_di" bpmnElement="ParallelGateway_0ca03l4">
-        <dc:Bounds x="17611" y="2014" width="50" height="50" />
+        <dc:Bounds x="17611" y="1998" width="50" height="50" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="ServiceTask_089957z_di" bpmnElement="ServiceTask_089957z">
-        <dc:Bounds x="17684" y="1908" width="100" height="80" />
+        <dc:Bounds x="17684" y="1983" width="100" height="80" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="ServiceTask_0ttb0da_di" bpmnElement="ServiceTask_0ttb0da">
         <dc:Bounds x="17684" y="2071" width="100" height="80" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="ParallelGateway_1jsrk52_di" bpmnElement="ParallelGateway_1jsrk52">
-        <dc:Bounds x="17825" y="2014" width="50" height="50" />
+        <dc:Bounds x="17825" y="2086" width="50" height="50" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNEdge id="SequenceFlow_187ja09_di" bpmnElement="SequenceFlow_187ja09">
-        <di:waypoint x="17636" y="2014" />
-        <di:waypoint x="17636" y="1948" />
-        <di:waypoint x="17684" y="1948" />
+        <di:waypoint x="17661" y="2023" />
+        <di:waypoint x="17684" y="2023" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="SequenceFlow_002k98l_di" bpmnElement="SequenceFlow_002k98l">
-        <di:waypoint x="17636" y="2064" />
+        <di:waypoint x="17636" y="2048" />
         <di:waypoint x="17636" y="2111" />
         <di:waypoint x="17684" y="2111" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="SequenceFlow_1hjvzyu_di" bpmnElement="SequenceFlow_1hjvzyu">
-        <di:waypoint x="17784" y="1948" />
-        <di:waypoint x="17850" y="1948" />
-        <di:waypoint x="17850" y="2014" />
+        <di:waypoint x="17784" y="2023" />
+        <di:waypoint x="17850" y="2023" />
+        <di:waypoint x="17850" y="2086" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="SequenceFlow_0jj6zb9_di" bpmnElement="SequenceFlow_0jj6zb9">
         <di:waypoint x="17784" y="2111" />
-        <di:waypoint x="17850" y="2111" />
-        <di:waypoint x="17850" y="2064" />
+        <di:waypoint x="17825" y="2111" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="SequenceFlow_1xqkf26_di" bpmnElement="SequenceFlow_1xqkf26">
-        <di:waypoint x="17338" y="2039" />
-        <di:waypoint x="17410" y="2039" />
+        <di:waypoint x="17338" y="2023" />
+        <di:waypoint x="17410" y="2023" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="SequenceFlow_0mg90oe_di" bpmnElement="SequenceFlow_0mg90oe">
-        <di:waypoint x="17510" y="2039" />
-        <di:waypoint x="17611" y="2039" />
+        <di:waypoint x="17510" y="2023" />
+        <di:waypoint x="17611" y="2023" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNShape id="ParallelGateway_0dkf3xs_di" bpmnElement="ParallelGateway_0dkf3xs">
         <dc:Bounds x="18493" y="1799" width="50" height="50" />
@@ -9982,7 +10074,7 @@ execution.getProcessEngineServices().getRuntimeService()
         <dc:Bounds x="18364" y="1784" width="100" height="80" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="ServiceTask_0k6egfz_di" bpmnElement="ServiceTask_0k6egfz">
-        <dc:Bounds x="18364" y="1900" width="100" height="80" />
+        <dc:Bounds x="18364" y="1872" width="100" height="80" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="EndEvent_1rv1fon_di" bpmnElement="EndEvent_1rv1fon">
         <dc:Bounds x="18692" y="1922" width="36" height="36" />
@@ -9995,8 +10087,8 @@ execution.getProcessEngineServices().getRuntimeService()
         <di:waypoint x="18493" y="1824" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="SequenceFlow_1sl4rvz_di" bpmnElement="SequenceFlow_1sl4rvz">
-        <di:waypoint x="18464" y="1940" />
-        <di:waypoint x="18518" y="1940" />
+        <di:waypoint x="18464" y="1912" />
+        <di:waypoint x="18518" y="1912" />
         <di:waypoint x="18518" y="1849" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="SequenceFlow_0hqhd8z_di" bpmnElement="SequenceFlow_0hqhd8z">
@@ -10009,8 +10101,8 @@ execution.getProcessEngineServices().getRuntimeService()
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="SequenceFlow_1lbwmtd_di" bpmnElement="SequenceFlow_1lbwmtd">
         <di:waypoint x="18305" y="1849" />
-        <di:waypoint x="18305" y="1940" />
-        <di:waypoint x="18364" y="1940" />
+        <di:waypoint x="18305" y="1912" />
+        <di:waypoint x="18364" y="1912" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNShape id="ScriptTask_1laww4m_di" bpmnElement="ScriptTask_1laww4m">
         <dc:Bounds x="18128" y="1784" width="100" height="80" />
@@ -10096,9 +10188,9 @@ execution.getProcessEngineServices().getRuntimeService()
         <di:waypoint x="1022" y="1320" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNShape id="IntermediateThrowEvent_1gf02eg_di" bpmnElement="IntermediateThrowEvent_1gf02eg" bioc:stroke="rgb(30, 136, 229)" bioc:fill="rgb(187, 222, 251)">
-        <dc:Bounds x="18592" y="2021" width="36" height="36" />
+        <dc:Bounds x="18602" y="2093" width="36" height="36" />
         <bpmndi:BPMNLabel>
-          <dc:Bounds x="18574" y="1984" width="74" height="27" />
+          <dc:Bounds x="18584" y="2056" width="74" height="27" />
         </bpmndi:BPMNLabel>
       </bpmndi:BPMNShape>
       <bpmndi:BPMNEdge id="MessageFlow_1cxx6rs_di" bpmnElement="MessageFlow_1cxx6rs">
@@ -10211,37 +10303,37 @@ execution.getProcessEngineServices().getRuntimeService()
         <di:waypoint x="11698" y="819" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="SequenceFlow_0pj402k_di" bpmnElement="SequenceFlow_0pj402k">
-        <di:waypoint x="6655" y="2039" />
-        <di:waypoint x="6680" y="2039" />
+        <di:waypoint x="6655" y="2125" />
+        <di:waypoint x="6750" y="2125" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="SequenceFlow_1dggnrj_di" bpmnElement="SequenceFlow_1dggnrj">
-        <di:waypoint x="14865" y="2067" />
-        <di:waypoint x="14930" y="2067" />
+        <di:waypoint x="14865" y="2160" />
+        <di:waypoint x="14970" y="2160" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="SequenceFlow_17dmhwi_di" bpmnElement="SequenceFlow_17dmhwi">
-        <di:waypoint x="17875" y="2039" />
-        <di:waypoint x="17960" y="2039" />
+        <di:waypoint x="17875" y="2111" />
+        <di:waypoint x="17970" y="2111" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNShape id="ScriptTask_0hud6ys_di" bpmnElement="ScriptTask_0hud6ys">
-        <dc:Bounds x="6950" y="1999" width="100" height="80" />
+        <dc:Bounds x="7020" y="2085" width="100" height="80" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="UserTask_1gtojjs_di" bpmnElement="UserTask_1gtojjs">
-        <dc:Bounds x="6810" y="1999" width="100" height="80" />
+        <dc:Bounds x="6880" y="2085" width="100" height="80" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="ServiceTask_0f6i804_di" bpmnElement="ServiceTask_0f6i804">
-        <dc:Bounds x="6680" y="1999" width="100" height="80" />
+        <dc:Bounds x="6750" y="2085" width="100" height="80" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNEdge id="SequenceFlow_0ek1aid_di" bpmnElement="SequenceFlow_0ek1aid">
-        <di:waypoint x="6910" y="2039" />
-        <di:waypoint x="6950" y="2039" />
+        <di:waypoint x="6980" y="2125" />
+        <di:waypoint x="7020" y="2125" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="SequenceFlow_1qaesq2_di" bpmnElement="SequenceFlow_1qaesq2">
-        <di:waypoint x="6780" y="2039" />
-        <di:waypoint x="6810" y="2039" />
+        <di:waypoint x="6850" y="2125" />
+        <di:waypoint x="6880" y="2125" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="SequenceFlow_1en35me_di" bpmnElement="SequenceFlow_1en35me">
-        <di:waypoint x="7050" y="2039" />
-        <di:waypoint x="7120" y="2039" />
+        <di:waypoint x="7120" y="2125" />
+        <di:waypoint x="7190" y="2125" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNShape id="ServiceTask_030xwm0_di" bpmnElement="ServiceTask_030xwm0">
         <dc:Bounds x="6980" y="1784" width="100" height="80" />
@@ -10251,25 +10343,25 @@ execution.getProcessEngineServices().getRuntimeService()
         <di:waypoint x="7182" y="1824" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNShape id="ScriptTask_1rnyd02_di" bpmnElement="ScriptTask_1rnyd02">
-        <dc:Bounds x="15270" y="2027" width="100" height="80" />
+        <dc:Bounds x="15310" y="2120" width="100" height="80" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="UserTask_04zhyie_di" bpmnElement="UserTask_04zhyie">
-        <dc:Bounds x="15110" y="2027" width="100" height="80" />
+        <dc:Bounds x="15150" y="2120" width="100" height="80" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="ServiceTask_0lubyl3_di" bpmnElement="ServiceTask_0lubyl3">
-        <dc:Bounds x="14930" y="2027" width="100" height="80" />
+        <dc:Bounds x="14970" y="2120" width="100" height="80" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNEdge id="SequenceFlow_1enkyu8_di" bpmnElement="SequenceFlow_1enkyu8">
-        <di:waypoint x="15210" y="2067" />
-        <di:waypoint x="15270" y="2067" />
+        <di:waypoint x="15250" y="2160" />
+        <di:waypoint x="15310" y="2160" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="SequenceFlow_0w1ihua_di" bpmnElement="SequenceFlow_0w1ihua">
-        <di:waypoint x="15030" y="2067" />
-        <di:waypoint x="15110" y="2067" />
+        <di:waypoint x="15070" y="2160" />
+        <di:waypoint x="15150" y="2160" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="SequenceFlow_1w5xud1_di" bpmnElement="SequenceFlow_1w5xud1">
-        <di:waypoint x="15370" y="2067" />
-        <di:waypoint x="15440" y="2067" />
+        <di:waypoint x="15410" y="2160" />
+        <di:waypoint x="15480" y="2160" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNShape id="ServiceTask_08vy2gu_di" bpmnElement="ServiceTask_08vy2gu">
         <dc:Bounds x="15070" y="1742" width="100" height="80" />
@@ -10279,25 +10371,25 @@ execution.getProcessEngineServices().getRuntimeService()
         <di:waypoint x="15262" y="1782" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNShape id="ScriptTask_0681hoj_di" bpmnElement="ScriptTask_0681hoj">
-        <dc:Bounds x="18255" y="1999" width="100" height="80" />
+        <dc:Bounds x="18265" y="2071" width="100" height="80" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="UserTask_0s65z0k_di" bpmnElement="UserTask_0s65z0k">
-        <dc:Bounds x="18100" y="1999" width="100" height="80" />
+        <dc:Bounds x="18110" y="2071" width="100" height="80" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="ServiceTask_1g1glei_di" bpmnElement="ServiceTask_1g1glei">
-        <dc:Bounds x="17960" y="1999" width="100" height="80" />
+        <dc:Bounds x="17970" y="2071" width="100" height="80" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNEdge id="SequenceFlow_07r7el4_di" bpmnElement="SequenceFlow_07r7el4">
-        <di:waypoint x="18200" y="2039" />
-        <di:waypoint x="18255" y="2039" />
+        <di:waypoint x="18210" y="2111" />
+        <di:waypoint x="18265" y="2111" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="SequenceFlow_10hyv7z_di" bpmnElement="SequenceFlow_10hyv7z">
-        <di:waypoint x="18060" y="2039" />
-        <di:waypoint x="18100" y="2039" />
+        <di:waypoint x="18070" y="2111" />
+        <di:waypoint x="18110" y="2111" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="SequenceFlow_16zrvcf_di" bpmnElement="SequenceFlow_16zrvcf">
-        <di:waypoint x="18355" y="2039" />
-        <di:waypoint x="18410" y="2039" />
+        <di:waypoint x="18365" y="2111" />
+        <di:waypoint x="18420" y="2111" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNShape id="ServiceTask_0453esv_di" bpmnElement="ServiceTask_0453esv">
         <dc:Bounds x="18660" y="1784" width="100" height="80" />
@@ -11353,11 +11445,11 @@ execution.getProcessEngineServices().getRuntimeService()
         <di:waypoint x="4976" y="2272" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNShape id="ScriptTask_0md439o_di" bpmnElement="ScriptTask_0md439o">
-        <dc:Bounds x="7120" y="1999" width="100" height="80" />
+        <dc:Bounds x="7190" y="2085" width="100" height="80" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNEdge id="SequenceFlow_148apq9_di" bpmnElement="SequenceFlow_148apq9">
-        <di:waypoint x="7220" y="2039" />
-        <di:waypoint x="7302" y="2039" />
+        <di:waypoint x="7290" y="2125" />
+        <di:waypoint x="7372" y="2125" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNShape id="ScriptTask_1tcpo1v_di" bpmnElement="ScriptTask_1tcpo1v">
         <dc:Bounds x="2600" y="478" width="100" height="80" />
@@ -11395,11 +11487,11 @@ execution.getProcessEngineServices().getRuntimeService()
         <di:waypoint x="11782" y="1650" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNShape id="ScriptTask_1o7ojza_di" bpmnElement="ScriptTask_1o7ojza">
-        <dc:Bounds x="18410" y="1999" width="100" height="80" />
+        <dc:Bounds x="18420" y="2071" width="100" height="80" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNEdge id="SequenceFlow_0l6k4ak_di" bpmnElement="SequenceFlow_0l6k4ak">
-        <di:waypoint x="18510" y="2039" />
-        <di:waypoint x="18592" y="2039" />
+        <di:waypoint x="18520" y="2111" />
+        <di:waypoint x="18602" y="2111" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNShape id="ScriptTask_0hdffop_di" bpmnElement="ScriptTask_0hdffop">
         <dc:Bounds x="2633" y="2380" width="100" height="80" />
@@ -11526,11 +11618,11 @@ execution.getProcessEngineServices().getRuntimeService()
         <di:waypoint x="13214" y="2462" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNShape id="ScriptTask_1a6vdfr_di" bpmnElement="ScriptTask_1a6vdfr">
-        <dc:Bounds x="15440" y="2027" width="100" height="80" />
+        <dc:Bounds x="15480" y="2120" width="100" height="80" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNEdge id="SequenceFlow_1aavvvd_di" bpmnElement="SequenceFlow_1aavvvd">
-        <di:waypoint x="15540" y="2067" />
-        <di:waypoint x="15602" y="2067" />
+        <di:waypoint x="15580" y="2160" />
+        <di:waypoint x="15642" y="2160" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNShape id="ScriptTask_108kgko_di" bpmnElement="ScriptTask_108kgko">
         <dc:Bounds x="15954" y="300" width="100" height="80" />
@@ -11585,6 +11677,84 @@ execution.getProcessEngineServices().getRuntimeService()
       <bpmndi:BPMNEdge id="SequenceFlow_1x272u9_di" bpmnElement="SequenceFlow_1x272u9">
         <di:waypoint x="11640" y="4425" />
         <di:waypoint x="11775" y="4425" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="ServiceTask_0ft1l45_di" bpmnElement="ServiceTask_0ft1l45">
+        <dc:Bounds x="6490" y="2172" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="SequenceFlow_0nvub03_di" bpmnElement="SequenceFlow_0nvub03">
+        <di:waypoint x="6450" y="2064" />
+        <di:waypoint x="6450" y="2213" />
+        <di:waypoint x="6490" y="2213" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="SequenceFlow_1hf087c_di" bpmnElement="SequenceFlow_1hf087c">
+        <di:waypoint x="6590" y="2212" />
+        <di:waypoint x="6630" y="2212" />
+        <di:waypoint x="6630" y="2150" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="ServiceTask_1a2ca98_di" bpmnElement="ServiceTask_1a2ca98">
+        <dc:Bounds x="6692" y="1960" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="SequenceFlow_0hb1gto_di" bpmnElement="SequenceFlow_0hb1gto">
+        <di:waypoint x="6620" y="1849" />
+        <di:waypoint x="6620" y="2000" />
+        <di:waypoint x="6692" y="2000" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="SequenceFlow_15uvlra_di" bpmnElement="SequenceFlow_15uvlra">
+        <di:waypoint x="6792" y="2000" />
+        <di:waypoint x="6860" y="2000" />
+        <di:waypoint x="6860" y="1849" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="ServiceTask_1e38z98_di" bpmnElement="ServiceTask_1e38z98">
+        <dc:Bounds x="14670" y="2209" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="SequenceFlow_00mkmhu_di" bpmnElement="SequenceFlow_00mkmhu">
+        <di:waypoint x="14580" y="2092" />
+        <di:waypoint x="14580" y="2249" />
+        <di:waypoint x="14670" y="2249" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="SequenceFlow_0q15njs_di" bpmnElement="SequenceFlow_0q15njs">
+        <di:waypoint x="14770" y="2249" />
+        <di:waypoint x="14840" y="2249" />
+        <di:waypoint x="14840" y="2185" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="ServiceTask_0yo2n41_di" bpmnElement="ServiceTask_0yo2n41">
+        <dc:Bounds x="14770" y="1930" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="SequenceFlow_0o7wowg_di" bpmnElement="SequenceFlow_0o7wowg">
+        <di:waypoint x="14690" y="1807" />
+        <di:waypoint x="14690" y="1970" />
+        <di:waypoint x="14770" y="1970" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="SequenceFlow_1gwd202_di" bpmnElement="SequenceFlow_1gwd202">
+        <di:waypoint x="14870" y="1970" />
+        <di:waypoint x="14940" y="1970" />
+        <di:waypoint x="14940" y="1807" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="ServiceTask_1vwme69_di" bpmnElement="ServiceTask_1vwme69">
+        <dc:Bounds x="17684" y="2160" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="SequenceFlow_1w0dnz3_di" bpmnElement="SequenceFlow_1w0dnz3">
+        <di:waypoint x="17636" y="2048" />
+        <di:waypoint x="17636" y="2210" />
+        <di:waypoint x="17684" y="2210" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="SequenceFlow_0l9vqr6_di" bpmnElement="SequenceFlow_0l9vqr6">
+        <di:waypoint x="17784" y="2210" />
+        <di:waypoint x="17850" y="2210" />
+        <di:waypoint x="17850" y="2136" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="ServiceTask_1ckm5n9_di" bpmnElement="ServiceTask_1ckm5n9">
+        <dc:Bounds x="18364" y="1960" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="SequenceFlow_04ogfda_di" bpmnElement="SequenceFlow_04ogfda">
+        <di:waypoint x="18305" y="1849" />
+        <di:waypoint x="18305" y="2000" />
+        <di:waypoint x="18364" y="2000" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="SequenceFlow_13tl9jz_di" bpmnElement="SequenceFlow_13tl9jz">
+        <di:waypoint x="18464" y="2000" />
+        <di:waypoint x="18518" y="2000" />
+        <di:waypoint x="18518" y="1849" />
       </bpmndi:BPMNEdge>
     </bpmndi:BPMNPlane>
   </bpmndi:BPMNDiagram>
